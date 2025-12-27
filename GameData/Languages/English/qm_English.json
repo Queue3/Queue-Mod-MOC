@@ -1,0 +1,12 @@
+[
+  {
+    "Key": "qm_CombinedArmsHeader",
+    "Translation": "Combined Arms",
+    "VariableCount": 0
+  },
+  {
+    "Key": "qm_CombinedArmsBody",
+    "Translation": "Combat effectiveness <color=#009300>+0.1%</color> per unique regiment in army",
+    "VariableCount": 0
+  }
+]

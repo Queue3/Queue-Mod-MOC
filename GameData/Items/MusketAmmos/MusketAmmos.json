@@ -1,0 +1,119 @@
+[
+  {
+    "Accuracy": 70.0,
+    "Range": -0.51,
+    "AbilityID": "BUCKSHOT_ROUNDS",
+    "ID": "BUCKSHOT_ROUNDS_3",
+    "Name": "Items/BUCKSHOT_ROUNDS/Excellent/Name",
+    "Description": "Items/BUCKSHOT_ROUNDS/Description",
+    "InventoryIconID": "ITEM_MusketBallsBuckshot",
+    "Stackable": false,
+    "Price": 280,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "MAIN_AMMO",
+    "Variables": [],
+    "ItemGenerationData": {
+      "ID": "BUCKSHOT_ROUNDS_3",
+      "ItemType": "MAIN_AMMO",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "Accuracy": 50.0,
+    "Range": -0.36,
+    "AbilityID": "BUCKANDBALL_ROUNDS",
+    "ID": "BUCKANDBALL_ROUNDS_3",
+    "Name": "Items/BUCKANDBALL_ROUNDS/Excellent/Name",
+    "Description": "Items/BUCKANDBALL_ROUNDS/Description",
+    "InventoryIconID": "ITEM_MusketBallsBuckBall",
+    "Stackable": false,
+    "Price": 255,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "MAIN_AMMO",
+    "Variables": [],
+    "ItemGenerationData": {
+      "ID": "BUCKANDBALL_ROUNDS_3",
+      "ItemType": "MAIN_AMMO",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        950.0,
+        250.0
+      ],
+      "MinorBattleDropWeights": [
+        -100150.0,
+        -150.0,
+        350.0,
+        250.0
+      ],
+      "MajorBattleDropWeights": [
+        -1150.0,
+        100.0,
+        600.0,
+        250.0
+      ]
+    }
+  },
+  {
+    "Accuracy": 40.0,
+    "Range": -0.21,
+    "AbilityID": "QUATERED_MUSKET_BALLS",
+    "ID": "QUATERED_MUSKET_BALLS_3",
+    "Name": "Items/QUATERED_MUSKET_BALLS/Excellent/Name",
+    "Description": "Items/QUATERED_MUSKET_BALLS/Description",
+    "InventoryIconID": "ITEM_MusketBallsQuartered",
+    "Stackable": false,
+    "Price": 240,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "MAIN_AMMO",
+    "Variables": [],
+    "ItemGenerationData": {
+      "ID": "QUATERED_MUSKET_BALLS_3",
+      "ItemType": "MAIN_AMMO",
+      "Qunatity": 0,
+      "ShopWeights": [
+        15.0,
+        150.0,
+        900.0,
+        200.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -200.0,
+        300.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1200.0,
+        50.0,
+        550.0,
+        200.0
+      ]
+    }
+  }
+]

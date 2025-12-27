@@ -1,0 +1,73 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      38
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 3,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "qm_CombinedArms"
+      }
+    },
+    {
+      "ID": 10,
+      "Key": "Combat Effectiveness",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 0.1
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatPerUniqueUnitData, MocCampaign",
+        "Value": 33,
+        "Stat": "CombatEffectiveness"
+      },
+      "ID": 38
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 10,
+      "VariableOutputsPorts": [
+        38,
+        5
+      ],
+      "ID": 33
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "qm_CombinedArmsHeader",
+      "TextKey": "qm_CombinedArmsBody",
+      "BodyVariables": [
+        33
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 5
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "qm_CombinedArms",
+  "StartNode": 2,
+  "FileName": "qm_CombinedArms"
+}

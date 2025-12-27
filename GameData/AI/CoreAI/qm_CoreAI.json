@@ -1,0 +1,121 @@
+{
+  "SkillsToIgnore": [
+    "SupplyTrains"
+  ],
+  "AIInfantryMeleeSkillDifferenceWeightValues": {
+    "x": 0.0,
+    "y": 35.0,
+    "z": 0.0,
+    "w": 100.0
+  },
+  "AICasultiesDifferenceToBreakDefensive": {
+    "x": 0.05,
+    "y": 0.08
+  },
+  "InfantryMaxIterationPositionsAmount": 12,
+  "InfantryIterationAnglesAmount": 5.0,
+  "AISupplyThresholdToBreakDefensive": {
+    "x": 0.1,
+    "y": 0.15
+  },
+  "DistanceToRefereshDefensivePositionsThreshold": 20.0,
+  "CavalryAttackDistanceToBreakProtection": 105.0,
+  "CavalryDistanceToTriggerMoveToProtectArtillery": 20.0,
+  "CavalryDistanceToTriggerMoveToProtectInfantry": 90.0,
+  "AdvancedChargeBoundsCornerPointIsolationDistanceThreshold": 15.0,
+  "InfantrySwitchTargetFromActiveTargetDistanceThresholdWhenMovingToTarget": {
+    "x": 0.6,
+    "y": 0.6
+  },
+  "InfantryPercentReductionFromCurrentEngagedTargetToConsiderSwitching": {
+    "x": 0.6,
+    "y": 0.6
+  },
+  "InfantryPercentageOfRaysBlockedToMakePositionInvalid": 35.0,
+  "InfantryPercentageMinDistanceBasedOnRangeToEnsureWeAreNotOnTopOfAUnit": 0.45,
+  "InfantryPercentageMinDistanceBasedOnRangeToEnsureWeAreNotOnTopOfAUnitWhenAlreadyInRange": 0.325,
+  "InfantryCurrentTargetAttackWeightBonus": 255,
+  "InfantryAttackTargetWhenInRangeWeight": 500,
+  "InfantryAttackWeightStartBase": 1000.0,
+  "InfantryDistanceToTriggerMoveToProtectInfantry": 80.0,
+  "InfantryDistanceWeightInfluenceMultiplier": 5.0,
+  "InfantryForwardDistancePathBlockCheck": 75.0,
+  "ReloadProgressBeforeAllowedToMoveAgainstCavalry": {
+    "x": 0.9,
+    "y": 1.0
+  },
+  "ArtilleryTargetMoveAmountToRefresh": 20.0,
+  "ArtilleryExistingAssignedTargetsWeight": 25,
+  "DistanceFromChargeToTriggerRunMutliplier": 2.0,
+  "InfantryReloadProgressToAllowAmmoChange": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "ArtilleryReloadProgressToAllowAmmoChange": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "DistanceToRefreshDefensivePositions": 20.0,
+  "DistanceToRefreshDefensivePositionsWhenSlowAdvancing": 30.0,
+  "DefensiveArtilleryRangeModifierForPosition": 0.87,
+  "DefensiveStanceInfantryPositionOffset": 20.0,
+  "DefensiveStanceLightInfantryPositionOffset": 12.5,
+  "DefensiveStanceCheckAttackRangeMultiplier": {
+    "x": 1.0,
+    "y": 2.5
+  },
+  "DefensiveStanceCheckAttackRangeBase": 80.0,
+  "DefensiveStanceAngleChangeThresholdToRefreshPosition": 12.5,
+  "DefensiveStanceIsolationCheckDistance": 125.0,
+  "CavIsolationMediumAggresionLineInfantryWeightConsumption": {
+    "x": 2,
+    "y": 2
+  },
+  "CavIsolationMediumAggresionOtherInfantryWeightConsumption": {
+    "x": 1,
+    "y": 1
+  },
+  "CavIsolationMediumAggresionArtilleryWeightConsumption": {
+    "x": 0,
+    "y": 0
+  },
+  "CavIsolationMediumAggresionCavalryWeightConsumption": {
+    "x": 1,
+    "y": 1
+  },
+  "CavIsolationHighAggresionLineInfantryWeightConsumption": {
+    "x": 1,
+    "y": 1
+  },
+  "CavIsolationHighAggresionOtherInfantryWeightConsumption": {
+    "x": 1,
+    "y": 1
+  },
+  "CavIsolationHighAggresionArtilleryWeightConsumption": {
+    "x": 0,
+    "y": 0
+  },
+  "CavIsolationHighAggresionCavalryWeightConsumption": {
+    "x": 1,
+    "y": 1
+  },
+  "CavIsolationVeryHighAggresionLineInfantryWeightConsumption": {
+    "x": 1,
+    "y": 1
+  },
+  "CavIsolationVeryHighAggresionOtherInfantryWeightConsumption": {
+    "x": 1,
+    "y": 1
+  },
+  "CavIsolationVeryHighAggresionArtilleryWeightConsumption": {
+    "x": 0,
+    "y": 0
+  },
+  "CavIsolationVeryHighAggresionCavalryWeightConsumption": {
+    "x": 1,
+    "y": 1
+  },
+  "CavChargeCooldown": 3.0,
+  "DefensiveArtilleryPositionOffset": -20.5,
+  "InfantryChanceToSwitchTargetWhoIsChargingThem": 25.0
+}

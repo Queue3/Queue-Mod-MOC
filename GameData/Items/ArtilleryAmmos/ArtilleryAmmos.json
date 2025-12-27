@@ -1,0 +1,122 @@
+[
+  {
+    "Damage": 22,
+    "Range": -0.45,
+    "SupplyMultiplier": 2.5,
+    "ID": "CANISTER_3",
+    "Name": "Items/CANISTER/Excellent/Name",
+    "Description": "Items/CANISTER/Description",
+    "InventoryIconID": "ITEM_CanisterSingle",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "MAIN_AMMO",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "CANISTER_3",
+      "ItemType": "MAIN_AMMO",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "Damage": 34,
+    "Range": -0.55,
+    "SupplyMultiplier": 3.0,
+    "ID": "DOUBLE_CANISTER_3",
+    "Name": "Items/DOUBLE_CANISTER/Excellent/Name",
+    "Description": "Items/DOUBLE_CANISTER/Description",
+    "InventoryIconID": "ITEM_CanisterDouble",
+    "BustIconID": null,
+    "Price": 250,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "MAIN_AMMO",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "DOUBLE_CANISTER_3",
+      "ItemType": "MAIN_AMMO",
+      "Qunatity": 0,
+      "ShopWeights": [
+        7.5,
+        75.0,
+        750.0,
+        50.0
+      ],
+      "MinorBattleDropWeights": [
+        -100350.0,
+        -350.0,
+        150.0,
+        50.0
+      ],
+      "MajorBattleDropWeights": [
+        -1350.0,
+        -100.0,
+        400.0,
+        50.0
+      ]
+    }
+  },
+  {
+    "Damage": 14,
+    "Range": -0.35,
+    "SupplyMultiplier": 3.5,
+    "ID": "GRAPESHOT_3",
+    "Name": "Items/GRAPESHOT/Excellent/Name",
+    "Description": "Items/GRAPESHOT/Description",
+    "InventoryIconID": "ITEM_Grapeshot",
+    "BustIconID": null,
+    "Price": 175,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "MAIN_AMMO",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "GRAPESHOT_3",
+      "ItemType": "MAIN_AMMO",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        950.0,
+        250.0
+      ],
+      "MinorBattleDropWeights": [
+        -100150.0,
+        -150.0,
+        350.0,
+        250.0
+      ],
+      "MajorBattleDropWeights": [
+        -1150.0,
+        100.0,
+        600.0,
+        250.0
+      ]
+    }
+  }
+]

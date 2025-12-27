@@ -1,0 +1,3190 @@
+[
+  {
+    "ID": "IMRPOVED_GUNNERS_IMPLEMENTS_3",
+    "Name": "Items/IMRPOVED_GUNNERS_IMPLEMENTS/Excellent/Name",
+    "Description": "Items/IMRPOVED_GUNNERS_IMPLEMENTS/Description",
+    "InventoryIconID": "ITEM_ImprovedGunnersImplements",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TOOL_IMPROVEMENTS",
+    "Variables": [
+      {
+        "Variable": "ReloadSkill",
+        "Value": 10.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IMRPOVED_GUNNERS_IMPLEMENTS_3",
+      "ItemType": "TOOL_IMPROVEMENTS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "IRON_RAMRODS_3",
+    "Name": "Items/IRON_RAMRODS/Excellent/Name",
+    "Description": "Items/IRON_RAMRODS/Description",
+    "InventoryIconID": "ITEM_RamrodIron",
+    "BustIconID": null,
+    "Price": 170,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TOOL_IMPROVEMENTS",
+    "Variables": [
+      {
+        "Variable": "ReloadSkill",
+        "Value": 10.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IRON_RAMRODS_3",
+      "ItemType": "TOOL_IMPROVEMENTS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "CYLINDRICAL_RAMROD_3",
+    "Name": "Items/CYLINDRICAL_RAMROD/Excellent/Name",
+    "Description": "Items/CYLINDRICAL_RAMROD/Description",
+    "InventoryIconID": "ITEM_RamrodCylindrical",
+    "BustIconID": null,
+    "Price": 260,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TOOL_IMPROVEMENTS",
+    "Variables": [
+      {
+        "Variable": "ReloadSkill",
+        "Value": 10.0
+      },
+      {
+        "Variable": "Accuracy",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "CYLINDRICAL_RAMROD_3",
+      "ItemType": "TOOL_IMPROVEMENTS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        15.0,
+        150.0,
+        900.0,
+        200.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "ID": "ENTRENCHING_TOOLS_3",
+    "Name": "Items/ENTRENCHING_TOOLS/Excellent/Name",
+    "Description": "Items/ENTRENCHING_TOOLS/Description",
+    "InventoryIconID": "ITEM_EntrenchingTools",
+    "BustIconID": null,
+    "Price": 150,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "ADDITIONAL_TOOLS",
+    "Variables": [
+      {
+        "Variable": "CoverBonus",
+        "Value": 0.4
+      },
+      {
+        "Variable": "Stamina",
+        "Value": -4.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "ENTRENCHING_TOOLS_3",
+      "ItemType": "ADDITIONAL_TOOLS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "SHEPERDS_AXE_3",
+    "Name": "Items/SHEPERDS_AXE/Excellent/Name",
+    "Description": "Items/SHEPERDS_AXE/Description",
+    "InventoryIconID": "ITEM_SheperdsAxes",
+    "BustIconID": null,
+    "Price": 180,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "ADDITIONAL_TOOLS",
+    "Variables": [
+      {
+        "Variable": "CoverBonus",
+        "Value": 0.25
+      },
+      {
+        "Variable": "MeleeDamage",
+        "Value": 10.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "SHEPERDS_AXE_3",
+      "ItemType": "ADDITIONAL_TOOLS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "GILDED_SPONTOONS_3",
+    "Name": "Items/GILDED_SPONTOONS/Excellent/Name",
+    "Description": "Items/GILDED_SPONTOONS/Description",
+    "InventoryIconID": "ITEM_Spontoons",
+    "BustIconID": null,
+    "Price": 160,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "ADDITIONAL_TOOLS",
+    "Variables": [
+      {
+        "Variable": "ExperienceGain",
+        "Value": 0.2
+      },
+      {
+        "Variable": "Morale",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "GILDED_SPONTOONS_3",
+      "ItemType": "ADDITIONAL_TOOLS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "HORSESHOE_3",
+    "Name": "Items/HORSESHOE/Excellent/Name",
+    "Description": "Items/HORSESHOE/Description",
+    "InventoryIconID": "ITEM_Horseshoe",
+    "BustIconID": null,
+    "Price": 125,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "ADDITIONAL_TOOLS",
+    "Variables": [
+      {
+        "Variable": "Stamina",
+        "Value": 6.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "HORSESHOE_3",
+      "ItemType": "ADDITIONAL_TOOLS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "ELEVATION_SCREWS_3",
+    "Name": "Items/ELEVATION_SCREWS/Excellent/Name",
+    "Description": "Items/ELEVATION_SCREWS/Description",
+    "InventoryIconID": "ITEM_ElevationScrews",
+    "BustIconID": null,
+    "Price": 145,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON_TOOLS",
+    "Variables": [
+      {
+        "Variable": "MaxRange",
+        "Value": 0.15
+      },
+      {
+        "Variable": "ReloadSkill",
+        "Value": -2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "ELEVATION_SCREWS_3",
+      "ItemType": "WEAPON_TOOLS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "WATER_BUCKETS3",
+    "Name": "Items/WATER_BUCKETS/Excellent/Name",
+    "Description": "Items/WATER_BUCKETS/Description",
+    "InventoryIconID": "ITEM_WaterBuckets",
+    "BustIconID": null,
+    "Price": 135,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON_TOOLS",
+    "Variables": [
+      {
+        "Variable": "ReloadSkill",
+        "Value": 8.0
+      },
+      {
+        "Variable": "Stamina",
+        "Value": -2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "WATER_BUCKETS3",
+      "ItemType": "WEAPON_TOOLS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "IMPROVED_TOMPIONS_3",
+    "Name": "Items/IMPROVED_TOMPIONS/Excellent/Name",
+    "Description": "Items/IMPROVED_TOMPIONS/Description",
+    "InventoryIconID": "ITEM_Tompions",
+    "BustIconID": null,
+    "Price": 135,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON_TOOLS",
+    "Variables": [
+      {
+        "Variable": "Accuracy",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IMPROVED_TOMPIONS_3",
+      "ItemType": "WEAPON_TOOLS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "IMPROVED_GUNPICKS_3",
+    "Name": "Items/IMPROVED_GUNPICKS/Excellent/Name",
+    "Description": "Items/IMPROVED_GUNPICKS/Description",
+    "InventoryIconID": "ITEM_WhiskAndPicks",
+    "BustIconID": null,
+    "Price": 130,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON_TOOLS",
+    "Variables": [
+      {
+        "Variable": "ReloadSkill",
+        "Value": 6.0
+      },
+      {
+        "Variable": "Stamina",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IMPROVED_GUNPICKS_3",
+      "ItemType": "WEAPON_TOOLS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "TOW_WORMS_3",
+    "Name": "Items/TOW_WORMS/Excellent/Name",
+    "Description": "Items/TOW_WORMS/Description",
+    "InventoryIconID": "ITEM_TowWorm",
+    "BustIconID": null,
+    "Price": 135,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON_TOOLS",
+    "Variables": [
+      {
+        "Variable": "Accuracy",
+        "Value": 6.0
+      },
+      {
+        "Variable": "ReloadSkill",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "TOW_WORMS_3",
+      "ItemType": "WEAPON_TOOLS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "REG_STAFF_FARRIER_3",
+    "Name": "Items/REG_STAFF_FARRIER/Excellent/Name",
+    "Description": "Items/REG_STAFF_FARRIER/Description",
+    "InventoryIconID": "ITEM_CavalryFarrier",
+    "BustIconID": null,
+    "Price": 165,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "STAFF",
+    "Variables": [
+      {
+        "Variable": "MoveSpeed",
+        "Value": 10.0
+      },
+      {
+        "Variable": "Stamina",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "REG_STAFF_FARRIER_3",
+      "ItemType": "STAFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        500.0,
+        1250.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -110000.0,
+        -10000.0,
+        -9500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -11000.0,
+        -9750.0,
+        -9250.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "REG_STAFF_CARTOGRAPHER_3",
+    "Name": "Items/REG_STAFF_CARTOGRAPHER/Excellent/Name",
+    "Description": "Items/REG_STAFF_CARTOGRAPHER/Description",
+    "InventoryIconID": "ITEM_StaffCartographer",
+    "BustIconID": null,
+    "Price": 160,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "STAFF",
+    "Variables": [
+      {
+        "Variable": "CoverBonus",
+        "Value": 0.25
+      },
+      {
+        "Variable": "MaxRange",
+        "Value": 0.15
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "REG_STAFF_CARTOGRAPHER_3",
+      "ItemType": "STAFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        500.0,
+        1250.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -110000.0,
+        -10000.0,
+        -9500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -11000.0,
+        -9750.0,
+        -9250.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "REG_STAFF_COMMISSAR_3",
+    "Name": "Items/REG_STAFF_COMMISSAR/Excellent/Name",
+    "Description": "Items/REG_STAFF_COMMISSAR/Description",
+    "InventoryIconID": "ITEM_Commissars",
+    "BustIconID": null,
+    "Price": 165,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "STAFF",
+    "Variables": [
+      {
+        "Variable": "ExperienceGain",
+        "Value": 0.2
+      },
+      {
+        "Variable": "AmmoConsumption",
+        "Value": -0.2
+      }
+    ],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "REG_STAFF_COMMISSAR_3",
+      "ItemType": "STAFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        500.0,
+        1250.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -110000.0,
+        -10000.0,
+        -9500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -11000.0,
+        -9750.0,
+        -9250.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "REG_STAFF_QUARTERMASTER_3",
+    "Name": "Items/REG_STAFF_QUARTERMASTER/Excellent/Name",
+    "Description": "Items/REG_STAFF_QUARTERMASTER/Description",
+    "InventoryIconID": "ITEM_StaffQuartermaster",
+    "BustIconID": null,
+    "Price": 180,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "STAFF",
+    "Variables": [
+      {
+        "Variable": "ExperienceGain",
+        "Value": 0.3
+      },
+      {
+        "Variable": "Morale",
+        "Value": -4.0
+      }
+    ],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "REG_STAFF_QUARTERMASTER_3",
+      "ItemType": "STAFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        500.0,
+        1250.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -110000.0,
+        -10000.0,
+        -9500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -11000.0,
+        -9750.0,
+        -9250.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "REG_STAFF_MARKSMAN_3",
+    "Name": "Items/REG_STAFF_MARKSMAN/Excellent/Name",
+    "Description": "Items/REG_STAFF_MARKSMAN/Description",
+    "InventoryIconID": "ITEM_StaffMarksman",
+    "BustIconID": null,
+    "Price": 220,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "STAFF",
+    "Variables": [
+      {
+        "Variable": "Accuracy",
+        "Value": 10.0
+      },
+      {
+        "Variable": "ReloadSkill",
+        "Value": -2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "REG_STAFF_MARKSMAN_3",
+      "ItemType": "STAFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        500.0,
+        1250.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -110000.0,
+        -10000.0,
+        -9500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -11000.0,
+        -9750.0,
+        -9250.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "REG_STAFF_SURGEON_3",
+    "Name": "Items/REG_STAFF_SURGEON/Excellent/Name",
+    "Description": "Items/REG_STAFF_SURGEON/Description",
+    "InventoryIconID": "ITEM_StaffSurgeon",
+    "BustIconID": null,
+    "Price": 240,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "STAFF",
+    "Variables": [
+      {
+        "Variable": "CasultiesRestored",
+        "Value": 0.35
+      },
+      {
+        "Variable": "Attrition",
+        "Value": -0.5
+      }
+    ],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "REG_STAFF_SURGEON_3",
+      "ItemType": "STAFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        500.0,
+        1250.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -110000.0,
+        -10000.0,
+        -9500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -11000.0,
+        -9750.0,
+        -9250.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "REG_STAFF_CHAPLAIN_3",
+    "Name": "Items/REG_STAFF_CHAPLAIN/Excellent/Name",
+    "Description": "Items/REG_STAFF_CHAPLAIN/Description",
+    "InventoryIconID": "ITEM_StaffChaplain",
+    "BustIconID": null,
+    "Price": 205,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "STAFF",
+    "Variables": [
+      {
+        "Variable": "CasultiesRestored",
+        "Value": 0.25
+      },
+      {
+        "Variable": "Morale",
+        "Value": 12.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "REG_STAFF_CHAPLAIN_3",
+      "ItemType": "STAFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        500.0,
+        1250.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -110000.0,
+        -10000.0,
+        -9500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -11000.0,
+        -9750.0,
+        -9250.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "FIELD_MUSICIANS_3",
+    "Name": "Items/FIELD_MUSICIANS/Excellent/Name",
+    "Description": "Items/FIELD_MUSICIANS/Description",
+    "InventoryIconID": "ITEM_FieldMusicians",
+    "BustIconID": null,
+    "Price": 175,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "INSTRUMENTS",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 10.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "FIELD_MUSICIANS_3",
+      "ItemType": "INSTRUMENTS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        500.0,
+        1250.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -110000.0,
+        -10000.0,
+        -9500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -11000.0,
+        -9750.0,
+        -9250.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "FOREIGN_MUSICIANS_3",
+    "Name": "Items/FOREIGN_MUSICIANS/Excellent/Name",
+    "Description": "Items/FOREIGN_MUSICIANS/Description",
+    "InventoryIconID": "ITEM_ForeignMusicians",
+    "BustIconID": null,
+    "Price": 210,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "INSTRUMENTS",
+    "Variables": [
+      {
+        "Variable": "MoraleDamageRecieved",
+        "Value": -20.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "FOREIGN_MUSICIANS_3",
+      "ItemType": "INSTRUMENTS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        30.0,
+        300.0,
+        1050.0,
+        100.0
+      ],
+      "MinorBattleDropWeights": [
+        -110200.0,
+        -10200.0,
+        -9700.0,
+        100.0
+      ],
+      "MajorBattleDropWeights": [
+        -11200.0,
+        -9950.0,
+        -9450.0,
+        100.0
+      ]
+    }
+  },
+  {
+    "ID": "BAGPIPERS_3",
+    "Name": "Items/BAGPIPERS/Excellent/Name",
+    "Description": "Items/BAGPIPERS/Description",
+    "InventoryIconID": "ITEM_Bagpipers",
+    "BustIconID": null,
+    "Price": 190,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "INSTRUMENTS",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 8.0
+      },
+      {
+        "Variable": "ChargeDamage",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "BAGPIPERS_3",
+      "ItemType": "INSTRUMENTS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        40.0,
+        400.0,
+        1150.0,
+        200.0
+      ],
+      "MinorBattleDropWeights": [
+        -110100.0,
+        -10100.0,
+        -9600.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -11100.0,
+        -9850.0,
+        -9350.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "ID": "IMPROVED_CARTIDGE_BOXES_3",
+    "Name": "Items/IMPROVED_CARTIDGE_BOXES/Excellent/Name",
+    "Description": "Items/IMPROVED_CARTIDGE_BOXES/Description",
+    "InventoryIconID": "ITEM_CartridgeBoxesImproved",
+    "BustIconID": null,
+    "Price": 120,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "AMMO_POUCHES",
+    "Variables": [
+      {
+        "Variable": "AmmoConsumption",
+        "Value": -0.4
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IMPROVED_CARTIDGE_BOXES_3",
+      "ItemType": "AMMO_POUCHES",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "LARGE_CARTIDGE_BOXES_3",
+    "Name": "Items/LARGE_CARTIDGE_BOXES/Excellent/Name",
+    "Description": "Items/LARGE_CARTIDGE_BOXES/Description",
+    "InventoryIconID": "ITEM_CartridgeBoxesLarge",
+    "BustIconID": null,
+    "Price": 150,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "AMMO_POUCHES",
+    "Variables": [
+      {
+        "Variable": "AmmoConsumption",
+        "Value": -0.6
+      },
+      {
+        "Variable": "Stamina",
+        "Value": -2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "LARGE_CARTIDGE_BOXES_3",
+      "ItemType": "AMMO_POUCHES",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "IMPROVED_LIMBER_CHEST_3",
+    "Name": "Items/IMPROVED_LIMBER_CHEST/Excellent/Name",
+    "Description": "Items/IMPROVED_LIMBER_CHEST/Description",
+    "InventoryIconID": "ITEM_LimberChestImproved",
+    "BustIconID": null,
+    "Price": 130,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "AMMO_POUCHES",
+    "Variables": [
+      {
+        "Variable": "AmmoConsumption",
+        "Value": -0.3
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IMPROVED_LIMBER_CHEST_3",
+      "ItemType": "AMMO_POUCHES",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "LARGE_LIMBER_CHEST_3",
+    "Name": "Items/LARGE_LIMBER_CHEST/Excellent/Name",
+    "Description": "Items/LARGE_LIMBER_CHEST/Description",
+    "InventoryIconID": "ITEM_LimberChestLarge",
+    "BustIconID": null,
+    "Price": 160,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "AMMO_POUCHES",
+    "Variables": [
+      {
+        "Variable": "AmmoConsumption",
+        "Value": -0.45
+      },
+      {
+        "Variable": "Stamina",
+        "Value": -6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "LARGE_LIMBER_CHEST_3",
+      "ItemType": "AMMO_POUCHES",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "IMPROVED_HAVERSACKS_3",
+    "Name": "Items/IMPROVED_HAVERSACKS/Excellent/Name",
+    "Description": "Items/IMPROVED_HAVERSACKS/Description",
+    "InventoryIconID": "ITEM_HaversacksImproved",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "HAVERSACKS",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 6.0
+      },
+      {
+        "Variable": "Stamina",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IMPROVED_HAVERSACKS_3",
+      "ItemType": "HAVERSACKS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "LARGE_HAVERSACKS_3",
+    "Name": "Items/LARGE_HAVERSACKS/Excellent/Name",
+    "Description": "Items/LARGE_HAVERSACKS/Description",
+    "InventoryIconID": "ITEM_HaversacksLarge",
+    "BustIconID": null,
+    "Price": 150,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "HAVERSACKS",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 10.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": -2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "LARGE_HAVERSACKS_3",
+      "ItemType": "HAVERSACKS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "IMPROVED_CANTEENS_3",
+    "Name": "Items/IMPROVED_CANTEENS/Excellent/Name",
+    "Description": "Items/IMPROVED_CANTEENS/Description",
+    "InventoryIconID": "ITEM_CanteensImproved",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "CANTEENS",
+    "Variables": [
+      {
+        "Variable": "Stamina",
+        "Value": 10.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IMPROVED_CANTEENS_3",
+      "ItemType": "CANTEENS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "LARGE_CANTEENS_3",
+    "Name": "Items/LARGE_CANTEENS/Excellent/Name",
+    "Description": "Items/LARGE_CANTEENS/Description",
+    "InventoryIconID": "ITEM_CanteensLarge",
+    "BustIconID": null,
+    "Price": 150,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "CANTEENS",
+    "Variables": [
+      {
+        "Variable": "Stamina",
+        "Value": 14.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": -2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "LARGE_CANTEENS_3",
+      "ItemType": "CANTEENS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "IMPROVED_LIGHT_SADDLES_3",
+    "Name": "Items/IMPROVED_LIGHT_SADDLES/Excellent/Name",
+    "Description": "Items/IMPROVED_LIGHT_SADDLES/Description",
+    "InventoryIconID": "ITEM_ImprovedLightSaddles",
+    "BustIconID": null,
+    "Price": 170,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "SADDLES",
+    "Variables": [
+      {
+        "Variable": "Stamina",
+        "Value": 10.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IMPROVED_LIGHT_SADDLES_3",
+      "ItemType": "SADDLES",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100000.0,
+        0.0,
+        500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1000.0,
+        250.0,
+        750.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "IMPROVED_HEAVY_SADDLES_3",
+    "Name": "Items/IMPROVED_HEAVY_SADDLES/Excellent/Name",
+    "Description": "Items/IMPROVED_HEAVY_SADDLES/Description",
+    "InventoryIconID": "ITEM_ImprovedHeavySaddles",
+    "BustIconID": null,
+    "Price": 180,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "SADDLES",
+    "Variables": [
+      {
+        "Variable": "MeleeDamageRecieved",
+        "Value": -0.15
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IMPROVED_HEAVY_SADDLES_3",
+      "ItemType": "SADDLES",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100000.0,
+        0.0,
+        500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1000.0,
+        250.0,
+        750.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "HALF_GAITERS_3",
+    "Name": "Items/HALF_GAITERS/Excellent/Name",
+    "Description": "Items/HALF_GAITERS/Description",
+    "InventoryIconID": "ITEM_Half-Gaiters",
+    "BustIconID": null,
+    "Price": 130,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "FOOTWEAR",
+    "Variables": [
+      {
+        "Variable": "MoveSpeed",
+        "Value": 8.0
+      },
+      {
+        "Variable": "Stamina",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "HALF_GAITERS_3",
+      "ItemType": "FOOTWEAR",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "FULL_GAITERS_3",
+    "Name": "Items/FULL_GAITERS/Excellent/Name",
+    "Description": "Items/FULL_GAITERS/Description",
+    "InventoryIconID": "ITEM_Full-Gaiters",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "FOOTWEAR",
+    "Variables": [
+      {
+        "Variable": "MoveSpeed",
+        "Value": 6.0
+      },
+      {
+        "Variable": "Stamina",
+        "Value": 10.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "FULL_GAITERS_3",
+      "ItemType": "FOOTWEAR",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "STURDY_SHOES_3",
+    "Name": "Items/STURDY_SHOES/Excellent/Name",
+    "Description": "Items/STURDY_SHOES/Description",
+    "InventoryIconID": "ITEM_SturdyShoes",
+    "BustIconID": null,
+    "Price": 120,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "FOOTWEAR",
+    "Variables": [
+      {
+        "Variable": "MoveSpeed",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "STURDY_SHOES_3",
+      "ItemType": "FOOTWEAR",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "STURDY_BOOTS_3",
+    "Name": "Items/STURDY_BOOTS/Excellent/Name",
+    "Description": "Items/STURDY_BOOTS/Description",
+    "InventoryIconID": "ITEM_SturdyBoots",
+    "BustIconID": null,
+    "Price": 135,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "FOOTWEAR",
+    "Variables": [
+      {
+        "Variable": "MoveSpeed",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "STURDY_BOOTS_3",
+      "ItemType": "FOOTWEAR",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "BLANKET_ROLLS_3",
+    "Name": "Items/BLANKET_ROLLS/Excellent/Name",
+    "Description": "Items/BLANKET_ROLLS/Description",
+    "InventoryIconID": "ITEM_BlanketRolls",
+    "BustIconID": null,
+    "Price": 120,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "BLANKETS",
+    "Variables": [
+      {
+        "Variable": "Attrition",
+        "Value": -0.4
+      },
+      {
+        "Variable": "MeleeDamageRecieved",
+        "Value": -0.15
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "BLANKET_ROLLS_3",
+      "ItemType": "BLANKETS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99975.0,
+        25.0,
+        525.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -975.0,
+        275.0,
+        775.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "GREATCOATS_3",
+    "Name": "Items/GREATCOATS/Excellent/Name",
+    "Description": "Items/GREATCOATS/Description",
+    "InventoryIconID": "ITEM_Greatcoats",
+    "BustIconID": null,
+    "Price": 135,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "CLOTHING",
+    "Variables": [
+      {
+        "Variable": "MeleeDamageRecieved",
+        "Value": -0.2
+      },
+      {
+        "Variable": "Attrition",
+        "Value": -0.5
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "GREATCOATS_3",
+      "ItemType": "CLOTHING",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "STIFFENED_JACKETS_3",
+    "Name": "Items/STIFFENED_JACKETS/Excellent/Name",
+    "Description": "Items/STIFFENED_JACKETS/Description",
+    "InventoryIconID": "ITEM_HeavyJackets",
+    "BustIconID": null,
+    "Price": 200,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "CLOTHING",
+    "Variables": [
+      {
+        "Variable": "MeleeDamageRecieved",
+        "Value": -0.25
+      },
+      {
+        "Variable": "Stamina",
+        "Value": -4.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "STIFFENED_JACKETS_3",
+      "ItemType": "CLOTHING",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "PROOFED_BREASTPLATES_3",
+    "Name": "Items/PROOFED_BREASTPLATES/Excellent/Name",
+    "Description": "Items/PROOFED_BREASTPLATES/Description",
+    "InventoryIconID": "ITEM_ProofedBreastplates",
+    "BustIconID": null,
+    "Price": 280,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "CLOTHING",
+    "Variables": [
+      {
+        "Variable": "MeleeDamageRecieved",
+        "Value": -0.35
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": -6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "PROOFED_BREASTPLATES_3",
+      "ItemType": "CLOTHING",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "IRON_SKULL_CAPS_3",
+    "Name": "Items/IRON_SKULL_CAPS/Excellent/Name",
+    "Description": "Items/IRON_SKULL_CAPS/Description",
+    "InventoryIconID": "ITEM_IronSkullCaps",
+    "BustIconID": null,
+    "Price": 125,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "HEADGEAR",
+    "Variables": [
+      {
+        "Variable": "MeleeDamageRecieved",
+        "Value": -0.15
+      },
+      {
+        "Variable": "Stamina",
+        "Value": -2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "IRON_SKULL_CAPS_3",
+      "ItemType": "HEADGEAR",
+      "Qunatity": 0,
+      "ShopWeights": [
+        12.5,
+        125.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        750.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "POCKET_BIBLES_3",
+    "Name": "Items/POCKET_BIBLES/Excellent/Name",
+    "Description": "Items/POCKET_BIBLES/Description",
+    "InventoryIconID": "ITEM_PocketBibles",
+    "BustIconID": null,
+    "Price": 180,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "RELIGIOUS",
+    "Variables": [
+      {
+        "Variable": "MoraleDamageRecieved",
+        "Value": -15.0
+      },
+      {
+        "Variable": "FireDamageReceived",
+        "Value": -0.1
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "POCKET_BIBLES_3",
+      "ItemType": "RELIGIOUS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "CROSS_PENDANTS_3",
+    "Name": "Items/CROSS_PENDANTS/Excellent/Name",
+    "Description": "Items/CROSS_PENDANTS/Description",
+    "InventoryIconID": "ITEM_CrossPendants",
+    "BustIconID": null,
+    "Price": 130,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "RELIGIOUS",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 8.0
+      },
+      {
+        "Variable": "ChargeDamage",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "CROSS_PENDANTS_3",
+      "ItemType": "RELIGIOUS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MEDICINAL_HERBS_3",
+    "Name": "Items/MEDICINAL_HERBS/Excellent/Name",
+    "Description": "Items/MEDICINAL_HERBS/Description",
+    "InventoryIconID": "ITEM_MedicinalHerbs",
+    "BustIconID": null,
+    "Price": 160,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "RATIONS",
+    "Variables": [
+      {
+        "Variable": "CasultiesRestored",
+        "Value": 0.25
+      },
+      {
+        "Variable": "Attrition",
+        "Value": -0.4
+      }
+    ],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "MEDICINAL_HERBS_3",
+      "ItemType": "RATIONS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "TOBACCO_RATIONS_3",
+    "Name": "Items/TOBACCO_RATIONS/Excellent/Name",
+    "Description": "Items/TOBACCO_RATIONS/Description",
+    "InventoryIconID": "ITEM_RationsTobacco",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "RATIONS",
+    "Variables": [
+      {
+        "Variable": "Accuracy",
+        "Value": 10.0
+      },
+      {
+        "Variable": "Stamina",
+        "Value": -2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "TOBACCO_RATIONS_3",
+      "ItemType": "RATIONS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "ALCHOL_RATIONS_3",
+    "Name": "Items/ALCHOL_RATIONS/Excellent/Name",
+    "Description": "Items/ALCHOL_RATIONS/Description",
+    "InventoryIconID": "ITEM_RationsAlcohol",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "RATIONS",
+    "Variables": [
+      {
+        "Variable": "MeleeDamage",
+        "Value": 8.0
+      },
+      {
+        "Variable": "Morale",
+        "Value": 4.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "ALCHOL_RATIONS_3",
+      "ItemType": "RATIONS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "SPIRIT_RATIONS_3",
+    "Name": "Items/SPIRIT_RATIONS/Excellent/Name",
+    "Description": "Items/SPIRIT_RATIONS/Description",
+    "InventoryIconID": "ITEM_SpiritRations",
+    "BustIconID": null,
+    "Price": 160,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "RATIONS",
+    "Variables": [
+      {
+        "Variable": "ChargeDamage",
+        "Value": 10.0
+      },
+      {
+        "Variable": "Accuracy",
+        "Value": -4.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "SPIRIT_RATIONS_3",
+      "ItemType": "RATIONS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "TEA_RATIONS_3",
+    "Name": "Items/TEA_RATIONS/Excellent/Name",
+    "Description": "Items/TEA_RATIONS/Description",
+    "InventoryIconID": "ITEM_RationsTea",
+    "BustIconID": null,
+    "Price": 180,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "RATIONS",
+    "Variables": [
+      {
+        "Variable": "Accuracy",
+        "Value": 8.0
+      },
+      {
+        "Variable": "ReloadSkill",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "TEA_RATIONS_3",
+      "ItemType": "RATIONS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "CHEESE_RATIONS_3",
+    "Name": "Items/CHEESE_RATIONS/Excellent/Name",
+    "Description": "Items/CHEESE_RATIONS/Description",
+    "InventoryIconID": "ITEM_CheeseRations",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "RATIONS",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 8.0
+      },
+      {
+        "Variable": "Stamina",
+        "Value": 4.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "CHEESE_RATIONS_3",
+      "ItemType": "RATIONS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "COFFEE_RATIONS_3",
+    "Name": "Items/COFFEE_RATIONS/Excellent/Name",
+    "Description": "Items/COFFEE_RATIONS/Description",
+    "InventoryIconID": "ITEM_RationsCoffee",
+    "BustIconID": null,
+    "Price": 170,
+    "UnitTypeAllowed": "All",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "RATIONS",
+    "Variables": [
+      {
+        "Variable": "ReloadSkill",
+        "Value": 8.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 4.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "COFFEE_RATIONS_3",
+      "ItemType": "RATIONS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -99950.0,
+        50.0,
+        550.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        300.0,
+        800.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "HOLSTEINER_HORSES_3",
+    "Name": "Items/HOLSTEINER_HORSES/Excellent/Name",
+    "Description": "Items/HOLSTEINER_HORSES/Description",
+    "InventoryIconID": "ITEM_HorsesHolsteiner",
+    "BustIconID": "Card_HOLSTEINER_HORSES_3",
+    "Price": 180,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "HORSES_BUFF",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 10.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "HOLSTEINER_HORSES_3",
+      "ItemType": "HORSES_BUFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "POLISH_HORSES_3",
+    "Name": "Items/POLISH_HORSES/Excellent/Name",
+    "Description": "Items/POLISH_HORSES/Description",
+    "InventoryIconID": "ITEM_HorsesPolish",
+    "BustIconID": "Card_POLISH_HORSES_3",
+    "Price": 215,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "HORSES_BUFF",
+    "Variables": [
+      {
+        "Variable": "Stamina",
+        "Value": 12.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 10.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "POLISH_HORSES_3",
+      "ItemType": "HORSES_BUFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "UKRANIAN_HORSES_3",
+    "Name": "Items/UKRANIAN_HORSES/Excellent/Name",
+    "Description": "Items/UKRANIAN_HORSES/Description",
+    "InventoryIconID": "ITEM_HorsesUkrainian",
+    "BustIconID": "Card_UKRANIAN_HORSES_3",
+    "Price": 210,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "HORSES_BUFF",
+    "Variables": [
+      {
+        "Variable": "ChargeDamage",
+        "Value": 8.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "UKRANIAN_HORSES_3",
+      "ItemType": "HORSES_BUFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "HANOVERIAN_HORSES_3",
+    "Name": "Items/HANOVERIAN_HORSES/Excellent/Name",
+    "Description": "Items/HANOVERIAN_HORSES/Description",
+    "InventoryIconID": "ITEM_HorsesHanoverian",
+    "BustIconID": "Card_HANOVERIAN_HORSES_3",
+    "Price": 170,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "HORSES_BUFF",
+    "Variables": [
+      {
+        "Variable": "Accuracy",
+        "Value": 10.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 10.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "HANOVERIAN_HORSES_3",
+      "ItemType": "HORSES_BUFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "FIRESIAN_HORSES_3",
+    "Name": "Items/FIRESIAN_HORSES/Excellent/Name",
+    "Description": "Items/FIRESIAN_HORSES/Description",
+    "InventoryIconID": "ITEM_HorsesFriesian",
+    "BustIconID": "Card_FIRESIAN_HORSES_3",
+    "Price": 205,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "HORSES_BUFF",
+    "Variables": [
+      {
+        "Variable": "MeleeDamage",
+        "Value": 12.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "FIRESIAN_HORSES_3",
+      "ItemType": "HORSES_BUFF",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "CAVALRY_PISTOLS_3",
+    "Name": "Items/CAVALRY_PISTOLS/Excellent/Name",
+    "Description": "Items/CAVALRY_PISTOLS/Description",
+    "InventoryIconID": "ITEM_CavalryPistols",
+    "BustIconID": "Card_FIRESIAN_HORSES_3",
+    "Price": 145,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "CAVALRY_SIDEARM",
+    "Variables": [
+      {
+        "Variable": "Accuracy",
+        "Value": 6.0
+      },
+      {
+        "Variable": "ReloadSkill",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "CAVALRY_PISTOLS_3",
+      "ItemType": "CAVALRY_SIDEARM",
+      "Qunatity": 0,
+      "ShopWeights": [
+        12.5,
+        125.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        750.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "CAVALRY_LANCES_3",
+    "Name": "Items/CAVALRY_LANCES/Excellent/Name",
+    "Description": "Items/CAVALRY_LANCES/Description",
+    "InventoryIconID": "ITEM_CavalryLances",
+    "BustIconID": "Card_FIRESIAN_HORSES_3",
+    "Price": 185,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "CAVALRY_SIDEARM",
+    "Variables": [
+      {
+        "Variable": "ChargeDamage",
+        "Value": 10.0
+      },
+      {
+        "Variable": "MeleeDamage",
+        "Value": -4.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "CAVALRY_LANCES_3",
+      "ItemType": "CAVALRY_SIDEARM",
+      "Qunatity": 0,
+      "ShopWeights": [
+        12.5,
+        125.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        750.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "INFANTRY_HANGER_3",
+    "Name": "Items/INFANTRY_HANGER/Excellent/Name",
+    "Description": "Items/INFANTRY_HANGER/Description",
+    "InventoryIconID": "ITEM_InfantryHanger",
+    "BustIconID": "Card_FIRESIAN_HORSES_3",
+    "Price": 175,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TERTIARY_WEAPONS",
+    "Variables": [
+      {
+        "Variable": "MeleeDamage",
+        "Value": 6.0
+      },
+      {
+        "Variable": "ChargeDamage",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "INFANTRY_HANGER_3",
+      "ItemType": "TERTIARY_WEAPONS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        22.5,
+        225.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        750.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "BASKET_HILT_HANGER_3",
+    "Name": "Items/BASKET_HILT_HANGER/Excellent/Name",
+    "Description": "Items/BASKET_HILT_HANGER/Description",
+    "InventoryIconID": "ITEM_Basket-HillHanger",
+    "BustIconID": "Card_FIRESIAN_HORSES_3",
+    "Price": 180,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TERTIARY_WEAPONS",
+    "Variables": [
+      {
+        "Variable": "ChargeDamage",
+        "Value": 10.0
+      },
+      {
+        "Variable": "Accuracy",
+        "Value": -2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "BASKET_HILT_HANGER_3",
+      "ItemType": "TERTIARY_WEAPONS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        22.5,
+        225.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        500.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        750.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_DE_SAXE_3",
+    "Name": "Items/MT_DE_SAXE/Excellent/Name",
+    "Description": "Items/MT_DE_SAXE/Description",
+    "InventoryIconID": "ITEM_DeSaxe",
+    "BustIconID": null,
+    "Price": 230,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 12.0
+      },
+      {
+        "Variable": "MeleeDamage",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_DE_SAXE_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_FREDRICK_3",
+    "Name": "Items/MT_FREDRICK/Excellent/Name",
+    "Description": "Items/MT_FREDRICK/Description",
+    "InventoryIconID": "ITEM_Frederick",
+    "BustIconID": null,
+    "Price": 180,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "ReloadSkill",
+        "Value": 8.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_FREDRICK_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_HOC_3",
+    "Name": "Items/MT_HOC/Excellent/Name",
+    "Description": "Items/MT_HOC/Description",
+    "InventoryIconID": "ITEM_HistoryOfCharlesXII",
+    "BustIconID": null,
+    "Price": 155,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "ChargeDamage",
+        "Value": 12.0
+      },
+      {
+        "Variable": "Accuracy",
+        "Value": -6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_HOC_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_COEHOORN_3",
+    "Name": "Items/MT_COEHOORN/Excellent/Name",
+    "Description": "Items/MT_COEHOORN/Description",
+    "InventoryIconID": "ITEM_Coehoorn",
+    "BustIconID": null,
+    "Price": 190,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "Accuracy",
+        "Value": 8.0
+      },
+      {
+        "Variable": "CoverBonus",
+        "Value": 0.25
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_COEHOORN_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_FORLARD_3",
+    "Name": "Items/MT_FORLARD/Excellent/Name",
+    "Description": "Items/MT_FORLARD/Description",
+    "InventoryIconID": "ITEM_Folard",
+    "BustIconID": null,
+    "Price": 200,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "ChargeDamage",
+        "Value": 10.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_FORLARD_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_STANTA_CRUZ_3",
+    "Name": "Items/MT_STANTA_CRUZ/Excellent/Name",
+    "Description": "Items/MT_STANTA_CRUZ/Description",
+    "InventoryIconID": "ITEM_SantaCruz",
+    "BustIconID": null,
+    "Price": 165,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "OpenOrderAccuracy",
+        "Value": 12.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_STANTA_CRUZ_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_BLAND_3",
+    "Name": "Items/MT_BLAND/Excellent/Name",
+    "Description": "Items/MT_BLAND/Description",
+    "InventoryIconID": "ITEM_Bland",
+    "BustIconID": null,
+    "Price": 205,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "ExperienceGain",
+        "Value": 0.25
+      },
+      {
+        "Variable": "Morale",
+        "Value": 6.0
+      }
+    ],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "MT_BLAND_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_CLAIRAC_3",
+    "Name": "Items/MT_CLAIRAC/Excellent/Name",
+    "Description": "Items/MT_CLAIRAC/Description",
+    "InventoryIconID": "ITEM_Clairac",
+    "BustIconID": null,
+    "Price": 180,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "CoverBonus",
+        "Value": 0.4
+      },
+      {
+        "Variable": "MaxRange",
+        "Value": 0.15
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_CLAIRAC_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_HOLLIDAY_3",
+    "Name": "Items/MT_HOLLIDAY/Excellent/Name",
+    "Description": "Items/MT_HOLLIDAY/Description",
+    "InventoryIconID": "ITEM_Holliday",
+    "BustIconID": null,
+    "Price": 220,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "ReloadSkill",
+        "Value": 10.0
+      },
+      {
+        "Variable": "AmmoConsumption",
+        "Value": -0.15
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_HOLLIDAY_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_PRUSSIAN_REGULATIONS_3",
+    "Name": "Items/MT_PRUSSIAN_REGULATIONS/Excellent/Name",
+    "Description": "Items/MT_PRUSSIAN_REGULATIONS/Description",
+    "InventoryIconID": "ITEM_PrussianRegulations",
+    "BustIconID": null,
+    "Price": 200,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 8.0
+      },
+      {
+        "Variable": "MoraleDamageRecieved",
+        "Value": -20.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_PRUSSIAN_REGULATIONS_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "ID": "MT_PUYSEGUR_3",
+    "Name": "Items/MT_PUYSEGUR/Excellent/Name",
+    "Description": "Items/MT_PUYSEGUR/Description",
+    "InventoryIconID": "ITEM_Puysegur",
+    "BustIconID": null,
+    "Price": 180,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "TREATISE",
+    "Variables": [
+      {
+        "Variable": "FireDamageReceived",
+        "Value": -0.15
+      },
+      {
+        "Variable": "Accuracy",
+        "Value": 8.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "MT_PUYSEGUR_3",
+      "ItemType": "TREATISE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        300.0
+      ]
+    }
+  }
+]

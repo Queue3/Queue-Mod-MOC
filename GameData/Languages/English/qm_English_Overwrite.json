@@ -1,0 +1,27 @@
+[
+  {
+    "Key": "Stance/Pillage/Desc",
+    "Translation": "Raiding steals resources, but must done near a settlement.\n• <color=#009300>Take +{0} thalers per regiment in army daily</color>\n• <color=#009300>Take +{1} provisions per regiment in army daily</color>\n• <color=#CB2225>Take -0.01% attrition daily</color>\n• <color=#CB2225>Settlement receives \"Pillaged\" condition</color>\n• <color=#CB2225>Army is immobile</color>\n\n<i>Hotkey to enable {2}</i>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Weapon/WORN_BAYONET/Desc",
+    "Translation": "<i>Secondary Weapon, Bayonet</i>\n<color=#CB2225>Inferior</color> bayonet.\nMorale <color=#009300>+1</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Weapon/SOCKET_BAYONET/Desc",
+    "Translation": "<i>Secondary Weapon, Bayonet</i>\nNo proficiencies.\nMorale <color=#009300>+2</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Weapon/LIGHT_SOCKET_BAYONET/Desc",
+    "Translation": "<i>Secondary Weapon, Bayonet</i>\nExcellent <color=#009300>charge</color>.\nMorale <color=#009300>+1</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Weapon/HEAVY_SOCKET_BAYONET/Desc",
+    "Translation": "<i>Secondary Weapon, Bayonet</i>\nExcellent <color=#009300>melee</color>.\nMorale <color=#009300>+3</color>",
+    "VariableCount": 0
+  }
+]

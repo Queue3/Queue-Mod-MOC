@@ -1,0 +1,548 @@
+[
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 2,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 125.0,
+    "Damage": 1.0,
+    "DisplayDamage": 50.0,
+    "ID": "SMALL_BAG_GLASS_GRENADES",
+    "Name": "Items/SMALL_BAG_GLASS_GRENADES/Basic/Name",
+    "Description": "Items/SMALL_BAG_GLASS_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesGlassSmall",
+    "BustIconID": null,
+    "Price": 100,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "GRENADE",
+    "Variables": [
+	  {
+        "Variable": "Stamina",
+        "Value": 1
+      }
+	],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "SMALL_BAG_GLASS_GRENADES",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        50.0,
+        -200.0,
+        -100.0
+      ],
+      "MinorBattleDropWeights": [
+        -1000.0,
+        -950.0,
+        -950.0,
+        -100.0
+      ],
+      "MajorBattleDropWeights": [
+        -1000.0,
+        -950.0,
+        -950.0,
+        -100.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 2,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 125.0,
+    "Damage": 1.5,
+    "DisplayDamage": 75.0,
+    "ID": "SMALL_BAG_GLASS_GRENADES_2",
+    "Name": "Items/SMALL_BAG_GLASS_GRENADES/Good/Name",
+    "Description": "Items/SMALL_BAG_GLASS_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesGlassSmall",
+    "BustIconID": null,
+    "Price": 150,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "UNCOMMON",
+    "Quality": "GOOD",
+    "ItemType": "GRENADE",
+    "Variables": [
+	  {
+        "Variable": "Stamina",
+        "Value": 1
+      }
+	],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "SMALL_BAG_GLASS_GRENADES_2",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        30.0,
+        300.0,
+        300.0,
+        0.0
+      ],
+      "MinorBattleDropWeights": [
+        -1800.0,
+        -950.0,
+        -950.0,
+        0.0
+      ],
+      "MajorBattleDropWeights": [
+        -1800.0,
+        -950.0,
+        -950.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 2,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 125.0,
+    "Damage": 2.0,
+    "DisplayDamage": 100.0,
+    "ID": "SMALL_BAG_GLASS_GRENADES_3",
+    "Name": "Items/SMALL_BAG_GLASS_GRENADES/Excellent/Name",
+    "Description": "Items/SMALL_BAG_GLASS_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesGlassSmall",
+    "BustIconID": null,
+    "Price": 200,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "GRENADE",
+    "Variables": [
+	  {
+        "Variable": "Stamina",
+        "Value": 1
+      }
+	],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "SMALL_BAG_GLASS_GRENADES_3",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        5.0,
+        50.0,
+        800.0,
+        100.0
+      ],
+      "MinorBattleDropWeights": [
+        -101200.0,
+        -1200.0,
+        -700.0,
+        100.0
+      ],
+      "MajorBattleDropWeights": [
+        -2200.0,
+        -950.0,
+        -450.0,
+        100.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 4,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 125.0,
+    "Damage": 1.0,
+    "DisplayDamage": 50.0,
+    "ID": "LARGE_BAG_GLASS_GRENADES",
+    "Name": "Items/LARGE_BAG_GLASS_GRENADES/Basic/Name",
+    "Description": "Items/LARGE_BAG_GLASS_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesGlassLarge",
+    "BustIconID": null,
+    "Price": 190,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "GRENADE",
+    "Variables": [],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "LARGE_BAG_GLASS_GRENADES",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        50.0,
+        50.0,
+        -200.0,
+        -100.0
+      ],
+      "MinorBattleDropWeights": [
+        -1000.0,
+        -950.0,
+        -950.0,
+        -100.0
+      ],
+      "MajorBattleDropWeights": [
+        -1000.0,
+        -950.0,
+        -950.0,
+        -100.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 4,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 125.0,
+    "Damage": 1.5,
+    "DisplayDamage": 75.0,
+    "ID": "LARGE_BAG_GLASS_GRENADES_2",
+    "Name": "Items/LARGE_BAG_GLASS_GRENADES/Good/Name",
+    "Description": "Items/LARGE_BAG_GLASS_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesGlassLarge",
+    "BustIconID": null,
+    "Price": 240,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "UNCOMMON",
+    "Quality": "GOOD",
+    "ItemType": "GRENADE",
+    "Variables": [],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "LARGE_BAG_GLASS_GRENADES_2",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        30.0,
+        300.0,
+        300.0,
+        0.0
+      ],
+      "MinorBattleDropWeights": [
+        -1800.0,
+        -950.0,
+        -950.0,
+        0.0
+      ],
+      "MajorBattleDropWeights": [
+        -1800.0,
+        -950.0,
+        -950.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 4,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 125.0,
+    "Damage": 2.0,
+    "DisplayDamage": 100.0,
+    "ID": "LARGE_BAG_GLASS_GRENADES_3",
+    "Name": "Items/LARGE_BAG_GLASS_GRENADES/Excellent/Name",
+    "Description": "Items/LARGE_BAG_GLASS_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesGlassLarge",
+    "BustIconID": null,
+    "Price": 290,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "GRENADE",
+    "Variables": [],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "LARGE_BAG_GLASS_GRENADES_3",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        5.0,
+        50.0,
+        800.0,
+        100.0
+      ],
+      "MinorBattleDropWeights": [
+        -101200.0,
+        -1200.0,
+        -700.0,
+        100.0
+      ],
+      "MajorBattleDropWeights": [
+        -2200.0,
+        -950.0,
+        -450.0,
+        100.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 2,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 75.0,
+    "Damage": 1.25,
+    "DisplayDamage": 62.5,
+    "ID": "SMALL_BAG_CAST_IRON_GRENADES",
+    "Name": "Items/SMALL_BAG_CAST_IRON_GRENADES/Basic/Name",
+    "Description": "Items/SMALL_BAG_CAST_IRON_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesIronSmall",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "GRENADE",
+    "Variables": [
+	  {
+        "Variable": "Stamina",
+        "Value": 1
+      }
+	],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "SMALL_BAG_CAST_IRON_GRENADES",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        150.0,
+        150.0,
+        -100.0,
+        0.0
+      ],
+      "MinorBattleDropWeights": [
+        -900.0,
+        -850.0,
+        -850.0,
+        0.0
+      ],
+      "MajorBattleDropWeights": [
+        -900.0,
+        -850.0,
+        -850.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 2,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 75.0,
+    "Damage": 1.75,
+    "DisplayDamage": 87.5,
+    "ID": "SMALL_BAG_CAST_IRON_GRENADES_2",
+    "Name": "Items/SMALL_BAG_CAST_IRON_GRENADES/Good/Name",
+    "Description": "Items/SMALL_BAG_CAST_IRON_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesIronSmall",
+    "BustIconID": null,
+    "Price": 190,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "UNCOMMON",
+    "Quality": "GOOD",
+    "ItemType": "GRENADE",
+    "Variables": [
+	  {
+        "Variable": "Stamina",
+        "Value": 1
+      }
+	],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "SMALL_BAG_CAST_IRON_GRENADES_2",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        40.0,
+        400.0,
+        400.0,
+        100.0
+      ],
+      "MinorBattleDropWeights": [
+        -1700.0,
+        -850.0,
+        -850.0,
+        100.0
+      ],
+      "MajorBattleDropWeights": [
+        -1700.0,
+        -850.0,
+        -850.0,
+        100.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 2,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 75.0,
+    "Damage": 2.25,
+    "DisplayDamage": 112.5,
+    "ID": "SMALL_BAG_CAST_IRON_GRENADES_3",
+    "Name": "Items/SMALL_BAG_CAST_IRON_GRENADES/Excellent/Name",
+    "Description": "Items/SMALL_BAG_CAST_IRON_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesIronSmall",
+    "BustIconID": null,
+    "Price": 240,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "GRENADE",
+    "Variables": [
+	  {
+        "Variable": "Stamina",
+        "Value": 1
+      }
+	],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "SMALL_BAG_CAST_IRON_GRENADES_3",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        15.0,
+        150.0,
+        900.0,
+        200.0
+      ],
+      "MinorBattleDropWeights": [
+        -101100.0,
+        -1100.0,
+        -600.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -2100.0,
+        -850.0,
+        -350.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 4,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 75.0,
+    "Damage": 1.25,
+    "DisplayDamage": 62.5,
+    "ID": "LARGE_BAG_CAST_IRON_GRENADES",
+    "Name": "Items/LARGE_BAG_CAST_IRON_GRENADES/Basic/Name",
+    "Description": "Items/LARGE_BAG_CAST_IRON_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesIronLarge",
+    "BustIconID": null,
+    "Price": 250,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "GRENADE",
+    "Variables": [],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "LARGE_BAG_CAST_IRON_GRENADES",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        150.0,
+        150.0,
+        -100.0,
+        0.0
+      ],
+      "MinorBattleDropWeights": [
+        -900.0,
+        -850.0,
+        -850.0,
+        0.0
+      ],
+      "MajorBattleDropWeights": [
+        -900.0,
+        -850.0,
+        -850.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 4,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 75.0,
+    "Damage": 1.75,
+    "DisplayDamage": 87.5,
+    "ID": "LARGE_BAG_CAST_IRON_GRENADES_2",
+    "Name": "Items/LARGE_BAG_CAST_IRON_GRENADES/Good/Name",
+    "Description": "Items/LARGE_BAG_CAST_IRON_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesIronLarge",
+    "BustIconID": null,
+    "Price": 300,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "UNCOMMON",
+    "Quality": "GOOD",
+    "ItemType": "GRENADE",
+    "Variables": [],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "LARGE_BAG_CAST_IRON_GRENADES_2",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        40.0,
+        400.0,
+        400.0,
+        100.0
+      ],
+      "MinorBattleDropWeights": [
+        -1700.0,
+        -850.0,
+        -850.0,
+        100.0
+      ],
+      "MajorBattleDropWeights": [
+        -1700.0,
+        -850.0,
+        -850.0,
+        100.0
+      ]
+    }
+  },
+  {
+    "ModelID": "TEST_Weapon_02",
+    "GrenadeCount": 4,
+    "ExplosionRadius": 0.75,
+    "ThrowRange": 75.0,
+    "Damage": 2.25,
+    "DisplayDamage": 112.5,
+    "ID": "LARGE_BAG_CAST_IRON_GRENADES_3",
+    "Name": "Items/LARGE_BAG_CAST_IRON_GRENADES/Excellent/Name",
+    "Description": "Items/LARGE_BAG_CAST_IRON_GRENADES/Description",
+    "InventoryIconID": "ITEM_GrenadesIronLarge",
+    "BustIconID": null,
+    "Price": 350,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "GRENADE",
+    "Variables": [],
+    "UseableByAI": false,
+    "ItemGenerationData": {
+      "ID": "LARGE_BAG_CAST_IRON_GRENADES_3",
+      "ItemType": "GRENADE",
+      "Qunatity": 0,
+      "ShopWeights": [
+        15.0,
+        150.0,
+        900.0,
+        200.0
+      ],
+      "MinorBattleDropWeights": [
+        -101100.0,
+        -1100.0,
+        -600.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -2100.0,
+        -850.0,
+        -350.0,
+        200.0
+      ]
+    }
+  }
+]

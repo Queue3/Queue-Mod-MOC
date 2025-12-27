@@ -1,0 +1,86 @@
+[
+  {
+    "Level": 0,
+    "ExperienceThreshold": 0
+  },
+  {
+    "Level": 1,
+    "ExperienceThreshold": 600
+  },
+  {
+    "Level": 2,
+    "ExperienceThreshold": 850
+  },
+  {
+    "Level": 3,
+    "ExperienceThreshold": 1150
+  },
+  {
+    "Level": 4,
+    "ExperienceThreshold": 1500
+  },
+  {
+    "Level": 5,
+    "ExperienceThreshold": 1900
+  },
+  {
+    "Level": 6,
+    "ExperienceThreshold": 2350
+  },
+  {
+    "Level": 7,
+    "ExperienceThreshold": 2850
+  },
+  {
+    "Level": 8,
+    "ExperienceThreshold": 3400
+  },
+  {
+    "Level": 9,
+    "ExperienceThreshold": 4000
+  },
+  {
+    "Level": 10,
+    "ExperienceThreshold": 8000
+  },
+  {
+    "Level": 11,
+    "ExperienceThreshold": 16000
+  },
+  {
+    "Level": 12,
+    "ExperienceThreshold": 24000
+  },
+  {
+    "Level": 13,
+    "ExperienceThreshold": 32000
+  },
+  {
+    "Level": 14,
+    "ExperienceThreshold": 40000
+  },
+  {
+    "Level": 15,
+    "ExperienceThreshold": 48000
+  },
+  {
+    "Level": 16,
+    "ExperienceThreshold": 56000
+  },
+  {
+    "Level": 17,
+    "ExperienceThreshold": 64000
+  },
+  {
+    "Level": 18,
+    "ExperienceThreshold": 72000
+  },
+  {
+    "Level": 19,
+    "ExperienceThreshold": 80000
+  },
+  {
+    "Level": 20,
+    "ExperienceThreshold": 88000
+  }
+]

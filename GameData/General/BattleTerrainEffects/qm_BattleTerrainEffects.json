@@ -1,0 +1,105 @@
+{
+  "TerrainEffects": {
+    "CREEK": {
+      "CoverType": "NONE",
+      "Terrain": "CREEK",
+      "MovementSpeed": 0.25,
+      "AccuracyModifier": 0.5,
+      "StaminaTick": -0.25
+    },
+    "MUD": {
+      "CoverType": "NONE",
+      "Terrain": "MUD",
+      "MovementSpeed": 0.5,
+      "AccuracyModifier": 0.75,
+      "StaminaTick": -0.15
+    },
+    "MOUNTAIN": {
+      "CoverType": "HARD_COVER",
+      "Terrain": "MOUNTAIN",
+      "MovementSpeed": 0.8,
+      "AccuracyModifier": 0.9,
+      "StaminaTick": -0.025
+    },
+    "FOREST": {
+      "CoverType": "MEDIUM_COVER",
+      "Terrain": "FOREST",
+      "MovementSpeed": 0.65,
+      "AccuracyModifier": 0.85,
+      "StaminaTick": -0.05
+    },
+    "FARMLAND": {
+      "CoverType": "MEDIUM_COVER",
+      "Terrain": "FARMLAND",
+      "MovementSpeed": 0.85,
+      "AccuracyModifier": 1.0,
+      "StaminaTick": 0.0
+    },
+    "HILL": {
+      "CoverType": "NONE",
+      "Terrain": "HILL",
+      "MovementSpeed": 1.5,
+      "AccuracyModifier": 1.0,
+      "StaminaTick": 0.15
+    },
+    "GRASSLAND": {
+      "CoverType": "NONE",
+      "Terrain": "GRASSLAND",
+      "MovementSpeed": 1.0,
+      "AccuracyModifier": 1.0,
+      "StaminaTick": 0.0
+    },
+    "RIVER": {
+      "CoverType": "NONE",
+      "Terrain": "RIVER",
+      "MovementSpeed": 1.0,
+      "AccuracyModifier": 1.0,
+      "StaminaTick": 0.0
+    },
+    "SNOW": {
+      "CoverType": "NONE",
+      "Terrain": "SNOW",
+      "MovementSpeed": 1.0,
+      "AccuracyModifier": 1.0,
+      "StaminaTick": 0.0
+    }
+  },
+  "CoverEffects": {
+    "NONE": {
+      "CoverType": "NONE",
+      "CoverBonus": 0.0
+    },
+    "SOFT_COVER": {
+      "CoverType": "SOFT_COVER",
+      "CoverBonus": 0.35
+    },
+    "MEDIUM_COVER": {
+      "CoverType": "MEDIUM_COVER",
+      "CoverBonus": 0.65
+    },
+    "HARD_COVER": {
+      "CoverType": "HARD_COVER",
+      "CoverBonus": 1.0
+    }
+  },
+  "ElevationEffects": {
+    "NONE": {
+      "ElevationType": "NONE",
+      "Elevation": 0.0,
+      "Accuracy": 0.0,
+      "FireDamageRecieved": 0.0
+    },
+    "LEVEL_1": {
+      "ElevationType": "LEVEL_1",
+      "Elevation": 1.0,
+      "Accuracy": 0.2,
+      "FireDamageRecieved": 0.1
+    },
+    "LEVEL_2": {
+      "ElevationType": "LEVEL_2",
+      "Elevation": 1.0,
+      "Accuracy": 0.2,
+      "FireDamageRecieved": 0.3
+    }
+  }
+}

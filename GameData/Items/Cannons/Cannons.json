@@ -1,0 +1,347 @@
+[ 
+  {
+    "CannisterShot": true,
+    "CannonBallDamage": 3.5,
+    "DisplayDamage": 35.0,
+    "CannisterDamage": 12.0,
+    "DeviationMin": {
+      "x": -4.0,
+      "y": -8.0
+    },
+    "DeviationMax": {
+      "x": 4.0,
+      "y": 8.0
+    },
+    "CannonType": "CANNON",
+    "ExplosionRadius": 2.5,
+    "TextureID": "Gun_Liechtenstein",
+    "Range": 520.0,
+    "EffectiveRange": 281.0,
+    "Accuracy": 0.3,
+    "MinAccuracy": 0.1875,
+    "AccuracyRandomness": 0.05,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "CANNON_ROUND_SHOT",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 60.0,
+    "CanBeUsedInMelee": false,
+    "MeleeComponentData": null,
+    "ReloadSupplyCost": 42.0,
+    "ModelID": "TEST_Weapon_02",
+    "WeaponType": "CANNON",
+    "ID": "LIECHTENSTEIN_12LB_GUN",
+    "Name": "Weapon/LIECHTENSTEIN_12LB_GUN/Name",
+    "Description": "Weapon/LIECHTENSTEIN_12LB_GUN/Desc",
+    "InventoryIconID": "LIECHTENSTEIN_12LB_GUN",
+    "BustIconID": "Card_LIECHTENSTEIN_12LB_GUN",
+    "Price": 1200,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "ULTRA_RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "PRU",
+      "WeaponType": "CANNON",
+      "ID": "LIECHTENSTEIN_12LB_GUN",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        40.0,
+        400.0,
+        1300.0,
+        700.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -400.0,
+        100.0,
+        0.0
+      ],
+      "MajorBattleDropWeights": [
+        -1400.0,
+        -150.0,
+        350.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "CannisterShot": true,
+    "CannonBallDamage": 3.5,
+    "DisplayDamage": 35.0,
+    "CannisterDamage": 12.0,
+    "DeviationMin": {
+      "x": -4.0,
+      "y": -8.0
+    },
+    "DeviationMax": {
+      "x": 4.0,
+      "y": 8.0
+    },
+    "CannonType": "CANNON",
+    "ExplosionRadius": 2.5,
+    "TextureID": "Gun_Liechtenstein",
+    "Range": 520.0,
+    "EffectiveRange": 281.0,
+    "Accuracy": 0.3,
+    "MinAccuracy": 0.1875,
+    "AccuracyRandomness": 0.05,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "CANNON_ROUND_SHOT",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 60.0,
+    "CanBeUsedInMelee": false,
+    "MeleeComponentData": null,
+    "ReloadSupplyCost": 42.0,
+    "ModelID": "TEST_Weapon_02",
+    "WeaponType": "CANNON",
+    "ID": "LIECHTENSTEIN_12LB_GUN",
+    "Name": "Weapon/LIECHTENSTEIN_12LB_GUN/Name",
+    "Description": "Weapon/LIECHTENSTEIN_12LB_GUN/Desc",
+    "InventoryIconID": "LIECHTENSTEIN_12LB_GUN",
+    "BustIconID": "Card_LIECHTENSTEIN_12LB_GUN",
+    "Price": 1200,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "ULTRA_RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "PRU",
+      "WeaponType": "CANNON",
+      "ID": "LIECHTENSTEIN_12LB_GUN",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        40.0,
+        400.0,
+        1300.0,
+        700.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -400.0,
+        100.0,
+        0.0
+      ],
+      "MajorBattleDropWeights": [
+        -1400.0,
+        -150.0,
+        350.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "CannisterShot": true,
+    "CannonBallDamage": 4.0,
+    "DisplayDamage": 40.0,
+    "CannisterDamage": 12.0,
+    "DeviationMin": {
+      "x": -4.0,
+      "y": -8.0
+    },
+    "DeviationMax": {
+      "x": 4.0,
+      "y": 8.0
+    },
+    "CannonType": "CANNON",
+    "ExplosionRadius": 2.5,
+    "TextureID": "Gun_Brummer",
+    "Range": 485.0,
+    "EffectiveRange": 281.0,
+    "Accuracy": 0.25,
+    "MinAccuracy": 0.15625,
+    "AccuracyRandomness": 0.05,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "CANNON_ROUND_SHOT",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 45.0,
+    "CanBeUsedInMelee": false,
+    "MeleeComponentData": null,
+    "ReloadSupplyCost": 42.0,
+    "ModelID": "TEST_Weapon_02",
+    "WeaponType": "CANNON",
+    "ID": "BRUMMER_12LB_GUN",
+    "Name": "Weapon/BRUMMER_12LB_GUN/Name",
+    "Description": "Weapon/BRUMMER_12LB_GUN/Desc",
+    "InventoryIconID": "BRUMMER_12LB_GUN",
+    "BustIconID": "Card_BRUMMER_12LB_GUN",
+    "Price": 1440,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "ULTRA_RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "PRU",
+      "WeaponType": "CANNON",
+      "ID": "BRUMMER_12LB_GUN",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        40.0,
+        400.0,
+        1300.0,
+        700.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -400.0,
+        100.0,
+        0.0
+      ],
+      "MajorBattleDropWeights": [
+        -1400.0,
+        -150.0,
+        350.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "CannisterShot": true,
+    "CannonBallDamage": 2.8,
+    "DisplayDamage": 28.0,
+    "CannisterDamage": 8.0,
+    "DeviationMin": {
+      "x": -4.0,
+      "y": -8.0
+    },
+    "DeviationMax": {
+      "x": 4.0,
+      "y": 8.0
+    },
+    "CannonType": "CANNON",
+    "ExplosionRadius": 2.5,
+    "TextureID": "Gun_Geschwindstueck",
+    "Range": 435.0,
+    "EffectiveRange": 250.0,
+    "Accuracy": 0.3,
+    "MinAccuracy": 0.1875,
+    "AccuracyRandomness": 0.05,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "CANNON_ROUND_SHOT",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 35.0,
+    "CanBeUsedInMelee": false,
+    "MeleeComponentData": null,
+    "ReloadSupplyCost": 34.0,
+    "ModelID": "TEST_Weapon_02",
+    "WeaponType": "CANNON",
+    "ID": "GESCHWINDSTUECK_6LB_GUN",
+    "Name": "Weapon/GESCHWINDSTUECK_6LB_GUN/Name",
+    "Description": "Weapon/GESCHWINDSTUECK_6LB_GUN/Desc",
+    "InventoryIconID": "GESCHWINDSTUECK_6LB_GUN",
+    "BustIconID": "Card_GESCHWINDSTUECK_6LB_GUN",
+    "Price": 800,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "ULTRA_RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "PRU",
+      "WeaponType": "CANNON",
+      "ID": "GESCHWINDSTUECK_6LB_GUN",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        40.0,
+        400.0,
+        1300.0,
+        700.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -400.0,
+        100.0,
+        0.0
+      ],
+      "MajorBattleDropWeights": [
+        -1400.0,
+        -150.0,
+        350.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "CannisterShot": true,
+    "CannonBallDamage": 5.0,
+    "DisplayDamage": 50.0,
+    "CannisterDamage": 14.0,
+    "DeviationMin": {
+      "x": -4.0,
+      "y": -8.0
+    },
+    "DeviationMax": {
+      "x": 4.0,
+      "y": 8.0
+    },
+    "CannonType": "HOWITZER",
+    "ExplosionRadius": 3.0,
+    "TextureID": "Morter_Shuvalov",
+    "Range": 465.0,
+    "EffectiveRange": 186.0,
+    "Accuracy": 0.25,
+    "MinAccuracy": 0.15625,
+    "AccuracyRandomness": 0.05,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "CANNON_ROUND_SHOT",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 91.0,
+    "CanBeUsedInMelee": false,
+    "MeleeComponentData": null,
+    "ReloadSupplyCost": 60.0,
+    "ModelID": "TEST_Weapon_02",
+    "WeaponType": "CANNON",
+    "ID": "SHUVALOV_16LB_HOWITZER",
+    "Name": "Weapon/SHUVALOV_16LB_HOWITZER/Name",
+    "Description": "Weapon/SHUVALOV_16LB_HOWITZER/Desc",
+    "InventoryIconID": "SHUVALOV_16LB_HOWITZER",
+    "BustIconID": "Card_SHUVALOV_16LB_HOWITZER",
+    "Price": 1470,
+    "UnitTypeAllowed": "Artillery",
+    "Rarity": "ULTRA_RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "PRU",
+      "WeaponType": "CANNON",
+      "ID": "SHUVALOV_16LB_HOWITZER",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        15.0,
+        150.0,
+        1050.0,
+        450.0
+      ],
+      "MinorBattleDropWeights": [
+        -100450.0,
+        -650.0,
+        -150.0,
+        -250.0
+      ],
+      "MajorBattleDropWeights": [
+        -1650.0,
+        -400.0,
+        100.0,
+        -250.0
+      ]
+    }
+  }
+]

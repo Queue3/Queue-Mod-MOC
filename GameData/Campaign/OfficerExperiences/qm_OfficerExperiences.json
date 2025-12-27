@@ -1,0 +1,46 @@
+[
+  {
+    "Level": 0,
+    "ExperienceThreshold": 0
+  },
+  {
+    "Level": 1,
+    "ExperienceThreshold": 1400
+  },
+  {
+    "Level": 2,
+    "ExperienceThreshold": 2800
+  },
+  {
+    "Level": 3,
+    "ExperienceThreshold": 4200
+  },
+  {
+    "Level": 4,
+    "ExperienceThreshold": 5600
+  },
+  {
+    "Level": 5,
+    "ExperienceThreshold": 8000
+  },
+  {
+    "Level": 6,
+    "ExperienceThreshold": 16000
+  },
+  {
+    "Level": 7,
+    "ExperienceThreshold": 32000
+  },
+  {
+    "Level": 8,
+    "ExperienceThreshold": 64000
+  },
+  {
+    "Level": 9,
+    "ExperienceThreshold": 128000
+  },
+  {
+    "Level": 10,
+    "ExperienceThreshold": 256000
+  }
+]

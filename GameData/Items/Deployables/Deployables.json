@@ -1,0 +1,128 @@
+[
+  {
+    "DeploymentSprite": "TEST_DEPLOYABLE",
+    "AbilityID": "WOODEN_STAKES",
+    "DeployableModelID": "WOODEN_STAKES",
+    "Cover": 0.15,
+    "ChargeResistance": 0.2,
+    "ID": "WOODEN_STAKES_3",
+    "Name": "Items/WOODEN_STAKES/Excellent/Name",
+    "Description": "Items/WOODEN_STAKES/Description",
+    "InventoryIconID": "ITEM_WoodenStakes",
+    "BustIconID": null,
+    "Price": 170,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "FIELD_WORKS",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "WOODEN_STAKES_3",
+      "ItemType": "FIELD_WORKS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1150.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "DeploymentSprite": "TEST_DEPLOYABLE",
+    "AbilityID": "CHEVAUX_DE_FRISE",
+    "DeployableModelID": "CHEVAUX_DE_FRISE",
+    "Cover": 0.2,
+    "ChargeResistance": 0.35,
+    "ID": "CHEVAUX_DE_FRISE_3",
+    "Name": "Items/CHEVAUX_DE_FRISE/Excellent/Name",
+    "Description": "Items/CHEVAUX_DE_FRISE/Description",
+    "InventoryIconID": "ITEM_ChevauxDeFrise",
+    "BustIconID": null,
+    "Price": 230,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "FIELD_WORKS",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "CHEVAUX_DE_FRISE_3",
+      "ItemType": "FIELD_WORKS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1150.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        300.0
+      ]
+    }
+  },
+  {
+    "DeploymentSprite": "TEST_DEPLOYABLE",
+    "AbilityID": "EARTHWORKS",
+    "DeployableModelID": "EARTHWORKS",
+    "Cover": 0.3,
+    "ChargeResistance": 0.15,
+    "ID": "EARTHWORKS_3",
+    "Name": "Items/EARTHWORKS/Excellent/Name",
+    "Description": "Items/EARTHWORKS/Description",
+    "InventoryIconID": "ITEM_Earthworks",
+    "BustIconID": null,
+    "Price": 250,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "FIELD_WORKS",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "EARTHWORKS_3",
+      "ItemType": "FIELD_WORKS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        25.0,
+        250.0,
+        1150.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        300.0
+      ]
+    }
+  }
+]

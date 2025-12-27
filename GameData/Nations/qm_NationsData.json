@@ -1,0 +1,421 @@
+[
+  {
+    "ID": "PRU",
+    "Name": "Nation/PRU",
+    "Strategem": "JunkerAristocracy",
+    "Desc": "Nation/Info/Prussia/Desc",
+    "DenonymName": "Nation/PRUDenonym",
+    "FlagKey": "PRU_Flag",
+    "FlagWaveLeft": "WAVING_FLAG_L_PRU",
+    "FlagWaveRight": "WAVING_FLAG_R_PRU",
+    "BattleFlag": "FLAG_BATTLE_PRU",
+    "CampFlag": "CAMP_FLAG_PRU",
+    "BackgroundKey": "TREE_TileFlower_Prussia",
+    "GeneralName": "Friedrich II von Preußen",
+    "GeneralPortrait": "Generals_Portraits_PRU",
+    "GeneralPortraitInjured": "Generals_Portraits_PRU_Injured",
+    "GeneralUnitID": "PRU_GENERAL",
+    "UISortOrder": 2,
+    "UnitUnlocks": [
+    ],
+    "HistoricalEnemies": [
+      "FRA",
+      "RUS",
+      "AUS",
+      "HRE"
+    ],
+    "StartingRegion": "19",
+    "DefaultRegionRewardUnits": [
+      {
+        "ID": "PRU_Drilled_Musketeers",
+        "Experience": 2
+      },
+      {
+        "ID": "PRU_Jaegers",
+        "Experience": 2
+      },
+      {
+        "ID": "PRU_Fusiliers",
+        "Experience": 2
+      },
+      {
+        "ID": "PRU_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Dragoon",
+        "Experience": 2
+      },
+      {
+        "ID": "PRU_Cuirassier",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Freikorps_Jaegers",
+        "Experience": 2
+      },
+      {
+        "ID": "PRU_Freikorps_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Field_Artillery",
+        "Experience": 2
+      }
+    ],
+    "PostBattleFrameSpriteVictory": null,
+    "PostBattleFrameSpriteDefeat": null,
+    "AIProfiles": [
+      {
+        "ProfileID": "DEFAULT",
+        "Weight": 200.0
+      },
+      {
+        "ProfileID": "MELEE_AGGRESSION",
+        "Weight": 100.0
+      },
+	  {
+        "ProfileID": "QM_RANGED_AGGRESSION",
+        "Weight": 100.0
+      },
+	  {
+        "ProfileID": "QM_DEFENCE",
+        "Weight": 200.0
+      }
+    ]
+  },
+  {
+    "ID": "RUS",
+    "Name": "Nation/RUS",
+    "Strategem": "ExtendedSupplyLines",
+    "Desc": "Nation/Info/Russia/Desc",
+    "DenonymName": "Nation/RUSDenonym",
+    "FlagKey": "RUS_Flag",
+    "FlagWaveLeft": "WAVING_FLAG_L_RUS",
+    "FlagWaveRight": "WAVING_FLAG_R_RUS",
+    "BattleFlag": "FLAG_BATTLE_RUS",
+    "CampFlag": "CAMP_FLAG_RUS",
+    "BackgroundKey": "TREE_TileFlower_Russia",
+    "GeneralName": "Pyotr Semyonovich Saltykov",
+    "GeneralPortrait": "Generals_Portraits_RUS",
+    "GeneralPortraitInjured": "Generals_Portraits_RUS_Injured",
+    "GeneralUnitID": "RUS_GENERAL",
+    "UISortOrder": 3,
+    "UnitUnlocks": [
+    ],
+    "HistoricalEnemies": [
+      "PRU",
+      "GBR"
+    ],
+    "StartingRegion": "30",
+    "DefaultRegionRewardUnits": [
+      {
+        "ID": "RUS_Drilled_Musketeers",
+        "Experience": 2
+      },
+      {
+        "ID": "RUS_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Horse_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Cuirassiers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Pandurs",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Cossack_Riders",
+        "Experience": 2
+      },
+      {
+        "ID": "RUS_Settled_Hussars",
+        "Experience": 2
+      },
+      {
+        "ID": "RUS_Observation_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Field_Artillery",
+        "Experience": 2
+      }
+    ],
+    "PostBattleFrameSpriteVictory": null,
+    "PostBattleFrameSpriteDefeat": null,
+    "AIProfiles": [
+      {
+        "ProfileID": "DEFAULT",
+        "Weight": 200.0
+      },
+      {
+        "ProfileID": "MELEE_AGGRESSION",
+        "Weight": 300.0
+      },
+	  {
+        "ProfileID": "QM_RANGED_AGGRESSION",
+        "Weight": 300.0
+      },
+	  {
+        "ProfileID": "QM_DEFENCE",
+        "Weight": 100.0
+      }
+    ]
+  },
+  {
+    "ID": "FRA",
+    "Name": "Nation/FRA",
+    "Strategem": "GrandLevee",
+    "Desc": "Nation/Info/France/Desc",
+    "DenonymName": "Nation/FRADenonym",
+    "FlagKey": "FRA_Flag",
+    "FlagWaveLeft": "WAVING_FLAG_L_FRA",
+    "FlagWaveRight": "WAVING_FLAG_R_FRA",
+    "BattleFlag": "FLAG_BATTLE_FRA",
+    "CampFlag": "CAMP_FLAG_FRA",
+    "BackgroundKey": "TREE_TileFlower_France",
+    "GeneralName": "Victor François de Broglie",
+    "GeneralPortrait": "Generals_Portraits_FRA",
+    "GeneralPortraitInjured": "Generals_Portraits_FRA_Injured",
+    "GeneralUnitID": "FRA_GENERAL",
+    "UISortOrder": 4,
+    "UnitUnlocks": [
+    ],
+    "HistoricalEnemies": [
+      "PRU",
+      "GBR"
+    ],
+    "StartingRegion": "8",
+    "DefaultRegionRewardUnits": [
+      {
+        "ID": "FRA_French_Veteran_Fusiliers",
+        "Experience": 2
+      },
+      {
+        "ID": "FRA_French_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_French_Gentleman_Cavalry",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_French_Royal_Cavalry",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_German_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Swiss_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Irish_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Chasseurs",
+        "Experience": 2
+      },
+      {
+        "ID": "FRA_French_Field_Artillery",
+        "Experience": 2
+      }
+    ],
+    "PostBattleFrameSpriteVictory": null,
+    "PostBattleFrameSpriteDefeat": null,
+    "AIProfiles": [
+      {
+        "ProfileID": "DEFAULT",
+        "Weight": 100.0
+      },
+      {
+        "ProfileID": "MELEE_AGGRESSION",
+        "Weight": 200.0
+      },
+	  {
+        "ProfileID": "QM_RANGED_AGGRESSION",
+        "Weight": 200.0
+      },
+	  {
+        "ProfileID": "QM_DEFENCE",
+        "Weight": 100.0
+      }
+    ]
+  },
+  {
+    "ID": "AUS",
+    "Name": "Nation/AUS",
+    "Strategem": "MultinationalArmy",
+    "Desc": "Nation/Info/Austria/Desc",
+    "DenonymName": "Nation/AUSDenonym",
+    "FlagKey": "AUS_Flag",
+    "FlagWaveLeft": "WAVING_FLAG_L_AUS",
+    "FlagWaveRight": "WAVING_FLAG_R_AUS",
+    "BattleFlag": "FLAG_BATTLE_AUS",
+    "CampFlag": "CAMP_FLAG_AUS",
+    "BackgroundKey": "TREE_TileFlower_Austria",
+    "GeneralName": "Leopold Joseph von Daun",
+    "GeneralPortrait": "Generals_Portraits_AUS",
+    "GeneralPortraitInjured": "Generals_Portraits_AUS_Injured",
+    "GeneralUnitID": "AUS_GENERAL",
+    "UISortOrder": 1,
+    "UnitUnlocks": [
+    ],
+    "HistoricalEnemies": [
+      "PRU",
+      "GBR"
+    ],
+    "StartingRegion": "25",
+    "DefaultRegionRewardUnits": [
+      {
+        "ID": "AUS_German_Drilled_Fusiliers",
+        "Experience": 2
+      },
+      {
+        "ID": "AUS_Jaegers",
+        "Experience": 2
+      },
+      {
+        "ID": "AUS_German_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Horse_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Cuirassiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Hungarian_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Grenzer_Sharpshooters",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Frontier_Cavalry",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Field_Artillery",
+        "Experience": 2
+      }
+    ],
+    "PostBattleFrameSpriteVictory": null,
+    "PostBattleFrameSpriteDefeat": null,
+    "AIProfiles": [
+      {
+        "ProfileID": "DEFAULT",
+        "Weight": 100.0
+      },
+      {
+        "ProfileID": "MELEE_AGGRESSION",
+        "Weight": 100.0
+      },
+	  {
+        "ProfileID": "QM_RANGED_AGGRESSION",
+        "Weight": 200.0
+      },
+	  {
+        "ProfileID": "QM_DEFENCE",
+        "Weight": 200.0
+      }
+    ]
+  },
+  {
+    "ID": "GBR",
+    "Name": "Nation/GBR",
+    "Strategem": "CoffersOverCorpses",
+    "Desc": "Nation/Info/GreatBritain/Desc",
+    "DenonymName": "Nation/GBRDenonym",
+    "FlagKey": "GBR_Flag",
+    "FlagWaveLeft": "WAVING_FLAG_L_GBR",
+    "FlagWaveRight": "WAVING_FLAG_R_GBR",
+    "BattleFlag": "FLAG_BATTLE_GBR",
+    "CampFlag": "CAMP_FLAG_GBR",
+    "BackgroundKey": "TREE_TileFlower_UK",
+    "GeneralName": "Ferdinand von Braunschweig",
+    "GeneralPortrait": "Generals_Portraits_GBR",
+    "GeneralPortraitInjured": "Generals_Portraits_GBR_Injured",
+    "GeneralUnitID": "GBR_GENERAL",
+    "UISortOrder": 0,
+    "UnitUnlocks": [
+    ],
+    "HistoricalEnemies": [
+      "FRA",
+      "RUS",
+      "AUS",
+      "HRE"
+    ],
+    "StartingRegion": "15",
+    "DefaultRegionRewardUnits": [
+      {
+        "ID": "GBR_British_Veteran_Foot",
+        "Experience": 2
+      },
+      {
+        "ID": "GBR_British_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_British_Dragoons",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Highland_Foot",
+        "Experience": 2
+      },
+      {
+        "ID": "GBR_Highland_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_German_Jaegers",
+        "Experience": 2
+      },
+      {
+        "ID": "GBR_Hanoverian_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Hessian_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_British_Field_Artillery",
+        "Experience": 2
+      }
+    ],
+    "PostBattleFrameSpriteVictory": null,
+    "PostBattleFrameSpriteDefeat": null,
+    "AIProfiles": [
+      {
+        "ProfileID": "DEFAULT",
+        "Weight": 200.0
+      },
+      {
+        "ProfileID": "MELEE_AGGRESSION",
+        "Weight": 200.0
+      },
+	  {
+        "ProfileID": "QM_RANGED_AGGRESSION",
+        "Weight": 300.0
+      },
+	  {
+        "ProfileID": "QM_DEFENCE",
+        "Weight": 100.0
+      }
+    ]
+  }
+]

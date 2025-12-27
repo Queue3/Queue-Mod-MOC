@@ -1,0 +1,386 @@
+[
+  {
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 3.6,
+      "MeleeDamage": 10.0,
+      "ChargeAttackDamage": 14.0
+    },
+    "ModelID": "Sword_01",
+    "WeaponType": "SWORD",
+    "ID": "SUPERIOR_HUSSAR_SABRES",
+    "Name": "Weapon/SUPERIOR_HUSSAR_SABRES/Name",
+    "Description": "Weapon/HUSSAR_SABRES/Desc",
+    "InventoryIconID": "HUSSAR_SABRES",
+    "BustIconID": "Card_SWORD_CURVED",
+    "Price": 200,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "SWORD",
+      "ID": "SUPERIOR_HUSSAR_SABRES",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        35.0,
+        350.0,
+        1125.0,
+        425.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        250.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        250.0
+      ]
+    }
+  },
+  {
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 3.6,
+      "MeleeDamage": 12.0,
+      "ChargeAttackDamage": 12.0
+    },
+    "ModelID": "Sword_01",
+    "WeaponType": "SWORD",
+    "ID": "SUPERIOR_DRAGOON_SWORDS",
+    "Name": "Weapon/SUPERIOR_DRAGOON_SWORDS/Name",
+    "Description": "Weapon/DRAGOON_SWORDS/Desc",
+    "InventoryIconID": "DRAGOON_SWORDS",
+    "BustIconID": "Card_SWORD_CURVED",
+    "Price": 210,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "SWORD",
+      "ID": "SUPERIOR_DRAGOON_SWORDS",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        35.0,
+        350.0,
+        1125.0,
+        425.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        250.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        250.0
+      ]
+    }
+  },
+  {
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 3.6,
+      "MeleeDamage": 16.0,
+      "ChargeAttackDamage": 10.0
+    },
+    "ModelID": "Sword_01",
+    "WeaponType": "SWORD",
+    "ID": "SUPERIOR_CUIRASSIER_SWORDS",
+    "Name": "Weapon/SUPERIOR_CUIRASSIER_SWORDS/Name",
+    "Description": "Weapon/CUIRASSIER_SWORDS/Desc",
+    "InventoryIconID": "CUIRASSIER_SWORDS",
+    "BustIconID": "Card_SWORD_STRAIGHT",
+    "Price": 220,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "SWORD",
+      "ID": "SUPERIOR_CUIRASSIER_SWORDS",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        31.0,
+        310.0,
+        1085.0,
+        385.0
+      ],
+      "MinorBattleDropWeights": [
+        -100090.0,
+        -90.0,
+        410.0,
+        210.0
+      ],
+      "MajorBattleDropWeights": [
+        -1090.0,
+        160.0,
+        660.0,
+        210.0
+      ]
+    }
+  },
+  {
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 3.6,
+      "MeleeDamage": 16.0,
+      "ChargeAttackDamage": 16.0
+    },
+    "ModelID": "Sword_01",
+    "WeaponType": "SWORD",
+    "ID": "SUPERIOR_HEAVY_SABRES",
+    "Name": "Weapon/SUPERIOR_HEAVY_SABRES/Name",
+    "Description": "Weapon/HEAVY_SABRES/Desc",
+    "InventoryIconID": "HEAVY_SABRES",
+    "BustIconID": "Card_SWORD_CURVED",
+    "Price": 290,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "SWORD",
+      "ID": "SUPERIOR_HEAVY_SABRES",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        5.0,
+        50.0,
+        825.0,
+        125.0
+      ],
+      "MinorBattleDropWeights": [
+        -100350.0,
+        -350.0,
+        150.0,
+        -50.0
+      ],
+      "MajorBattleDropWeights": [
+        -1350.0,
+        -100.0,
+        400.0,
+        -50.0
+      ]
+    }
+  },
+  {
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 3.0,
+      "MeleeDamage": 10.0,
+      "ChargeAttackDamage": 14.0
+    },
+    "ModelID": "Sword_01",
+    "WeaponType": "SWORD",
+    "ID": "BASKET_HILT_BROADSWORDS",
+    "Name": "Weapon/BASKET_HILT_BROADSWORDS/Name",
+    "Description": "Weapon/BASKET_HILT_BROADSWORDS/Desc",
+    "InventoryIconID": "BASKET_HILT_BROADSWORDS",
+    "BustIconID": "Card_SWORD_STRAIGHT",
+    "Price": 180,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "SWORD",
+      "ID": "BASKET_HILT_BROADSWORDS",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        285.0,
+        50.0,
+        -175.0,
+        -75.0
+      ],
+      "MinorBattleDropWeights": [
+        -150.0,
+        -100.0,
+        -100.0,
+        -250.0
+      ],
+      "MajorBattleDropWeights": [
+        -150.0,
+        -100.0,
+        -100.0,
+        -250.0
+      ]
+    }
+  },
+  {
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 3.3,
+      "MeleeDamage": 12.0,
+      "ChargeAttackDamage": 16.0
+    },
+    "ModelID": "Sword_01",
+    "WeaponType": "SWORD",
+    "ID": "REINFORCED_BASKET_HILT_BROADSWORDS",
+    "Name": "Weapon/REINFORCED_BASKET_HILT_BROADSWORDS/Name",
+    "Description": "Weapon/BASKET_HILT_BROADSWORDS/Desc",
+    "InventoryIconID": "BASKET_HILT_BROADSWORDS",
+    "BustIconID": "Card_SWORD_STRAIGHT",
+    "Price": 230,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "UNCOMMON",
+    "Quality": "GOOD",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "SWORD",
+      "ID": "REINFORCED_BASKET_HILT_BROADSWORDS",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        85.0,
+        300.0,
+        325.0,
+        25.0
+      ],
+      "MinorBattleDropWeights": [
+        -950.0,
+        -100.0,
+        -100.0,
+        -150.0
+      ],
+      "MajorBattleDropWeights": [
+        -950.0,
+        -100.0,
+        -100.0,
+        -150.0
+      ]
+    }
+  },
+  {
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 3.6,
+      "MeleeDamage": 14.0,
+      "ChargeAttackDamage": 18.0
+    },
+    "ModelID": "Sword_01",
+    "WeaponType": "SWORD",
+    "ID": "SUPERIOR_BASKET_HILT_BROADSWORDS",
+    "Name": "Weapon/SUPERIOR_BASKET_HILT_BROADSWORDS/Name",
+    "Description": "Weapon/BASKET_HILT_BROADSWORDS/Desc",
+    "InventoryIconID": "BASKET_HILT_BROADSWORDS",
+    "BustIconID": "Card_SWORD_CURVED",
+    "Price": 280,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "SWORD",
+      "ID": "SUPERIOR_BASKET_HILT_BROADSWORDS",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        5.0,
+        50.0,
+        825.0,
+        125.0
+      ],
+      "MinorBattleDropWeights": [
+        -100350.0,
+        -350.0,
+        150.0,
+        -50.0
+      ],
+      "MajorBattleDropWeights": [
+        -1350.0,
+        -100.0,
+        400.0,
+        -50.0
+      ]
+    }
+  },
+  {
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 3.6,
+      "MeleeDamage": 19.0,
+      "ChargeAttackDamage": 14.0
+    },
+    "ModelID": "Sword_01",
+    "WeaponType": "SWORD",
+    "ID": "SUPERIOR_PALLASCH_SWORDS",
+    "Name": "Weapon/SUPERIOR_PALLASCH_SWORDS/Name",
+    "Description": "Weapon/PALLASCH_SWORDS/Desc",
+    "InventoryIconID": "PALLASCH_SWORDS",
+    "BustIconID": "Card_SWORD_CURVED",
+    "Price": 290,
+    "UnitTypeAllowed": "Cavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "SWORD",
+      "ID": "SUPERIOR_PALLASCH_SWORDS",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        5.0,
+        50.0,
+        825.0,
+        125.0
+      ],
+      "MinorBattleDropWeights": [
+        -100350.0,
+        -350.0,
+        150.0,
+        -50.0
+      ],
+      "MajorBattleDropWeights": [
+        -1350.0,
+        -100.0,
+        400.0,
+        -50.0
+      ]
+    }
+  }
+]

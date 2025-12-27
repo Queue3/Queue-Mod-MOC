@@ -1,0 +1,582 @@
+[
+  {
+    "Removable": true,
+    "AffixDuration": 10.0,
+    "BayonetDamageModifier": 2.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 10.0,
+    "BayonetBonusMeleeRange": 5.0,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 2.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -1.0,
+    "ReloadModifier": -1.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "WORN_BAYONET",
+    "Name": "Weapon/WORN_BAYONET/Name",
+    "Description": "Weapon/WORN_BAYONET/Desc",
+    "InventoryIconID": "WORN_BAYONET",
+    "BustIconID": "Card_WORN_BAYONET",
+    "Price": 20,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 1.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "WORN_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        -1400.0,
+        -1625.0,
+        -1850.0,
+        -1750.0
+      ],
+      "MinorBattleDropWeights": [
+        -1900.0,
+        -1850.0,
+        -1850.0,
+        -2000.0
+      ],
+      "MajorBattleDropWeights": [
+        -1900.0,
+        -1850.0,
+        -1850.0,
+        -2000.0
+      ]
+    }
+  },
+  {
+    "Removable": true,
+    "AffixDuration": 8.0,
+    "BayonetDamageModifier": 6.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 8.0,
+    "BayonetBonusMeleeRange": 5.0,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 6.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -2.0,
+    "ReloadModifier": -2.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "SOCKET_BAYONET",
+    "Name": "Weapon/SOCKET_BAYONET/Name",
+    "Description": "Weapon/SOCKET_BAYONET/Desc",
+    "InventoryIconID": "SOCKET_BAYONET",
+    "BustIconID": "Card_SOCKET_BAYONET",
+    "Price": 60,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "SOCKET_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        650.0,
+        425.0,
+        200.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        150.0,
+        200.0,
+        200.0,
+        50.0
+      ],
+      "MajorBattleDropWeights": [
+        150.0,
+        200.0,
+        200.0,
+        50.0
+      ]
+    }
+  },
+  {
+    "Removable": true,
+    "AffixDuration": 5.0,
+    "BayonetDamageModifier": 4.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 5.0,
+    "BayonetBonusMeleeRange": 3.0,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 8.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -1.0,
+    "ReloadModifier": -2.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "LIGHT_SOCKET_BAYONET",
+    "Name": "Weapon/LIGHT_SOCKET_BAYONET/Name",
+    "Description": "Weapon/LIGHT_SOCKET_BAYONET/Desc",
+    "InventoryIconID": "LIGHT_SOCKET_BAYONET",
+    "BustIconID": "Card_LIGHT_SOCKET_BAYONET",
+    "Price": 80,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 1.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "LIGHT_SOCKET_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        620.0,
+        395.0,
+        170.0,
+        270.0
+      ],
+      "MinorBattleDropWeights": [
+        120.0,
+        170.0,
+        170.0,
+        20.0
+      ],
+      "MajorBattleDropWeights": [
+        120.0,
+        170.0,
+        170.0,
+        20.0
+      ]
+    }
+  },
+  {
+    "Removable": true,
+    "AffixDuration": 14.0,
+    "BayonetDamageModifier": 8.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 14.0,
+    "BayonetBonusMeleeRange": 5.0,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 6.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -4.0,
+    "ReloadModifier": -2.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "HEAVY_SOCKET_BAYONET",
+    "Name": "Weapon/HEAVY_SOCKET_BAYONET/Name",
+    "Description": "Weapon/HEAVY_SOCKET_BAYONET/Desc",
+    "InventoryIconID": "HEAVY_SOCKET_BAYONET",
+    "BustIconID": "Card_HEAVY_SOCKET_BAYONET",
+    "Price": 120,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 3.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "HEAVY_SOCKET_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        550.0,
+        325.0,
+        100.0,
+        200.0
+      ],
+      "MinorBattleDropWeights": [
+        50.0,
+        100.0,
+        100.0,
+        -50.0
+      ],
+      "MajorBattleDropWeights": [
+        50.0,
+        100.0,
+        100.0,
+        -50.0
+      ]
+    }
+  },
+  {
+    "Removable": true,
+    "AffixDuration": 7.2,
+    "BayonetDamageModifier": 8.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 7.2,
+    "BayonetBonusMeleeRange": 5.5,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 8.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -2.0,
+    "ReloadModifier": -2.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "REINFORCED_SOCKET_BAYONET",
+    "Name": "Weapon/REINFORCED_SOCKET_BAYONET/Name",
+    "Description": "Weapon/SOCKET_BAYONET/Desc",
+    "InventoryIconID": "SOCKET_BAYONET",
+    "BustIconID": "Card_SOCKET_BAYONET",
+    "Price": 110,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "UNCOMMON",
+    "Quality": "GOOD",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "REINFORCED_SOCKET_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        450.0,
+        675.0,
+        700.0,
+        400.0
+      ],
+      "MinorBattleDropWeights": [
+        -650.0,
+        200.0,
+        200.0,
+        150.0
+      ],
+      "MajorBattleDropWeights": [
+        -650.0,
+        200.0,
+        200.0,
+        150.0
+      ]
+    }
+  },
+  {
+    "Removable": true,
+    "AffixDuration": 4.5,
+    "BayonetDamageModifier": 6.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 4.5,
+    "BayonetBonusMeleeRange": 3.3,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 10.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -1.0,
+    "ReloadModifier": -2.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "REINFORCED_LIGHT_SOCKET_BAYONET",
+    "Name": "Weapon/REINFORCED_LIGHT_SOCKET_BAYONET/Name",
+    "Description": "Weapon/LIGHT_SOCKET_BAYONET/Desc",
+    "InventoryIconID": "LIGHT_SOCKET_BAYONET",
+    "BustIconID": "Card_LIGHT_SOCKET_BAYONET",
+    "Price": 130,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "UNCOMMON",
+    "Quality": "GOOD",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 1.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "REINFORCED_LIGHT_SOCKET_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        420.0,
+        645.0,
+        670.0,
+        370.0
+      ],
+      "MinorBattleDropWeights": [
+        -680.0,
+        170.0,
+        170.0,
+        120.0
+      ],
+      "MajorBattleDropWeights": [
+        -680.0,
+        170.0,
+        170.0,
+        120.0
+      ]
+    }
+  },
+  {
+    "Removable": true,
+    "AffixDuration": 12.6,
+    "BayonetDamageModifier": 10.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 12.6,
+    "BayonetBonusMeleeRange": 5.5,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 8.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -4.0,
+    "ReloadModifier": -2.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "REINFORCED_HEAVY_SOCKET_BAYONET",
+    "Name": "Weapon/REINFORCED_HEAVY_SOCKET_BAYONET/Name",
+    "Description": "Weapon/HEAVY_SOCKET_BAYONET/Desc",
+    "InventoryIconID": "HEAVY_SOCKET_BAYONET",
+    "BustIconID": "Card_HEAVY_SOCKET_BAYONET",
+    "Price": 170,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "UNCOMMON",
+    "Quality": "GOOD",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 3.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "REINFORCED_HEAVY_SOCKET_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        350.0,
+        575.0,
+        600.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -750.0,
+        100.0,
+        100.0,
+        50.0
+      ],
+      "MajorBattleDropWeights": [
+        -750.0,
+        100.0,
+        100.0,
+        50.0
+      ]
+    }
+  },
+  {
+    "Removable": true,
+    "AffixDuration": 6.4,
+    "BayonetDamageModifier": 10.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 6.4,
+    "BayonetBonusMeleeRange": 6.0,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 10.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -2.0,
+    "ReloadModifier": -2.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "SUPERIOR_SOCKET_BAYONET",
+    "Name": "Weapon/SUPERIOR_SOCKET_BAYONET/Name",
+    "Description": "Weapon/SOCKET_BAYONET/Desc",
+    "InventoryIconID": "SOCKET_BAYONET",
+    "BustIconID": "Card_SOCKET_BAYONET",
+    "Price": 160,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "SUPERIOR_SOCKET_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        42.5,
+        425.0,
+        1200.0,
+        500.0
+      ],
+      "MinorBattleDropWeights": [
+        -100050.0,
+        -50.0,
+        450.0,
+        250.0
+      ],
+      "MajorBattleDropWeights": [
+        -1050.0,
+        200.0,
+        700.0,
+        250.0
+      ]
+    }
+  },
+  {
+    "Removable": true,
+    "AffixDuration": 4.0,
+    "BayonetDamageModifier": 8.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 4.0,
+    "BayonetBonusMeleeRange": 3.6,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 12.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -1.0,
+    "ReloadModifier": -2.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "SUPERIOR_LIGHT_SOCKET_BAYONET",
+    "Name": "Weapon/SUPERIOR_LIGHT_SOCKET_BAYONET/Name",
+    "Description": "Weapon/LIGHT_SOCKET_BAYONET/Desc",
+    "InventoryIconID": "LIGHT_SOCKET_BAYONET",
+    "BustIconID": "Card_LIGHT_SOCKET_BAYONET",
+    "Price": 180,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 1.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "SUPERIOR_LIGHT_SOCKET_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        39.5,
+        395.0,
+        1170.0,
+        470.0
+      ],
+      "MinorBattleDropWeights": [
+        -100080.0,
+        -80.0,
+        420.0,
+        220.0
+      ],
+      "MajorBattleDropWeights": [
+        -1080.0,
+        170.0,
+        670.0,
+        220.0
+      ]
+    }
+  },
+  {
+    "Removable": true,
+    "AffixDuration": 11.2,
+    "BayonetDamageModifier": 12.0,
+    "BayonetAttackSpeedModifier": 1.0,
+    "BayonetEquipSpeedModifier": 11.2,
+    "BayonetBonusMeleeRange": 6.0,
+    "StartEquipped": true,
+    "BayonetChargeDamage": 10.0,
+    "StaminaModifier": 0.0,
+    "AccuracyModifier": -4.0,
+    "ReloadModifier": -2.0,
+    "ModelID": "TEST_Weapon_01_BAYONET",
+    "WeaponType": "BAYONET",
+    "ID": "SUPERIOR_HEAVY_SOCKET_BAYONET",
+    "Name": "Weapon/SUPERIOR_HEAVY_SOCKET_BAYONET/Name",
+    "Description": "Weapon/HEAVY_SOCKET_BAYONET/Desc",
+    "InventoryIconID": "HEAVY_SOCKET_BAYONET",
+    "BustIconID": "Card_HEAVY_SOCKET_BAYONET",
+    "Price": 220,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 3.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": null,
+      "WeaponType": "BAYONET",
+      "ID": "SUPERIOR_HEAVY_SOCKET_BAYONET",
+      "ItemType": "WEAPON",
+      "Qunatity": 1,
+      "ShopWeights": [
+        32.5,
+        325.0,
+        1100.0,
+        400.0
+      ],
+      "MinorBattleDropWeights": [
+        -100150.0,
+        -150.0,
+        350.0,
+        150.0
+      ],
+      "MajorBattleDropWeights": [
+        -1150.0,
+        100.0,
+        600.0,
+        150.0
+      ]
+    }
+  }
+]

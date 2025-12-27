@@ -1,0 +1,1039 @@
+[
+  {
+    "Nationality": "PRU",
+    "BayonetSlot": true,
+    "Range": 143.75,
+    "EffectiveRange": 56.0,
+    "Accuracy": 0.224,
+    "MinAccuracy": 0.046,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 32.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 16.0,
+      "ChargeAttackDamage": 8.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "MUSKET",
+    "ID": "SUPERIOR_POTZDAM_MUSKET",
+    "Name": "Weapon/SUPERIOR_POTZDAM_MUSKET/Name",
+    "Description": "Weapon/POTZDAM_MUSKET/Desc",
+    "InventoryIconID": "REINFORCED_POTZDAM_MUSKET",
+    "BustIconID": "Card_POTZDAM_MUSKET",
+    "Price": 280,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "PRU",
+      "WeaponType": "MUSKET",
+      "ID": "SUPERIOR_POTZDAM_MUSKET",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        45.0,
+        450.0,
+        1250.0,
+        550.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "Nationality": "PRU",
+    "BayonetSlot": true,
+    "Range": 103.5,
+    "EffectiveRange": 42.0,
+    "Accuracy": 0.112,
+    "MinAccuracy": 0.023,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 24.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 4.0,
+      "MeleeDamage": 10.0,
+      "ChargeAttackDamage": 6.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "CARBINE",
+    "ID": "SUPERIOR_POTZDAM_CARBINE",
+    "Name": "Weapon/SUPERIOR_POTZDAM_CARBINE/Name",
+    "Description": "Weapon/POTZDAM_CARBINE/Desc",
+    "InventoryIconID": "REINFORCED_POTZDAM_CARBINE",
+    "BustIconID": "Card_POTZDAM_CARBINE",
+    "Price": 260,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "PRU",
+      "WeaponType": "CARBINE",
+      "ID": "SUPERIOR_POTZDAM_CARBINE",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -275.0,
+        225.0,
+        25.0
+      ],
+      "MajorBattleDropWeights": [
+        -1275.0,
+        -25.0,
+        475.0,
+        25.0
+      ]
+    }
+  },
+  {
+    "Nationality": "AUS",
+    "BayonetSlot": true,
+    "Range": 149.5,
+    "EffectiveRange": 56.0,
+    "Accuracy": 0.266,
+    "MinAccuracy": 0.054625,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 41.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 14.0,
+      "ChargeAttackDamage": 15.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "MUSKET",
+    "ID": "SUPERIOR_NEUSTADT_MUSKET",
+    "Name": "Weapon/SUPERIOR_NEUSTADT_MUSKET/Name",
+    "Description": "Weapon/NEUSTADT_MUSKET/Desc",
+    "InventoryIconID": "REINFORCED_NEUSTADT_MUSKET",
+    "BustIconID": "Card_NEUSTADT_MUSKET",
+    "Price": 275,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "AUS",
+      "WeaponType": "MUSKET",
+      "ID": "SUPERIOR_NEUSTADT_MUSKET",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        45.0,
+        450.0,
+        1250.0,
+        550.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "Nationality": "AUS",
+    "BayonetSlot": true,
+    "Range": 109.25,
+    "EffectiveRange": 42.0,
+    "Accuracy": 0.154,
+    "MinAccuracy": 0.031625,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 33.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 4.0,
+      "MeleeDamage": 8.0,
+      "ChargeAttackDamage": 13.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "CARBINE",
+    "ID": "SUPERIOR_NEUSTADT_CARBINE",
+    "Name": "Weapon/SUPERIOR_NEUSTADT_CARBINE/Name",
+    "Description": "Weapon/NEUSTADT_CARBINE/Desc",
+    "InventoryIconID": "REINFORCED_NEUSTADT_CARBINE",
+    "BustIconID": "Card_NEUSTADT_CARBINE",
+    "Price": 255,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "AUS",
+      "WeaponType": "CARBINE",
+      "ID": "SUPERIOR_NEUSTADT_CARBINE",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -275.0,
+        225.0,
+        25.0
+      ],
+      "MajorBattleDropWeights": [
+        -1275.0,
+        -25.0,
+        475.0,
+        25.0
+      ]
+    }
+  },
+  {
+    "Nationality": "RUS",
+    "BayonetSlot": true,
+    "Range": 143.75,
+    "EffectiveRange": 56.0,
+    "Accuracy": 0.182,
+    "MinAccuracy": 0.037375,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 35.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 21.0,
+      "ChargeAttackDamage": 15.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "MUSKET",
+    "ID": "SUPERIOR_TULA_MUSKET",
+    "Name": "Weapon/SUPERIOR_TULA_MUSKET/Name",
+    "Description": "Weapon/TULA_MUSKET/Desc",
+    "InventoryIconID": "REINFORCED_TULA_MUSKET",
+    "BustIconID": "Card_TULA_MUSKET",
+    "Price": 265,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "RUS",
+      "WeaponType": "MUSKET",
+      "ID": "SUPERIOR_TULA_MUSKET",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        45.0,
+        450.0,
+        1250.0,
+        550.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "Nationality": "RUS",
+    "BayonetSlot": true,
+    "Range": 103.5,
+    "EffectiveRange": 42.0,
+    "Accuracy": 0.07,
+    "MinAccuracy": 0.014375,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 27.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 4.0,
+      "MeleeDamage": 15.0,
+      "ChargeAttackDamage": 13.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "CARBINE",
+    "ID": "SUPERIOR_TULA_CARBINE",
+    "Name": "Weapon/SUPERIOR_TULA_CARBINE/Name",
+    "Description": "Weapon/TULA_CARBINE/Desc",
+    "InventoryIconID": "REINFORCED_TULA_CARBINE",
+    "BustIconID": "Card_TULA_CARBINE",
+    "Price": 245,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "RUS",
+      "WeaponType": "CARBINE",
+      "ID": "SUPERIOR_TULA_CARBINE",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -275.0,
+        225.0,
+        25.0
+      ],
+      "MajorBattleDropWeights": [
+        -1275.0,
+        -25.0,
+        475.0,
+        25.0
+      ]
+    }
+  },
+  {
+    "Nationality": "FRA",
+    "BayonetSlot": true,
+    "Range": 155.25,
+    "EffectiveRange": 56.0,
+    "Accuracy": 0.266,
+    "MinAccuracy": 0.054625,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 38.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 12.0,
+      "ChargeAttackDamage": 12.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "MUSKET",
+    "ID": "SUPERIOR_CHARLEVILLE_MUSKET",
+    "Name": "Weapon/SUPERIOR_CHARLEVILLE_MUSKET/Name",
+    "Description": "Weapon/CHARLEVILLE_MUSKET/Desc",
+    "InventoryIconID": "REINFORCED_CHARLEVILLE_MUSKET",
+    "BustIconID": "Card_CHARLEVILLE_MUSKET",
+    "Price": 300,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "FRA",
+      "WeaponType": "MUSKET",
+      "ID": "SUPERIOR_CHARLEVILLE_MUSKET",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        45.0,
+        450.0,
+        1250.0,
+        550.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "Nationality": "FRA",
+    "BayonetSlot": true,
+    "Range": 115.0,
+    "EffectiveRange": 42.0,
+    "Accuracy": 0.154,
+    "MinAccuracy": 0.031625,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 30.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 4.0,
+      "MeleeDamage": 6.0,
+      "ChargeAttackDamage": 10.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "CARBINE",
+    "ID": "SUPERIOR_CHARLEVILLE_CARBINE",
+    "Name": "Weapon/SUPERIOR_CHARLEVILLE_CARBINE/Name",
+    "Description": "Weapon/CHARLEVILLE_CARBINE/Desc",
+    "InventoryIconID": "REINFORCED_CHARLEVILLE_CARBINE",
+    "BustIconID": "Card_CHARLEVILLE_CARBINE",
+    "Price": 280,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "FRA",
+      "WeaponType": "CARBINE",
+      "ID": "SUPERIOR_CHARLEVILLE_CARBINE",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -275.0,
+        225.0,
+        25.0
+      ],
+      "MajorBattleDropWeights": [
+        -1275.0,
+        -25.0,
+        475.0,
+        25.0
+      ]
+    }
+  },
+  {
+    "Nationality": "GBR",
+    "BayonetSlot": true,
+    "Range": 138.0,
+    "EffectiveRange": 56.0,
+    "Accuracy": 0.308,
+    "MinAccuracy": 0.06325,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 38.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 19.0,
+      "ChargeAttackDamage": 12.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "MUSKET",
+    "ID": "SUPERIOR_BROWNBESS_MUSKET",
+    "Name": "Weapon/SUPERIOR_BROWNBESS_MUSKET/Name",
+    "Description": "Weapon/BROWNBESS_MUSKET/Desc",
+    "InventoryIconID": "REINFORCED_BROWNBESS_MUSKET",
+    "BustIconID": "Card_BROWNBESS_MUSKET",
+    "Price": 290,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "GBR",
+      "WeaponType": "MUSKET",
+      "ID": "SUPERIOR_BROWNBESS_MUSKET",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        45.0,
+        450.0,
+        1250.0,
+        550.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "Nationality": "GBR",
+    "BayonetSlot": true,
+    "Range": 97.75,
+    "EffectiveRange": 42.0,
+    "Accuracy": 0.196,
+    "MinAccuracy": 0.04025,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 30.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 4.0,
+      "MeleeDamage": 13.0,
+      "ChargeAttackDamage": 10.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "CARBINE",
+    "ID": "SUPERIOR_BROWNBESS_CARBINE",
+    "Name": "Weapon/SUPERIOR_BROWNBESS_CARBINE/Name",
+    "Description": "Weapon/BROWNBESS_CARBINE/Desc",
+    "InventoryIconID": "REINFORCED_BROWNBESS_CARBINE",
+    "BustIconID": "Card_BROWNBESS_CARBINE",
+    "Price": 270,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "GBR",
+      "WeaponType": "CARBINE",
+      "ID": "SUPERIOR_BROWNBESS_CARBINE",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -275.0,
+        225.0,
+        25.0
+      ],
+      "MajorBattleDropWeights": [
+        -1275.0,
+        -25.0,
+        475.0,
+        25.0
+      ]
+    }
+  },
+  {
+    "Nationality": "HRE",
+    "BayonetSlot": true,
+    "Range": 172.5,
+    "EffectiveRange": 56.0,
+    "Accuracy": 0.392,
+    "MinAccuracy": 0.0805,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 44.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 12.0,
+      "ChargeAttackDamage": 8.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "MUSKET",
+    "ID": "SUPERIOR_JAGER_RIFLE",
+    "Name": "Weapon/SUPERIOR_JAGER_RIFLE/Name",
+    "Description": "Weapon/JAGER_RIFLE/Desc",
+    "InventoryIconID": "REINFORCED_JAGER_RIFLE",
+    "BustIconID": "Card_JAGER_RIFLE",
+    "Price": 450,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "HRE",
+      "WeaponType": "MUSKET",
+      "ID": "SUPERIOR_JAGER_RIFLE",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        7.5,
+        75.0,
+        750.0,
+        50.0
+      ],
+      "MinorBattleDropWeights": [
+        -100600.0,
+        -600.0,
+        -100.0,
+        -300.0
+      ],
+      "MajorBattleDropWeights": [
+        -1600.0,
+        -350.0,
+        150.0,
+        -300.0
+      ]
+    }
+  },
+  {
+    "Nationality": "HRE",
+    "BayonetSlot": true,
+    "Range": 143.75,
+    "EffectiveRange": 56.0,
+    "Accuracy": 0.266,
+    "MinAccuracy": 0.054625,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 38.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 16.0,
+      "ChargeAttackDamage": 15.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "MUSKET",
+    "ID": "SUPERIOR_SUHL_MUSKET",
+    "Name": "Weapon/SUPERIOR_SUHL_MUSKET/Name",
+    "Description": "Weapon/SUHL_MUSKET/Desc",
+    "InventoryIconID": "REINFORCED_SUHL_MUSKET",
+    "BustIconID": "Card_SUHL_MUSKET",
+    "Price": 275,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "HRE",
+      "WeaponType": "MUSKET",
+      "ID": "SUPERIOR_SUHL_MUSKET",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        45.0,
+        450.0,
+        1250.0,
+        550.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "Nationality": "HRE",
+    "BayonetSlot": true,
+    "Range": 103.5,
+    "EffectiveRange": 42.0,
+    "Accuracy": 0.154,
+    "MinAccuracy": 0.031625,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 30.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 10.0,
+      "ChargeAttackDamage": 13.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "CARBINE",
+    "ID": "SUPERIOR_SUHL_CARBINE",
+    "Name": "Weapon/SUPERIOR_SUHL_CARBINE/Name",
+    "Description": "Weapon/SUHL_CARBINE/Desc",
+    "InventoryIconID": "REINFORCED_SUHL_CARBINE",
+    "BustIconID": "Card_SUHL_CARBINE",
+    "Price": 255,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "HRE",
+      "WeaponType": "CARBINE",
+      "ID": "SUPERIOR_SUHL_CARBINE",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -275.0,
+        225.0,
+        25.0
+      ],
+      "MajorBattleDropWeights": [
+        -1275.0,
+        -25.0,
+        475.0,
+        25.0
+      ]
+    }
+  },
+  {
+    "Nationality": "GEN",
+    "BayonetSlot": true,
+    "Range": 138.0,
+    "EffectiveRange": 56.0,
+    "Accuracy": 0.266,
+    "MinAccuracy": 0.054625,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 41.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 21.0,
+      "ChargeAttackDamage": 17.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "MUSKET",
+    "ID": "SUPERIOR_JONKOPING_MUSKET",
+    "Name": "Weapon/SUPERIOR_JONKOPING_MUSKET/Name",
+    "Description": "Weapon/JONKOPING_MUSKET/Desc",
+    "InventoryIconID": "REINFORCED_JONKOPING_MUSKET",
+    "BustIconID": "Card_JONKOPING_MUSKET",
+    "Price": 260,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "GEN",
+      "WeaponType": "MUSKET",
+      "ID": "SUPERIOR_JONKOPING_MUSKET",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        45.0,
+        450.0,
+        1250.0,
+        550.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "Nationality": "GEN",
+    "BayonetSlot": true,
+    "Range": 97.75,
+    "EffectiveRange": 42.0,
+    "Accuracy": 0.154,
+    "MinAccuracy": 0.031625,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 33.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 4.0,
+      "MeleeDamage": 15.0,
+      "ChargeAttackDamage": 15.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "CARBINE",
+    "ID": "SUPERIOR_JONKOPING_CARBINE",
+    "Name": "Weapon/SUPERIOR_JONKOPING_CARBINE/Name",
+    "Description": "Weapon/JONKOPING_CARBINE/Desc",
+    "InventoryIconID": "REINFORCED_JONKOPING_CARBINE",
+    "BustIconID": "Card_JONKOPING_CARBINE",
+    "Price": 240,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "GEN",
+      "WeaponType": "CARBINE",
+      "ID": "SUPERIOR_JONKOPING_CARBINE",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -275.0,
+        225.0,
+        25.0
+      ],
+      "MajorBattleDropWeights": [
+        -1275.0,
+        -25.0,
+        475.0,
+        25.0
+      ]
+    }
+  },
+  {
+    "Nationality": "GEN",
+    "BayonetSlot": true,
+    "Range": 149.5,
+    "EffectiveRange": 56.0,
+    "Accuracy": 0.224,
+    "MinAccuracy": 0.046,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 35.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 10.0,
+      "MeleeDamage": 14.0,
+      "ChargeAttackDamage": 12.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "MUSKET",
+    "ID": "SUPERIOR_DELFT_MUSKET",
+    "Name": "Weapon/SUPERIOR_DELFT_MUSKET/Name",
+    "Description": "Weapon/DELFT_MUSKET/Desc",
+    "InventoryIconID": "REINFORCED_DELFT_MUSKET",
+    "BustIconID": "Card_DELFT_MUSKET",
+    "Price": 265,
+    "UnitTypeAllowed": "Infantry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "GEN",
+      "WeaponType": "MUSKET",
+      "ID": "SUPERIOR_DELFT_MUSKET",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        45.0,
+        450.0,
+        1250.0,
+        550.0
+      ],
+      "MinorBattleDropWeights": [
+        -100100.0,
+        -100.0,
+        400.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -1100.0,
+        150.0,
+        650.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "Nationality": "GEN",
+    "BayonetSlot": true,
+    "Range": 109.25,
+    "EffectiveRange": 42.0,
+    "Accuracy": 0.112,
+    "MinAccuracy": 0.023,
+    "AccuracyRandomness": 0.0675,
+    "FatigueUsage": 0.005,
+    "ProjectileType": "BULLET",
+    "ProjectileRenderer": "BASIC",
+    "ReloadTime": 27.0,
+    "CanBeUsedInMelee": true,
+    "MeleeComponentData": {
+      "MeleeAttackSpeed": 0.0,
+      "MeleeRange": 4.0,
+      "MeleeDamage": 13.0,
+      "ChargeAttackDamage": 10.0
+    },
+    "ReloadSupplyCost": 1.0,
+    "ModelID": "TEST_Weapon_01",
+    "WeaponType": "CARBINE",
+    "ID": "SUPERIOR_DELFT_CARBINE",
+    "Name": "Weapon/SUPERIOR_DELFT_CARBINE/Name",
+    "Description": "Weapon/DELFT_CARBINE/Desc",
+    "InventoryIconID": "REINFORCED_DELFT_CARBINE",
+    "BustIconID": "Card_DELFT_CARBINE",
+    "Price": 245,
+    "UnitTypeAllowed": "InfantryAndCavalry",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
+    "ItemType": "WEAPON",
+    "Variables": [],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
+      "Nationality": "GEN",
+      "WeaponType": "CARBINE",
+      "ID": "SUPERIOR_DELFT_CARBINE",
+      "ItemType": "WEAPON",
+      "Qunatity": 0,
+      "ShopWeights": [
+        20.0,
+        200.0,
+        1000.0,
+        300.0
+      ],
+      "MinorBattleDropWeights": [
+        -100200.0,
+        -275.0,
+        225.0,
+        25.0
+      ],
+      "MajorBattleDropWeights": [
+        -1275.0,
+        -25.0,
+        475.0,
+        25.0
+      ]
+    }
+  }
+]

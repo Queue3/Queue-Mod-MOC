@@ -1,0 +1,194 @@
+{
+  "PRU_TUTORIAL": {
+    "ID": "PRU_TUTORIAL",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "PRU_Provincial_Cavalry",
+      "PRU_Cantonist_Recruits",
+	  "PRU_Cantonist_Recruits",
+      "PRU_Cantonist_Recruits"
+    ],
+    "BustID": "PRU_Cantonist_Recruits",
+    "NationID": "PRU",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "PRU_TUTORIAL2": {
+    "ID": "PRU_TUTORIAL2",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "PRU_Freikorps_Provincial_Cavalry",
+      "PRU_Freikorps_Recruits",
+	  "PRU_Freikorps_Recruits",
+      "PRU_Freikorps_Recruits"
+    ],
+    "BustID": "PRU_Freikorps_Recruits",
+    "NationID": "PRU",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "AUS_TUTORIAL": {
+    "ID": "AUS_TUTORIAL",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "AUS_Provincial_Cavalry",
+      "AUS_German_Recruit",
+	  "AUS_German_Recruit",
+      "AUS_German_Recruit"
+    ],
+    "BustID": "AUS_German_Recruit",
+    "NationID": "AUS",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "AUS_TUTORIAL2": {
+    "ID": "AUS_TUTORIAL2",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "AUS_Grenzer_Provincial_Cavalry",
+      "AUS_Foreign_Recruit",
+	  "AUS_Foreign_Recruit",
+      "AUS_Foreign_Recruit"
+    ],
+    "BustID": "AUS_Foreign_Recruit",
+    "NationID": "AUS",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "RUS_TUTORIAL": {
+    "ID": "RUS_TUTORIAL",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "RUS_Provincial_Cavalry",
+      "RUS_Volunteer_Recruits",
+	  "RUS_Volunteer_Recruits",
+      "RUS_Volunteer_Recruits"
+    ],
+    "BustID": "RUS_Volunteer_Recruits",
+    "NationID": "RUS",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "RUS_TUTORIAL2": {
+    "ID": "RUS_TUTORIAL2",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "RUS_Cossack_Riders",
+      "RUS_Frontier_Recruits",
+	  "RUS_Frontier_Recruits",
+      "RUS_Frontier_Recruits"
+    ],
+    "BustID": "RUS_Frontier_Recruits",
+    "NationID": "RUS",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "GBR_TUTORIAL": {
+    "ID": "GBR_TUTORIAL",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "GBR_British_Provincial_Cavalry",
+      "GBR_British_Recruits",
+	  "GBR_British_Recruits",
+      "GBR_British_Recruits"
+    ],
+    "BustID": "GBR_British_Recruits",
+    "NationID": "GBR",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "GBR_TUTORIAL2": {
+    "ID": "GBR_TUTORIAL2",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "GBR_German_Provincial_Cavalry",
+      "GBR_German_Recruits",
+	  "GBR_German_Recruits",
+      "GBR_German_Recruits"
+    ],
+    "BustID": "GBR_German_Recruits",
+    "NationID": "GBR",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "FRA_TUTORIAL": {
+    "ID": "FRA_TUTORIAL",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "FRA_French_Provincial_Cavalry",
+      "FRA_Royal_Recruits",
+	  "FRA_Royal_Recruits",
+      "FRA_Royal_Recruits"
+    ],
+    "BustID": "FRA_French_Provincial_Cavalry",
+    "NationID": "FRA",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "FRA_TUTORIAL2": {
+    "ID": "FRA_TUTORIAL2",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "FRA_Volontaires_Provincial_Cavalry",
+      "FRA_Royal_Recruits",
+	  "FRA_Royal_Recruits",
+      "FRA_Royal_Recruits"
+    ],
+    "BustID": "FRA_Royal_Recruits",
+    "NationID": "FRA",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "HRE_TUTORIAL": {
+    "ID": "HRE_TUTORIAL",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "HRE_Imperial_Provincial_Cavalry",
+      "HRE_Imperial_Recruits",
+	  "HRE_Imperial_Recruits",
+      "HRE_Imperial_Recruits"
+    ],
+    "BustID": "HRE_Imperial_Recruits",
+    "NationID": "HRE",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  },
+  "HRE_TUTORIAL2": {
+    "ID": "HRE_TUTORIAL2",
+    "Tag": "TUTORIAL",
+    "Units": [
+      "HRE_Saxon_Chevauxlegers",
+      "HRE_Saxon_Recruits",
+	  "HRE_Saxon_Recruits",
+      "HRE_Saxon_Recruits"
+    ],
+    "BustID": "HRE_Saxon_Recruits",
+    "NationID": "HRE",
+    "EasyWeight": 100.0,
+    "NormalWeight": 0.0,
+    "HardWeight": 0.0,
+    "VeryHardWeight": 0.0
+  }
+}

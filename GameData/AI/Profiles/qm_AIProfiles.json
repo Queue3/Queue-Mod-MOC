@@ -1,0 +1,486 @@
+[
+  {
+    "ID": "DEFAULT",
+    "DefaultWeight": 100.0,
+    "ArtillerySuperiorityCount": {
+      "x": 1,
+      "y": 4
+    },
+    "ArtilleryToCavProtectionRatio": {
+      "x": 2,
+      "y": 2
+    },
+    "InfantryMoraleThresholdToCharge": {
+      "x": 30.0,
+      "y": 30.0
+    },
+    "InfantryMeleeSkillChargeWeightModifier": {
+      "x": 0.8,
+      "y": 1.25
+    },
+    "InfantryAmmoPercentToAllowCharge": {
+      "x": 80.0,
+      "y": 95.0
+    },
+    "InfantryMaxDistanceToAllowCharge": {
+      "x": 0.8,
+      "y": 1.0
+    },
+    "InfantrySkillDifferenceToAllowcharge": {
+      "x": 10.0,
+      "y": 30.0
+    },
+    "AIInfantrySupplyThresholdChargeValues": {
+      "x": 15.0,
+      "y": 50.0,
+      "z": 25.0,
+      "w": 100.0
+    },
+    "BaseReloadProgressBeforeAllowedToMove": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "DistanceToEnemyUnitRequiredForMudCreekTerrainToSprint": {
+      "x": 300.0,
+      "y": 300.0
+    },
+    "DistanceToEnemyUnitRequireForForestFarmlandMountainToSprint": {
+      "x": 200.0,
+      "y": 200.0
+    },
+    "ArtillerySwitchTargetDistanceCloserMultiplier": {
+      "x": 0.85,
+      "y": 0.85
+    },
+    "ArtilleryWeightToAttackGeneral": {
+      "x": -200.0,
+      "y": -200.0
+    },
+    "ArtilleryWeightToAttackSupplyCaravan": {
+      "x": -300.0,
+      "y": -300.0
+    },
+    "ArtilleryWeightToAttackLightInfantry": {
+      "x": -500.0,
+      "y": -500.0
+    },
+    "ArtilleryWeightToAttackInfantry": {
+      "x": 100.0,
+      "y": 100.0
+    },
+    "ArtilleryWeightToAttackCavalry": {
+      "x": 50.0,
+      "y": 50.0
+    },
+    "ArtilleryWeightToAttackArtillery": {
+      "x": 15.0,
+      "y": 15.0
+    },
+    "ArtilleryMaxTargetsAssignedMaxWeight": {
+      "x": 300,
+      "y": 300
+    },
+    "ArtilleryDistanceWeightMax": {
+      "x": 400.0,
+      "y": 400.0
+    },
+    "CavalryEngagementAmountRequiredForHighAggresion": {
+      "x": 75.0,
+      "y": 75.0
+    },
+    "CavalryEngagementAmountRequiredForVeryHighAggresion": {
+      "x": 90.0,
+      "y": 90.0
+    },
+    "CavalryRetreatingAmountRequiredForVeryHighAggresion": {
+      "x": 22.0,
+      "y": 22.0
+    },
+    "CavalryRetreatingAmountRequiredForUltraAggresion": {
+      "x": 45.0,
+      "y": 45.0
+    },
+    "CavalryMaxTimeAllowedInUltraAggressionState": {
+      "x": 120.0,
+      "y": 120.0
+    },
+    "CavIsolationMediumAggresionIsolationTotalPointsAvailable": {
+      "x": 1,
+      "y": 1
+    },
+    "CavIsolationHighAggresionIsolationTotalPointsAvailable": {
+      "x": 2,
+      "y": 2
+    },
+    "CavIsolationVeryHighAggresionIsolationTotalPointsAvailable": {
+      "x": 2,
+      "y": 2
+    },
+    "CavIsolationMediumAggresionAllowChargeInfantry": false,
+    "CavIsolationHighAggresionAllowChargeInfantry": false,
+    "CavIsolationVeryHighAggresionAllowChargeInfantry": true
+  },
+  {
+    "ID": "MELEE_AGGRESSION",
+    "DefaultWeight": 100.0,
+    "ArtillerySuperiorityCount": {
+      "x": 1,
+      "y": 4
+    },
+    "ArtilleryToCavProtectionRatio": {
+      "x": 1,
+      "y": 1
+    },
+    "InfantryMoraleThresholdToCharge": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "InfantryMeleeSkillChargeWeightModifier": {
+      "x": 1.6,
+      "y": 2.5
+    },
+    "InfantryAmmoPercentToAllowCharge": {
+      "x": 100.0,
+      "y": 100.0
+    },
+    "InfantryMaxDistanceToAllowCharge": {
+      "x": 1.6,
+      "y": 2.0
+    },
+    "InfantrySkillDifferenceToAllowcharge": {
+      "x": 5.0,
+      "y": 60.0
+    },
+    "AIInfantrySupplyThresholdChargeValues": {
+      "x": 15.0,
+      "y": 50.0,
+      "z": 25.0,
+      "w": 100.0
+    },
+    "BaseReloadProgressBeforeAllowedToMove": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "DistanceToEnemyUnitRequiredForMudCreekTerrainToSprint": {
+      "x": 300.0,
+      "y": 300.0
+    },
+    "DistanceToEnemyUnitRequireForForestFarmlandMountainToSprint": {
+      "x": 200.0,
+      "y": 200.0
+    },
+    "ArtillerySwitchTargetDistanceCloserMultiplier": {
+      "x": 0.85,
+      "y": 0.85
+    },
+    "ArtilleryWeightToAttackGeneral": {
+      "x": -200.0,
+      "y": -200.0
+    },
+    "ArtilleryWeightToAttackSupplyCaravan": {
+      "x": -300.0,
+      "y": -300.0
+    },
+    "ArtilleryWeightToAttackLightInfantry": {
+      "x": -500.0,
+      "y": -500.0
+    },
+    "ArtilleryWeightToAttackInfantry": {
+      "x": 100.0,
+      "y": 100.0
+    },
+    "ArtilleryWeightToAttackCavalry": {
+      "x": 50.0,
+      "y": 50.0
+    },
+    "ArtilleryWeightToAttackArtillery": {
+      "x": 15.0,
+      "y": 15.0
+    },
+    "ArtilleryMaxTargetsAssignedMaxWeight": {
+      "x": 300,
+      "y": 300
+    },
+    "ArtilleryDistanceWeightMax": {
+      "x": 400.0,
+      "y": 400.0
+    },
+    "CavalryEngagementAmountRequiredForHighAggresion": {
+      "x": 50.0,
+      "y": 50.0
+    },
+    "CavalryEngagementAmountRequiredForVeryHighAggresion": {
+      "x": 75.0,
+      "y": 75.0
+    },
+    "CavalryRetreatingAmountRequiredForVeryHighAggresion": {
+      "x": 22.0,
+      "y": 22.0
+    },
+    "CavalryRetreatingAmountRequiredForUltraAggresion": {
+      "x": 45.0,
+      "y": 45.0
+    },
+    "CavalryMaxTimeAllowedInUltraAggressionState": {
+      "x": 240.0,
+      "y": 240.0
+    },
+    "CavIsolationMediumAggresionIsolationTotalPointsAvailable": {
+      "x": 2,
+      "y": 2
+    },
+    "CavIsolationHighAggresionIsolationTotalPointsAvailable": {
+      "x": 3,
+      "y": 3
+    },
+    "CavIsolationVeryHighAggresionIsolationTotalPointsAvailable": {
+      "x": 4,
+      "y": 4
+    },
+    "CavIsolationMediumAggresionAllowChargeInfantry": true,
+    "CavIsolationHighAggresionAllowChargeInfantry": true,
+    "CavIsolationVeryHighAggresionAllowChargeInfantry": true
+  },
+  {
+    "ID": "QM_RANGED_AGGRESSION",
+    "DefaultWeight": 100.0,
+    "ArtillerySuperiorityCount": {
+      "x": 1,
+      "y": 4
+    },
+    "ArtilleryToCavProtectionRatio": {
+      "x": 1,
+      "y": 1
+    },
+    "InfantryMoraleThresholdToCharge": {
+      "x": 45.0,
+      "y": 45.0
+    },
+    "InfantryMeleeSkillChargeWeightModifier": {
+      "x": 0.9,
+      "y": 1.125
+    },
+    "InfantryAmmoPercentToAllowCharge": {
+      "x": 60.0,
+      "y": 90.0
+    },
+    "InfantryMaxDistanceToAllowCharge": {
+      "x": 0.4,
+      "y": 0.5
+    },
+    "InfantrySkillDifferenceToAllowcharge": {
+      "x": 5.0,
+      "y": 15.0
+    },
+    "AIInfantrySupplyThresholdChargeValues": {
+      "x": 15.0,
+      "y": 50.0,
+      "z": 25.0,
+      "w": 100.0
+    },
+    "BaseReloadProgressBeforeAllowedToMove": {
+      "x": 0,
+      "y": 0
+    },
+    "DistanceToEnemyUnitRequiredForMudCreekTerrainToSprint": {
+      "x": 300.0,
+      "y": 300.0
+    },
+    "DistanceToEnemyUnitRequireForForestFarmlandMountainToSprint": {
+      "x": 200.0,
+      "y": 200.0
+    },
+    "ArtillerySwitchTargetDistanceCloserMultiplier": {
+      "x": 0.9,
+      "y": 0.9
+    },
+    "ArtilleryWeightToAttackGeneral": {
+      "x": -200.0,
+      "y": -200.0
+    },
+    "ArtilleryWeightToAttackSupplyCaravan": {
+      "x": -300.0,
+      "y": -300.0
+    },
+    "ArtilleryWeightToAttackLightInfantry": {
+      "x": -500.0,
+      "y": -500.0
+    },
+    "ArtilleryWeightToAttackInfantry": {
+      "x": 200.0,
+      "y": 200.0
+    },
+    "ArtilleryWeightToAttackCavalry": {
+      "x": 50.0,
+      "y": 50.0
+    },
+    "ArtilleryWeightToAttackArtillery": {
+      "x": 15.0,
+      "y": 15.0
+    },
+    "ArtilleryMaxTargetsAssignedMaxWeight": {
+      "x": 300,
+      "y": 300
+    },
+	"ArtilleryDistanceWeightMax": {
+      "x": 400.0,
+      "y": 400.0
+    },
+    "CavalryEngagementAmountRequiredForHighAggresion": {
+      "x": 50.0,
+      "y": 50.0
+    },
+    "CavalryEngagementAmountRequiredForVeryHighAggresion": {
+      "x": 75.0,
+      "y": 75.0
+    },
+    "CavalryRetreatingAmountRequiredForVeryHighAggresion": {
+      "x": 22.0,
+      "y": 22.0
+    },
+    "CavalryRetreatingAmountRequiredForUltraAggresion": {
+      "x": 45.0,
+      "y": 45.0
+    },
+    "CavalryMaxTimeAllowedInUltraAggressionState": {
+      "x": 240.0,
+      "y": 240.0
+    },
+    "CavIsolationMediumAggresionIsolationTotalPointsAvailable": {
+      "x": 2,
+      "y": 2
+    },
+    "CavIsolationHighAggresionIsolationTotalPointsAvailable": {
+      "x": 3,
+      "y": 3
+    },
+    "CavIsolationVeryHighAggresionIsolationTotalPointsAvailable": {
+      "x": 4,
+      "y": 4
+    },
+    "CavIsolationMediumAggresionAllowChargeInfantry": true,
+    "CavIsolationHighAggresionAllowChargeInfantry": true,
+    "CavIsolationVeryHighAggresionAllowChargeInfantry": true
+  },
+  {
+    "ID": "QM_DEFENCE",
+    "DefaultWeight": 100.0,
+    "ArtillerySuperiorityCount": {
+      "x": 2,
+      "y": 8
+    },
+    "ArtilleryToCavProtectionRatio": {
+      "x": 4,
+      "y": 4
+    },
+    "InfantryMoraleThresholdToCharge": {
+      "x": 30.0,
+      "y": 30.0
+    },
+    "InfantryMeleeSkillChargeWeightModifier": {
+      "x": 0.8,
+      "y": 1.25
+    },
+    "InfantryAmmoPercentToAllowCharge": {
+      "x": 80.0,
+      "y": 95.0
+    },
+    "InfantryMaxDistanceToAllowCharge": {
+      "x": 0.8,
+      "y": 1.0
+    },
+    "InfantrySkillDifferenceToAllowcharge": {
+      "x": 10.0,
+      "y": 30.0
+    },
+    "AIInfantrySupplyThresholdChargeValues": {
+      "x": 15.0,
+      "y": 50.0,
+      "z": 25.0,
+      "w": 100.0
+    },
+    "BaseReloadProgressBeforeAllowedToMove": {
+      "x": 0.75,
+      "y": 0.75
+    },
+    "DistanceToEnemyUnitRequiredForMudCreekTerrainToSprint": {
+      "x": 300.0,
+      "y": 300.0
+    },
+    "DistanceToEnemyUnitRequireForForestFarmlandMountainToSprint": {
+      "x": 200.0,
+      "y": 200.0
+    },
+    "ArtillerySwitchTargetDistanceCloserMultiplier": {
+      "x": 0.85,
+      "y": 0.85
+    },
+    "ArtilleryWeightToAttackGeneral": {
+      "x": -200.0,
+      "y": -200.0
+    },
+    "ArtilleryWeightToAttackSupplyCaravan": {
+      "x": -300.0,
+      "y": -300.0
+    },
+    "ArtilleryWeightToAttackLightInfantry": {
+      "x": -250.0,
+      "y": -250.0
+    },
+    "ArtilleryWeightToAttackInfantry": {
+      "x": 100.0,
+      "y": 100.0
+    },
+    "ArtilleryWeightToAttackCavalry": {
+      "x": 50.0,
+      "y": 50.0
+    },
+    "ArtilleryWeightToAttackArtillery": {
+      "x": 200.0,
+      "y": 200.0
+    },
+    "ArtilleryMaxTargetsAssignedMaxWeight": {
+      "x": 300,
+      "y": 300
+    },
+    "ArtilleryDistanceWeightMax": {
+      "x": 400.0,
+      "y": 400.0
+    },
+    "CavalryEngagementAmountRequiredForHighAggresion": {
+      "x": 90.0,
+      "y": 90.0
+    },
+    "CavalryEngagementAmountRequiredForVeryHighAggresion": {
+      "x": 99.0,
+      "y": 99.0
+    },
+    "CavalryRetreatingAmountRequiredForVeryHighAggresion": {
+      "x": 44.0,
+      "y": 44.0
+    },
+    "CavalryRetreatingAmountRequiredForUltraAggresion": {
+      "x": 90.0,
+      "y": 90.0
+    },
+    "CavalryMaxTimeAllowedInUltraAggressionState": {
+      "x": 60.0,
+      "y": 60.0
+    },
+    "CavIsolationMediumAggresionIsolationTotalPointsAvailable": {
+      "x": 0,
+      "y": 0
+    },
+    "CavIsolationHighAggresionIsolationTotalPointsAvailable": {
+      "x": 1,
+      "y": 1
+    },
+    "CavIsolationVeryHighAggresionIsolationTotalPointsAvailable": {
+      "x": 1,
+      "y": 1
+    },
+    "CavIsolationMediumAggresionAllowChargeInfantry": true,
+    "CavIsolationHighAggresionAllowChargeInfantry": false,
+    "CavIsolationVeryHighAggresionAllowChargeInfantry": false
+  }
+]

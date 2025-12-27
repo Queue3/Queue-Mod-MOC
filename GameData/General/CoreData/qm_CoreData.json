@@ -1,0 +1,159 @@
+{
+   "MinPercentHPToTriggerUnitDeath": -0.1,
+   "DivisionOfficerBaseMoralePerLevel": [
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    12.0,
+	14.0,
+	16.0,
+	18.0,
+	20.0,
+	22.0
+  ],
+  "DivisionOfficerMoraleAuraRadiusPerLevel": [
+    80.0,
+    90.0,
+    100.0,
+    111.0,
+    122.0,
+    130.0,
+	137.0,
+	143.0,
+	148.0,
+	152.0,
+	155.0
+  ],
+  "DivisionOfficerMoraleTickRegainPerLevel": [
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+	0.07,
+	0.08,
+	0.09,
+	0.1,
+	0.11
+  ],
+   "SecondEnemyHQDelay": 30,
+   "PatrolArmiesRange": [
+    {
+      "x": 5,
+      "y": 5
+    },
+    {
+      "x": 5,
+      "y": 5
+    },
+    {
+      "x": 5,
+      "y": 5
+    },
+    {
+      "x": 5,
+      "y": 5
+    }
+  ],
+  "GlobalMoraleDamageModifier": 0.5,
+  "GlobalMoraleDamageModifierArtillery": 0.05,
+  "ShopManpowerInstanceCost": 66.0,
+  "AILineInfantryItemBiases": [
+    "TOOL_IMPROVEMENTS",
+    "STAFF",
+    "FOOTWEAR",
+	"AMMO_POUCHES",
+  ],
+  "AILightInfantryItemBiases": [
+    "FOOTWEAR",
+    "FIELD_WORKS",
+    "AMMO_POUCHES",
+    "TOOL_IMPROVEMENTS"
+  ],
+  "AIArtilleryItemBiases": [
+    "TOOL_IMPROVEMENTS",
+    "WEAPON_TOOLS",
+    "AMMO_POUCHES",
+    "MAIN_AMMO",
+	"FIELD_WORKS"
+  ],
+  "HQBonusSpeedGrowthPerDay": 0.1,
+  "AIHQGrowthEasy": 1.05,
+  "AIHQGrowthNormal": 1.05,
+  "AIHQGrowthHard": 1.05,
+  "AIHQGrowthVeryHard": 1.05,
+  "PillageAttrition": 0.001,
+  "MinShopUnits": 3,
+  "MaxShopUnits": 5,
+  "ShopMinManpower": 2500,
+  "ShopMaxManpower": 3500,
+  "ForageFoodConsumption": 0.5,
+  "OfficerRankPriceBase": [
+    {
+      "x": 100,
+      "y": 210
+    },
+    {
+      "x": 280,
+      "y": 370
+    },
+    {
+      "x": 440,
+      "y": 580
+    },
+    {
+      "x": 680,
+      "y": 800
+    },
+    {
+      "x": 900,
+      "y": 1060
+    },
+    {
+      "x": 1180,
+      "y": 1300
+    },
+	{
+      "x": 1680,
+      "y": 1800
+    },
+	{
+      "x": 3680,
+      "y": 3800
+    },
+	{
+      "x": 7680,
+      "y": 7800
+    },
+	{
+      "x": 15680,
+      "y": 15800
+    },
+	{
+      "x": 31680,
+      "y": 31800
+    }
+  ],
+  "AIOfficerLevelGeneration": [
+    {
+      "x": 0,
+      "y": 2
+    },
+    {
+      "x": 2,
+      "y": 4
+    },
+    {
+      "x": 3,
+      "y": 6
+    },
+    {
+      "x": 5,
+      "y": 11
+    }
+  ],
+  "ArtlleryMeleeDamageModifier": 0.05
+}
