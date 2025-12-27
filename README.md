@@ -1,6 +1,6 @@
 # **Overview**
 
-A variety of balance changes, content additions, experimental features, and personal prefences.
+A variety of balance changes, content additions, experimental features, and personal preferences.
 
 In general I've found the game more challenging than before, but I look forward to others experience.
 
