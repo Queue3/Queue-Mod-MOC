@@ -1,0 +1,134 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      20,
+      18,
+	  19
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 7,
+      "Key": "Cavalry Charge Damage",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 10.0
+      }
+    },
+    {
+      "ID": 3,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Skill_Cavalier"
+      }
+    },
+    {
+      "ID": 5,
+      "Key": "ABILITY_TYPE",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "PASSIVE"
+      }
+    },
+    {
+      "ID": 8,
+      "Key": "Officer Death Chance",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 5.0
+      }
+    },
+    {
+      "ID": 9,
+      "Key": "Charge Damage",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 5.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
+        "Category": "CAVALRY",
+        "Value": 15,
+        "Stat": "Charge"
+      },
+      "ID": 18
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 14,
+        "Stat": "OfficerDeathChance"
+      },
+      "ID": 20
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 17,
+        "Stat": "Charge"
+      },
+      "ID": 19
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 8,
+      "VariableOutputsPorts": [
+        4,
+        20
+      ],
+      "ID": 14
+    },
+    {
+      "Variable": 7,
+      "VariableOutputsPorts": [
+        4,
+        18
+      ],
+      "ID": 15
+    },
+    {
+      "Variable": 9,
+      "VariableOutputsPorts": [
+        19,
+		4
+      ],
+      "ID": 17
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Skill/CavalryMasteryName",
+      "TextKey": "Skill/CavalryMasteryDesc",
+      "BodyVariables": [
+        15,
+        14,
+		17
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 4
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "CavalryMastery",
+  "StartNode": 2,
+  "FileName": "CavalryMastery"
+}

@@ -1,0 +1,135 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      18,
+      17,
+	  19
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 1,
+      "Key": "Artillery Range",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 10.0
+      }
+    },
+    {
+      "ID": 3,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Skill_FarSighted"
+      }
+    },
+    {
+      "ID": 5,
+      "Key": "ABILITY_TYPE",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "PASSIVE"
+      }
+    },
+    {
+      "ID": 8,
+      "Key": "Artillery Reload Speed",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -5.0
+      }
+    },
+	{
+      "ID": 9,
+      "Key": "Range",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 5.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
+        "Category": "ARTILLERY",
+        "Value": 11,
+        "Stat": "Reload"
+      },
+      "ID": 17
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
+        "Category": "ARTILLERY",
+        "Value": 3,
+        "Stat": "Range"
+      },
+      "ID": 18
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 17,
+        "Stat": "Range"
+      },
+      "ID": 19
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 1,
+      "VariableOutputsPorts": [
+        18,
+        4
+      ],
+      "ID": 3
+    },
+    {
+      "Variable": 8,
+      "VariableOutputsPorts": [
+        17,
+        4
+      ],
+      "ID": 11
+    },
+    {
+      "Variable": 9,
+      "VariableOutputsPorts": [
+        19,
+		4
+      ],
+      "ID": 17
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Skill/ArtilleryMasteryName",
+      "TextKey": "Skill/ArtilleryMasteryDesc",
+      "BodyVariables": [
+        3,
+        11,
+		17
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 4
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "ArtilleryMastery",
+  "StartNode": 2,
+  "FileName": "ArtilleryMastery"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "Key": "Quotes/QM_Q1",
+    "Translation": "Queue Mod: Combat effectiveness increases by +0.1% per unique regiment in an army.",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q2",
+    "Translation": "Queue Mod: The Battle AI has different personalities weighted by Nation, this significantly impacts their strategy.",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q3",
+    "Translation": "Line and Heavy Infantry can fire over Light Infantry, Cavalry can fire over all Infantry, and Artillery using Roundshot can fire over all units.",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q4",
+    "Translation": "Master of Command features modding support, which includes accessible script, documentation, Steam Workshop functionality, and active development.",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q5",
+    "Translation": "Lanchester’s Laws: Concentrated fire is more effective than spreading attacks across targets.",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q6",
+    "Translation": "Lanchester’s Laws: Damaging enemies early reduces their ability to deal damage back to you, leading to a scaling advantage.",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q7",
+    "Translation": "Lanchester’s Laws: Destroying a target is more effective than damaging multiple.",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q8",
+    "Translation": "Left Shift + Keys 1-9 to Assign Control Groups",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q9",
+    "Translation": "Hold Left Control to Select Multiple Units",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q10",
+    "Translation": "Hold Tab to See Unit Position Previews",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Quotes/QM_Q11",
+    "Translation": "Remember to install the free Holy Roman Empire DLC",
+    "VariableCount": 0
+  }
+]

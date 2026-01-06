@@ -1,0 +1,123 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      39,
+      38,
+	  40
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 8,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Stratagem_Coffers_over_Corpses"
+      }
+    },
+    {
+      "ID": 16,
+      "Key": "DailyCash",
+      "Variable": {
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": 8
+      }
+    },
+    {
+      "ID": 20,
+      "Key": "DivisionDiscounted",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 25.0
+      }
+    },
+	{
+      "ID": 10,
+      "Key": "Combat Effectiveness",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 0.1
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 36,
+        "Stat": "DivisionUnlockCostModifier"
+      },
+      "ID": 38
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.ModifyCampaignStatPerDayTickData, MocCampaign",
+        "Value": 28,
+        "Stat": "Cash"
+      },
+      "ID": 39
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatPerUniqueUnitData, MocCampaign",
+        "Value": 33,
+        "Stat": "CombatEffectiveness"
+      },
+      "ID": 40
+    },
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 16,
+      "VariableOutputsPorts": [
+        5,
+        39
+      ],
+      "ID": 28
+    },
+    {
+      "Variable": 20,
+      "VariableOutputsPorts": [
+        5,
+        38
+      ],
+      "ID": 36
+    },
+	{
+      "Variable": 10,
+      "VariableOutputsPorts": [
+        40
+      ],
+      "ID": 33
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Stratagem/CoffersOverCorpsesHeader",
+      "TextKey": "Stratagem/CoffersOverCorpsesBody",
+      "BodyVariables": [
+        28,
+        36
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 5
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "CoffersOverCorpses",
+  "StartNode": 2,
+  "FileName": "CoffersOverCorpses"
+}

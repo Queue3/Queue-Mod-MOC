@@ -1,0 +1,155 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+	  38,
+      46,
+      48,
+      50
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 8,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Stratagem_Imperial-Register"
+      }
+    },
+    {
+      "ID": 10,
+      "Key": "Recruit Discount",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -40.0
+      }
+    },
+    {
+      "ID": 16,
+      "Key": "Recruits Availabile",
+      "Variable": {
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": -2
+      }
+    },
+    {
+      "ID": 18,
+      "Key": "Disable",
+      "Variable": {
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": 1
+      }
+    },
+    {
+      "ID": 19,
+      "Key": "Enable",
+      "Variable": {
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": -1
+      }
+    },
+	{
+      "ID": 20,
+      "Key": "Combat Effectiveness",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 0.1
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatPerUniqueUnitData, MocCampaign",
+        "Value": 33,
+        "Stat": "CombatEffectiveness"
+      },
+      "ID": 38
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.ModifyCampaignStatWhenInStanceData, MocCampaign",
+        "Stance": "MUSTER",
+        "Value": 45,
+        "Stat": "Disable"
+      },
+      "ID": 46
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.ModifyCampaignStatWhenInStanceData, MocCampaign",
+        "Stance": "DRILL",
+        "Value": 44,
+        "Stat": "Disable"
+      },
+      "ID": 48
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 39,
+        "Stat": "ShopUnitSpawnAmount"
+      },
+      "ID": 50
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 16,
+      "VariableOutputsPorts": [
+        50,
+        5
+      ],
+      "ID": 39
+    },
+    {
+      "Variable": 18,
+      "VariableOutputsPorts": [
+        48
+      ],
+      "ID": 44
+    },
+    {
+      "Variable": 19,
+      "VariableOutputsPorts": [
+        46
+      ],
+      "ID": 45
+    },
+	{
+      "Variable": 20,
+      "VariableOutputsPorts": [
+        38
+      ],
+      "ID": 33
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Stratagem/ImperialRegisterHeader",
+      "TextKey": "Stratagem/ImperialRegisterBody",
+      "BodyVariables": [
+        39
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 5
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "ImperialRegister",
+  "StartNode": 2,
+  "FileName": "ImperialRegister"
+}

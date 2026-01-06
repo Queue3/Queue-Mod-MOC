@@ -1,0 +1,121 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      30,
+      31,
+	  38
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 12,
+      "Key": "OfficersToSpawn",
+      "Variable": {
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": -3
+      }
+    },
+    {
+      "ID": 8,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Stratagem_Junker-Aristocracy"
+      }
+    },
+    {
+      "ID": 14,
+      "Key": "OfficerXPGain",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 100.0
+      }
+    },
+	{
+      "ID": 20,
+      "Key": "Combat Effectiveness",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 0.1
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 25,
+        "Stat": "ShopOfficerSpawnAmount"
+      },
+      "ID": 30
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 28,
+        "Stat": "OfficerExperienceGainModifier"
+      },
+      "ID": 31
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatPerUniqueUnitData, MocCampaign",
+        "Value": 33,
+        "Stat": "CombatEffectiveness"
+      },
+      "ID": 38
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 12,
+      "VariableOutputsPorts": [
+        30,
+        5
+      ],
+      "ID": 25
+    },
+    {
+      "Variable": 14,
+      "VariableOutputsPorts": [
+        31
+      ],
+      "ID": 28
+    },
+	{
+      "Variable": 20,
+      "VariableOutputsPorts": [
+        38
+      ],
+      "ID": 33
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Strategem/JunkerAristocracyHeader",
+      "TextKey": "Strategem/JunkerAristocracyBody",
+      "BodyVariables": [
+        25
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 5
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "JunkerAristocracy",
+  "StartNode": 2,
+  "FileName": "JunkerAristocracy"
+}

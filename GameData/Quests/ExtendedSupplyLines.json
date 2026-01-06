@@ -1,0 +1,196 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      56,
+      59,
+      57,
+      61,
+	  38,
+	  66
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 15,
+      "Key": "RaidSpeed",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 100.0
+      }
+    },
+    {
+      "ID": 8,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Stratagem_Extended-Supply-Lines"
+      }
+    },
+    {
+      "ID": 23,
+      "Key": "RaidSpeedFoodGain",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 100.0
+      }
+    },
+    {
+      "ID": 25,
+      "Key": "Food Consumption",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 15.0
+      }
+    },
+    {
+      "ID": 29,
+      "Key": "Raid Speed Cash Gain",
+      "Variable": {
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": 1
+      }
+    },
+	{
+      "ID": 20,
+      "Key": "Combat Effectiveness",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 0.1
+      }
+    },
+    {
+      "ID": 7,
+      "Key": "Bonus Loot",
+      "Variable": {
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": 1
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 34,
+        "Stat": "RaidSpeed"
+      },
+      "ID": 56
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.ModifyCampaignStatWhenInStanceData, MocCampaign",
+        "Stance": "PILLAGE",
+        "Value": 46,
+        "Stat": "FoodModifier"
+      },
+      "ID": 57
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.ModifyCampaignStatWhenInStanceData, MocCampaign",
+        "Stance": "PILLAGE",
+        "Value": 54,
+        "Stat": "CashModifier"
+      },
+      "ID": 59
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 49,
+        "Stat": "FoodConsumption"
+      },
+      "ID": 61
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatPerUniqueUnitData, MocCampaign",
+        "Value": 33,
+        "Stat": "CombatEffectiveness"
+      },
+      "ID": 38
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 60,
+        "Stat": "PostBattleItems"
+      },
+      "ID": 66
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 15,
+      "VariableOutputsPorts": [
+        56
+      ],
+      "ID": 34
+    },
+    {
+      "Variable": 23,
+      "VariableOutputsPorts": [
+        57
+      ],
+      "ID": 46
+    },
+    {
+      "Variable": 25,
+      "VariableOutputsPorts": [
+        5,
+        61
+      ],
+      "ID": 49
+    },
+    {
+      "Variable": 29,
+      "VariableOutputsPorts": [
+        59
+      ],
+      "ID": 54
+    },
+	{
+      "Variable": 20,
+      "VariableOutputsPorts": [
+        38
+      ],
+      "ID": 33
+    },
+	{
+      "Variable": 7,
+      "VariableOutputsPorts": [
+        26,
+        16
+      ],
+      "ID": 60
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Strategem/ExtendedSupplyLinesHeader",
+      "TextKey": "Strategem/ExtendedSupplyLinesBody",
+      "BodyVariables": [
+        49
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 5
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "ExtendedSupplyLines",
+  "StartNode": 2,
+  "FileName": "ExtendedSupplyLines"
+}

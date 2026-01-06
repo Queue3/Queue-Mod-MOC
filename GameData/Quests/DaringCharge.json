@@ -1,0 +1,107 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      24,
+      25
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 5,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Skill_ChargeIn"
+      }
+    },
+    {
+      "ID": 7,
+      "Key": "ABILITY_TYPE",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "PASSIVE"
+      }
+    },
+    {
+      "ID": 9,
+      "Key": "Charge Damage",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 10.0
+      }
+    },
+    {
+      "ID": 10,
+      "Key": "Stamina",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 5.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 15,
+        "Stat": "Charge"
+      },
+      "ID": 24
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 16,
+        "Stat": "Stamina"
+      },
+      "ID": 25
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 9,
+      "VariableOutputsPorts": [
+        4,
+        24
+      ],
+      "ID": 15
+    },
+    {
+      "Variable": 10,
+      "VariableOutputsPorts": [
+        4,
+        25
+      ],
+      "ID": 16
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Skill/DaringChargeName",
+      "TextKey": "Skill/DaringChargeDesc",
+      "BodyVariables": [
+        15,
+        16
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 4
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "DaringCharge",
+  "StartNode": 2,
+  "FileName": "DaringCharge"
+}

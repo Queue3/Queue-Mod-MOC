@@ -3,6 +3,100 @@
     "DeploymentSprite": "TEST_DEPLOYABLE",
     "AbilityID": "WOODEN_STAKES",
     "DeployableModelID": "WOODEN_STAKES",
+    "Cover": 0.05,
+    "ChargeResistance": 0.1,
+    "ID": "WOODEN_STAKES",
+    "Name": "Items/WOODEN_STAKES/Basic/Name",
+    "Description": "Items/WOODEN_STAKES/Description",
+    "InventoryIconID": "ITEM_WoodenStakes",
+    "BustIconID": null,
+    "Price": 90,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "COMMON",
+    "Quality": "BASIC",
+    "ItemType": "FIELD_WORKS",
+    "Variables": [
+	  {
+        "Variable": "MoveSpeed",
+        "Value": 1.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "WOODEN_STAKES",
+      "ItemType": "FIELD_WORKS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        350.0,
+        250.0,
+        150.0,
+        100.0
+      ],
+      "MinorBattleDropWeights": [
+        150.0,
+        200.0,
+        200.0,
+        100.0
+      ],
+      "MajorBattleDropWeights": [
+        150.0,
+        200.0,
+        200.0,
+        100.0
+      ]
+    }
+  },
+  {
+    "DeploymentSprite": "TEST_DEPLOYABLE",
+    "AbilityID": "WOODEN_STAKES",
+    "DeployableModelID": "WOODEN_STAKES",
+    "Cover": 0.1,
+    "ChargeResistance": 0.15,
+    "ID": "WOODEN_STAKES_2",
+    "Name": "Items/WOODEN_STAKES/Good/Name",
+    "Description": "Items/WOODEN_STAKES/Description",
+    "InventoryIconID": "ITEM_WoodenStakes",
+    "BustIconID": null,
+    "Price": 140,
+    "UnitTypeAllowed": "InfantryAndArtillery",
+    "Rarity": "UNCOMMON",
+    "Quality": "GOOD",
+    "ItemType": "FIELD_WORKS",
+    "Variables": [
+	  {
+        "Variable": "MoveSpeed",
+        "Value": 2.0
+      }
+    ],
+    "UseableByAI": true,
+    "ItemGenerationData": {
+      "ID": "WOODEN_STAKES_2",
+      "ItemType": "FIELD_WORKS",
+      "Qunatity": 0,
+      "ShopWeights": [
+        150.0,
+        500.0,
+        650.0,
+        200.0
+      ],
+      "MinorBattleDropWeights": [
+        -650.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "MajorBattleDropWeights": [
+        -650.0,
+        200.0,
+        200.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "DeploymentSprite": "TEST_DEPLOYABLE",
+    "AbilityID": "WOODEN_STAKES",
+    "DeployableModelID": "WOODEN_STAKES",
     "Cover": 0.15,
     "ChargeResistance": 0.2,
     "ID": "WOODEN_STAKES_3",
@@ -10,12 +104,17 @@
     "Description": "Items/WOODEN_STAKES/Description",
     "InventoryIconID": "ITEM_WoodenStakes",
     "BustIconID": null,
-    "Price": 170,
+    "Price": 190,
     "UnitTypeAllowed": "InfantryAndArtillery",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "FIELD_WORKS",
-    "Variables": [],
+    "Variables": [
+	  {
+        "Variable": "MoveSpeed",
+        "Value": 3.0
+      }
+    ],
     "UseableByAI": true,
     "ItemGenerationData": {
       "ID": "WOODEN_STAKES_3",

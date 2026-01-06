@@ -1,5 +1,13 @@
 {
-   "MinPercentHPToTriggerUnitDeath": -0.1,
+   "BattleGameSpeeds": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+   ],
+   "SecondEnemyHQDelay": 30,
+   "MinPercentHPToTriggerUnitDeath": 0.05,
    "DivisionOfficerBaseMoralePerLevel": [
     2.0,
     4.0,
@@ -39,8 +47,8 @@
 	0.1,
 	0.11
   ],
-   "SecondEnemyHQDelay": 30,
-   "PatrolArmiesRange": [
+  "EliteArmiesCount": 3,
+  "PatrolArmiesRange": [
     {
       "x": 5,
       "y": 5
@@ -60,37 +68,217 @@
   ],
   "GlobalMoraleDamageModifier": 0.5,
   "GlobalMoraleDamageModifierArtillery": 0.05,
+  "WinterTriggerDay": [
+    {
+      "x": 170,
+      "y": 200
+    },
+    {
+      "x": 70,
+      "y": 100
+    },
+    {
+      "x": 180,
+      "y": 240
+    }
+  ],
   "ShopManpowerInstanceCost": 66.0,
+  "AIPrimaryWeaponGenerationChanceEliteBoss": {
+    "x": 20.0,
+    "y": 40.0,
+    "z": 100.0
+  },
+  "AIPrimaryWeaponGenerationChanceStalkerPatrol": {
+    "x": 0.0,
+    "y": 30.0,
+    "z": 100.0
+  },
+  "AIPrimaryWeaponGenerationChanceRecruit": {
+    "x": 0,
+    "y": 10
+  },
+  "AIPrimaryWeaponGenerationChanceLineInfantry": {
+    "x": 2,
+    "y": 30
+  },
+  "AIPrimaryWeaponGenerationChanceLightInfantry": {
+    "x": 13,
+    "y": 40
+  },
+  "AIPrimaryWeaponGenerationChanceHeavyInfantry": {
+    "x": 8,
+    "y": 40
+  },
+  "AIPrimaryWeaponGenerationChanceLightCavalry": {
+    "x": 8,
+    "y": 40
+  },
+  "AIPrimaryWeaponGenerationChanceHeavyCavalry": {
+    "x": 3,
+    "y": 30
+  },
+  "AIPrimaryWeaponGenerationChanceArtillery": {
+    "x": 12,
+    "y": 40
+  },
+  "AIItemBiasAmount": [
+    {
+      "x": 0,
+      "y": 20
+    },
+    {
+      "x": 0,
+      "y": 40
+    },
+    {
+      "x": 0,
+      "y": 80
+    }
+  ],
+  "AIRecruitItemBiases": [
+    "RATIONS",
+    "FOOTWEAR",
+    "TREATISE",
+	"FIELD_WORKS",
+	"STAFF",
+	"INSTRUMENTS",
+	"MAIN_AMMO"
+  ],
   "AILineInfantryItemBiases": [
     "TOOL_IMPROVEMENTS",
     "STAFF",
     "FOOTWEAR",
-	"AMMO_POUCHES",
+	"TREATISE",
+	"FIELD_WORKS",
+	"RATIONS",
+	"MAIN_AMMO"
   ],
   "AILightInfantryItemBiases": [
     "FOOTWEAR",
     "FIELD_WORKS",
-    "AMMO_POUCHES",
-    "TOOL_IMPROVEMENTS"
+    "TREATISE",
+    "TOOL_IMPROVEMENTS",
+	"STAFF",
+	"RATIONS",
+	"MAIN_AMMO"
+  ],
+  "AIHeavyInfantryItemBiases": [
+    "TOOL_IMPROVEMENTS",
+    "STAFF",
+    "TREATISE",
+    "RATIONS",
+	"FOOTWEAR",
+	"MAIN_AMMO",
+	"TERTIARY_WEAPONS"
+  ],
+  "AILightCavalryItemBiases": [
+    "SADDLES",
+    "CLOTHING",
+    "TREATISE",
+    "HORSES_BUFF",
+	"STAFF",
+	"RATIONS",
+	"CAVALRY_SIDEARM"
+  ],
+  "AIHeavyCavalryItemBiases": [
+    "SADDLES",
+    "TREATISE",
+    "CLOTHING",
+    "HORSES_BUFF",
+	"STAFF",
+	"RATIONS",
+	"CAVALRY_SIDEARM"
   ],
   "AIArtilleryItemBiases": [
     "TOOL_IMPROVEMENTS",
     "WEAPON_TOOLS",
     "AMMO_POUCHES",
-    "MAIN_AMMO",
-	"FIELD_WORKS"
+    "TREATISE",
+	"FIELD_WORKS",
+	"STAFF",
+	"RATIONS"
   ],
+  "AISecondaryWeaponGenerationChanceEliteBoss": {
+    "x": 20.0,
+    "y": 40.0,
+    "z": 100.0
+  },
+  "AISecondaryWeaponGenerationChanceStalkerPatrol": {
+    "x": 0.0,
+    "y": 30.0,
+    "z": 100.0
+  },
+  "AISecondaryWeaponGenerationChanceRecruit": {
+    "x": 0,
+    "y": 20
+  },
+  "AISecondaryWeaponGenerationChanceLineInfantry": {
+    "x": 3,
+    "y": 30
+  },
+  "AISecondaryWeaponGenerationChanceLightInfantry": {
+    "x": 0,
+    "y": 20
+  },
+  "AISecondaryWeaponGenerationChanceHeavyInfantry": {
+    "x": 18,
+    "y": 40
+  },
+  "AISecondaryWeaponGenerationChanceHeavyCavalry": {
+    "x": 18,
+    "y": 40
+  },
+  "AISecondaryWeaponGenerationChanceLightCavalry": {
+    "x": 12,
+    "y": 40
+  },
   "HQBonusSpeedGrowthPerDay": 0.1,
   "AIHQGrowthEasy": 1.05,
   "AIHQGrowthNormal": 1.05,
   "AIHQGrowthHard": 1.05,
   "AIHQGrowthVeryHard": 1.05,
+  "AIExperienceRangeHardEliteBoss": {
+    "x": 6,
+    "y": 20
+  },
+  "AIExperienceRangeVeryHardEliteBoss": {
+    "x": 9,
+    "y": 20
+  },
+  "AIExperienceRangeHardStalkerPatrol": {
+    "x": 4,
+    "y": 20
+  },
+  "AIExperienceRangeVeryHardStalkerPatrol": {
+    "x": 9,
+    "y": 20
+  },
+  "AIGeneralItemsAmountHardEliteBoss": {
+    "x": 8,
+    "y": 8
+  },
+  "AIGeneralItemsAmountVeryHardEliteBoss": {
+    "x": 8,
+    "y": 8
+  },
+  "AIGeneralItemsAmountHardStalkerPatrol": {
+    "x": 8,
+    "y": 8
+  },
+  "AIGeneralItemsAmountVeryHardStalkerPatrol": {
+    "x": 8,
+    "y": 8
+  },
   "PillageAttrition": 0.001,
   "MinShopUnits": 3,
   "MaxShopUnits": 5,
   "ShopMinManpower": 2500,
   "ShopMaxManpower": 3500,
+  "DrillUnitsExperienceGain": 150,
+  "DrillOfficersExperienceGain": 150,
+  "DrillAmmoConsumption": 12,
   "ForageFoodConsumption": 0.5,
+  "ForageViewRadius": 1.25,
   "OfficerRankPriceBase": [
     {
       "x": 100,
@@ -140,20 +328,23 @@
   "AIOfficerLevelGeneration": [
     {
       "x": 0,
-      "y": 2
-    },
-    {
-      "x": 2,
-      "y": 4
+      "y": 3
     },
     {
       "x": 3,
-      "y": 6
+      "y": 5
     },
     {
-      "x": 5,
+      "x": 6,
+      "y": 11
+    },
+    {
+      "x": 7,
       "y": 11
     }
   ],
-  "ArtlleryMeleeDamageModifier": 0.05
+  "ArtlleryMeleeDamageModifier": 0.05,
+  "SmokeRemoveTime": 500.0,
+  "SmokeFireWaitThreshold": 50.0,
+  "MaxSmokeAmountForRegiment": 16
 }

@@ -1,0 +1,50 @@
+[
+  {
+    "ID": "RegionCondition_Supply",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_Support",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_Logistics",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_Ammunition",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_Food",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_Manpower",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_Trade",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_Cavalry",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_Artillery",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_Infantry",
+    "Weight": 10.0
+  },
+  {
+    "ID": "RegionCondition_Officers",
+    "Weight": 25.0
+  },
+  {
+    "ID": "RegionCondition_AuxiliaryBarracks",
+    "Weight": 10.0
+  }
+]

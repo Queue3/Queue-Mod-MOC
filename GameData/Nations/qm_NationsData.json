@@ -26,41 +26,101 @@
     ],
     "StartingRegion": "19",
     "DefaultRegionRewardUnits": [
-      {
-        "ID": "PRU_Drilled_Musketeers",
-        "Experience": 2
-      },
-      {
-        "ID": "PRU_Jaegers",
-        "Experience": 2
-      },
-      {
-        "ID": "PRU_Fusiliers",
-        "Experience": 2
-      },
-      {
-        "ID": "PRU_Grenadiers",
+	  {
+        "ID": "PRU_Hussar",
         "Experience": 1
-      },
-      {
-        "ID": "PRU_Dragoon",
-        "Experience": 2
       },
       {
         "ID": "PRU_Cuirassier",
         "Experience": 1
       },
       {
-        "ID": "PRU_Freikorps_Jaegers",
-        "Experience": 2
+        "ID": "PRU_Frei_Infantry",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Grenadier_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Converged_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Horse_Artillery",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Freikorps_Veteran_Hussars",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Field_Artillery",
+        "Experience": 1
+      },
+	  {
+        "ID": "PRU_Freikorps_Dragoons",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Freikorps_Drilled_Jaegers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Freikorps_Drilled_Infantry",
+        "Experience": 1
       },
       {
         "ID": "PRU_Freikorps_Grenadiers",
         "Experience": 1
       },
       {
-        "ID": "PRU_Field_Artillery",
-        "Experience": 2
+        "ID": "PRU_Freikorps_Field_Artillery",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Itzenplitz_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Prinz_von_Preussen_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Aweyde_Feldjägers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Le_Noble_Jaegers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Heinrich_von_Preussen_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Potsdam_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Winterfeldt_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Deaths_Heads_Hussars",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Bayreuth_Dragoons",
+        "Experience": 1
+      },
+      {
+        "ID": "PRU_Pennevaire_Life_Carabiniers",
+        "Experience": 1
       }
     ],
     "PostBattleFrameSpriteVictory": null,
@@ -68,7 +128,7 @@
     "AIProfiles": [
       {
         "ProfileID": "DEFAULT",
-        "Weight": 200.0
+        "Weight": 100.0
       },
       {
         "ProfileID": "MELEE_AGGRESSION",
@@ -80,7 +140,7 @@
       },
 	  {
         "ProfileID": "QM_DEFENCE",
-        "Weight": 200.0
+        "Weight": 100.0
       }
     ]
   },
@@ -105,16 +165,53 @@
     ],
     "HistoricalEnemies": [
       "PRU",
-      "GBR"
+      "GBR",
+	  "HRE"
     ],
     "StartingRegion": "30",
     "DefaultRegionRewardUnits": [
       {
-        "ID": "RUS_Drilled_Musketeers",
-        "Experience": 2
+        "ID": "RUS_Observation_Drilled_Fusiliers",
+        "Experience": 1
       },
       {
-        "ID": "RUS_Grenadiers",
+        "ID": "RUS_Drilled_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Kievskiy_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Pskovskiy_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Pandurs",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Pandur_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Settled_Hussars",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Observation_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Observation_Field_Artillery",
+        "Experience": 1
+      },
+	  {
+        "ID": "RUS_Drilled_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Field_Artillery",
         "Experience": 1
       },
       {
@@ -126,24 +223,52 @@
         "Experience": 1
       },
       {
-        "ID": "RUS_Pandurs",
+        "ID": "RUS_Cossack_Dismounted",
         "Experience": 1
       },
       {
-        "ID": "RUS_Cossack_Riders",
-        "Experience": 2
-      },
-      {
-        "ID": "RUS_Settled_Hussars",
-        "Experience": 2
-      },
-      {
-        "ID": "RUS_Observation_Grenadiers",
+        "ID": "RUS_Don_Cossacks",
         "Experience": 1
       },
       {
-        "ID": "RUS_Field_Artillery",
-        "Experience": 2
+        "ID": "RUS_Hetmanate_Cossacks",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Orenburg_Cossacks",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Möller-Sakomelsky_Jägers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Dmitrivich_Dragoons",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Preobrazhenskiy_Life_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Serbski_Hussars",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Chuguev_Cossacks",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Münnich_Cuirassiers",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Tverskoy_Dragoons",
+        "Experience": 1
+      },
+      {
+        "ID": "RUS_Shuvalov_Howitzers",
+        "Experience": 1
       }
     ],
     "PostBattleFrameSpriteVictory": null,
@@ -188,20 +313,53 @@
     ],
     "HistoricalEnemies": [
       "PRU",
-      "GBR"
+      "GBR",
+	  "HRE"
     ],
     "StartingRegion": "8",
     "DefaultRegionRewardUnits": [
       {
-        "ID": "FRA_French_Veteran_Fusiliers",
-        "Experience": 2
-      },
-      {
-        "ID": "FRA_French_Grenadiers",
+        "ID": "FRA_Musketeers_Of_The_Guard",
         "Experience": 1
       },
       {
-        "ID": "FRA_French_Gentleman_Cavalry",
+        "ID": "FRA_Fifth_Royal_Artillery",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Diesbach_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Royal_Allemand_Cavalry",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Swiss_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Grenadiers_A_Cheval",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Royal_Deux_Ponts_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Royal_Scots_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Grenadiers_Of_France",
+        "Experience": 1
+      },
+	  {
+        "ID": "FRA_French_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_French_Gendarmerie",
         "Experience": 1
       },
       {
@@ -209,11 +367,35 @@
         "Experience": 1
       },
       {
+        "ID": "FRA_Volontaires_Hussars",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Volontaires_Dragoons",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Veteran_Chasseurs",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_German_Veteran_Fusiliers",
+        "Experience": 1
+      },
+      {
         "ID": "FRA_German_Grenadiers",
         "Experience": 1
       },
       {
-        "ID": "FRA_Swiss_Grenadiers",
+        "ID": "FRA_French_Veteran_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_French_Veteran_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Irish_Veteran_Fusiliers",
         "Experience": 1
       },
       {
@@ -221,12 +403,16 @@
         "Experience": 1
       },
       {
-        "ID": "FRA_Chasseurs",
-        "Experience": 2
+        "ID": "FRA_Swiss_Veteran_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "FRA_Swiss_Grenadiers",
+        "Experience": 1
       },
       {
         "ID": "FRA_French_Field_Artillery",
-        "Experience": 2
+        "Experience": 1
       }
     ],
     "PostBattleFrameSpriteVictory": null,
@@ -271,20 +457,53 @@
     ],
     "HistoricalEnemies": [
       "PRU",
-      "GBR"
+      "GBR",
+	  "HRE"
     ],
     "StartingRegion": "25",
     "DefaultRegionRewardUnits": [
       {
-        "ID": "AUS_German_Drilled_Fusiliers",
-        "Experience": 2
+        "ID": "AUS_Kaiser_Franz_Hussars",
+        "Experience": 1
       },
       {
-        "ID": "AUS_Jaegers",
-        "Experience": 2
+        "ID": "AUS_Esterházy_Fusiliers",
+        "Experience": 1
       },
       {
-        "ID": "AUS_German_Grenadiers",
+        "ID": "AUS_Perkopp_Artillery",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_De_Ligne_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Otocaner_Grenzers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Erzherzog_Joseph_Dragoons",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Green_Loudon_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Alt-Modena_Cuirassiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Seriman_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Deutschmeister_Fusiliers",
+        "Experience": 1
+      },
+	  {
+        "ID": "AUS_Veteran_Dragoons",
         "Experience": 1
       },
       {
@@ -296,7 +515,31 @@
         "Experience": 1
       },
       {
-        "ID": "AUS_Hungarian_Grenadiers",
+        "ID": "AUS_Veteran_Jaegers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_German_Drilled_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_German_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Dutch_Drilled_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Dutch_Field_Artillery",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Guard_Artillery",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Grenz-Hussars",
         "Experience": 1
       },
       {
@@ -304,12 +547,24 @@
         "Experience": 1
       },
       {
-        "ID": "AUS_Frontier_Cavalry",
+        "ID": "AUS_Grenzer_Drilled_Infantry",
         "Experience": 1
       },
       {
-        "ID": "AUS_Field_Artillery",
-        "Experience": 2
+        "ID": "AUS_Grenzer_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Hungarian_Drilled_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Hungarian_Drilled_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "AUS_Frontier_Cavalry",
+        "Experience": 1
       }
     ],
     "PostBattleFrameSpriteVictory": null,
@@ -361,31 +616,55 @@
     "StartingRegion": "15",
     "DefaultRegionRewardUnits": [
       {
-        "ID": "GBR_British_Veteran_Foot",
-        "Experience": 2
-      },
-      {
-        "ID": "GBR_British_Grenadiers",
+        "ID": "GBR_British_Light_Dragoons",
         "Experience": 1
       },
       {
-        "ID": "GBR_British_Dragoons",
+        "ID": "GBR_British_Dragoon_Guards",
         "Experience": 1
       },
       {
-        "ID": "GBR_Highland_Foot",
-        "Experience": 2
+        "ID": "GBR_Highland_Veteran_Foot",
+        "Experience": 1
       },
       {
         "ID": "GBR_Highland_Grenadiers",
         "Experience": 1
       },
       {
+        "ID": "GBR_British_Foot_Guards",
+        "Experience": 1
+      },
+      {
         "ID": "GBR_German_Jaegers",
-        "Experience": 2
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_British_Grenadiers",
+        "Experience": 1
+      },
+	  {
+        "ID": "GBR_British_Field_Artillery",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Hanoverian_Cavalry",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Hessian_Cavalry",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Hanoverian_Veteran_Foot",
+        "Experience": 1
       },
       {
         "ID": "GBR_Hanoverian_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Hessian_Veteran_Musketeers",
         "Experience": 1
       },
       {
@@ -393,8 +672,52 @@
         "Experience": 1
       },
       {
-        "ID": "GBR_British_Field_Artillery",
-        "Experience": 2
+        "ID": "GBR_Brunswicker_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_German_Field_Artillery",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Campbells_Highlanders",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Schaumburg_Lippe_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_First_Dragoon_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Legion_Britannique_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Bueckeberg_Carabiniers",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Hanoverian_Foot_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Royal_Horse_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Royal_Welch_Fusiliers",
+        "Experience": 1
+      },
+	  {
+        "ID": "GBR_Von_Roth_Hussars",
+        "Experience": 1
+      },
+      {
+        "ID": "GBR_Coldstream_Guards",
+        "Experience": 1
       }
     ],
     "PostBattleFrameSpriteVictory": null,
@@ -415,6 +738,154 @@
 	  {
         "ProfileID": "QM_DEFENCE",
         "Weight": 100.0
+      }
+    ]
+  },
+  {
+    "ID": "HRE",
+	"Name": "Nation/HRE",
+    "Strategem": "ImperialRegister",
+    "Desc": "Nation/Info/HolyRomanEmpire/Desc",
+    "DenonymName": "Nation/HREDenonym",
+    "FlagKey": "HRE_Flag",
+    "FlagWaveLeft": "WAVING_FLAG_L_HRE",
+    "FlagWaveRight": "WAVING_FLAG_R_HRE",
+    "BattleFlag": "FLAG_BATTLE_HRE",
+    "CampFlag": "CAMP_FLAG_HRE",
+    "BackgroundKey": "TREE_TileFlower_HRE",
+    "GeneralName": "Friedrich Michael von Zweibrücken",
+    "GeneralPortrait": "Generals_Portraits_HRE",
+    "GeneralPortraitInjured": "Generals_Portraits_HRE_Injured",
+    "GeneralUnitID": "HRE_GENERAL",
+    "UISortOrder": 5,
+    "UnitUnlocks": [
+    ],
+    "HistoricalEnemies": [
+      "PRU",
+      "GBR",
+	  "HRE"
+    ],
+    "StartingRegion": "18",
+    "DefaultRegionRewardUnits": [
+      {
+        "ID": "HRE_Kreis_Veteran_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Wurttemberg_Feldjaegers",
+        "Experience": 1
+      },
+	  {
+        "ID": "HRE_Bavarian_Veteran_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Palatinate_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Imperial_Cuirassiers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Saxon_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Saxon_Veteran_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Saxon_Tartar_Cavalry",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Saxon_Veteran_Artillery",
+        "Experience": 1
+      },
+	  {
+        "ID": "HRE_Imperial_Hussars",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Kreis_Grenadiers",
+        "Experience": 1
+      },
+	  {
+        "ID": "HRE_Wurttemberg_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Palatinate_Veteran_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Imperial_Field_Artillery",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Saxon_Veteran_Chevauxlegers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_HesseDarmstadt_Grenadiers",
+        "Experience": 1
+      },
+	  {
+        "ID": "HRE_Palatinate_Guard_Grenadiers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Saxon_Foot_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Saxon_Life_Grenadier_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Saxon_Rochow_Fusiliers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Kurbayern_Musketeers",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_PalatinateKurfstin_Dragoons",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Wurttemberg_Horse_Grenadiers",
+        "Experience": 1
+      },
+	  {
+        "ID": "HRE_Saxon_Carabinier_Guards",
+        "Experience": 1
+      },
+      {
+        "ID": "HRE_Bavarian_Artillery",
+        "Experience": 1
+      }
+    ],
+	"PostBattleFrameSpriteVictory": null,
+    "PostBattleFrameSpriteDefeat": null,
+    "AIProfiles": [
+      {
+        "ProfileID": "DEFAULT",
+        "Weight": 200.0
+      },
+      {
+        "ProfileID": "MELEE_AGGRESSION",
+        "Weight": 100.0
+      },
+	  {
+        "ProfileID": "QM_RANGED_AGGRESSION",
+        "Weight": 100.0
+      },
+	  {
+        "ProfileID": "QM_DEFENCE",
+        "Weight": 200.0
       }
     ]
   }

@@ -1,0 +1,112 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      56,
+      57,
+      58
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 6,
+      "Key": "XPGainValue",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 30.0
+      }
+    },
+    {
+      "ID": 8,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Stratagem_Infantry-Proficiency"
+      }
+    },
+    {
+      "ID": 10,
+      "Key": "XP Loss",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -10.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatForUnitCategoryData, MocCampaign",
+        "Category": "ARTILLERY",
+        "Value": 36,
+        "Stat": "ExperienceModifier"
+      },
+      "ID": 56
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatForUnitCategoryData, MocCampaign",
+        "Category": "CAVALRY",
+        "Value": 36,
+        "Stat": "ExperienceModifier"
+      },
+      "ID": 57
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatForUnitCategoryData, MocCampaign",
+        "Category": "INFANTRY",
+        "Value": 16,
+        "Stat": "ExperienceModifier"
+      },
+      "ID": 58
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 6,
+      "VariableOutputsPorts": [
+        5,
+        58
+      ],
+      "ID": 16
+    },
+    {
+      "Variable": 10,
+      "VariableOutputsPorts": [
+        5,
+        56,
+        57
+      ],
+      "ID": 36
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Strategem/InfantryProficiencyHeader",
+      "TextKey": "Strategem/InfantryProficiencyBody",
+      "BodyVariables": [
+        16,
+        36
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 5
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "InfantryProficiency",
+  "StartNode": 2,
+  "FileName": "InfantryProficiency"
+}

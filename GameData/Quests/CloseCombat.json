@@ -1,0 +1,135 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      24,
+      23,
+	  19
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 7,
+      "Key": "Cavalry Accuracy",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 10.0
+      }
+    },
+    {
+      "ID": 3,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Skill_Equestrian"
+      }
+    },
+    {
+      "ID": 5,
+      "Key": "ABILITY_TYPE",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "PASSIVE"
+      }
+    },
+    {
+      "ID": 8,
+      "Key": "Cavalry Reload",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 5.0
+      }
+    },
+    {
+      "ID": 9,
+      "Key": "Reload Speed",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 5.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
+        "Category": "CAVALRY",
+        "Value": 21,
+        "Stat": "Reload"
+      },
+      "ID": 23
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
+        "Category": "CAVALRY",
+        "Value": 20,
+        "Stat": "Accuracy"
+      },
+      "ID": 24
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 17,
+        "Stat": "Reload"
+      },
+      "ID": 19
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 7,
+      "VariableOutputsPorts": [
+        4,
+        24
+      ],
+      "ID": 20
+    },
+    {
+      "Variable": 8,
+      "VariableOutputsPorts": [
+        23,
+        4
+      ],
+      "ID": 21
+    },
+    {
+      "Variable": 9,
+      "VariableOutputsPorts": [
+        19,
+		4
+      ],
+      "ID": 17
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Skill/CloseCombatName",
+      "TextKey": "Skill/CloseCombatDesc",
+      "BodyVariables": [
+        20,
+        21,
+		17
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 4
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "CloseCombat",
+  "StartNode": 2,
+  "FileName": "CloseCombat"
+}

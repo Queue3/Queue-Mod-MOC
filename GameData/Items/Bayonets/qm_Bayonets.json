@@ -24,10 +24,6 @@
     "Quality": "BASIC",
     "ItemType": "WEAPON",
     "Variables": [
-      {
-        "Variable": "Morale",
-        "Value": 1.0
-      }
     ],
     "UseableByAI": true,
     "ItemGenerationData": {
@@ -84,7 +80,7 @@
     "Variables": [
       {
         "Variable": "Morale",
-        "Value": 2.0
+        "Value": 1.0
       }
     ],
     "UseableByAI": true,
@@ -126,7 +122,7 @@
     "BayonetChargeDamage": 8.0,
     "StaminaModifier": 0.0,
     "AccuracyModifier": -1.0,
-    "ReloadModifier": -2.0,
+    "ReloadModifier": -1.0,
     "ModelID": "TEST_Weapon_01_BAYONET",
     "WeaponType": "BAYONET",
     "ID": "LIGHT_SOCKET_BAYONET",
@@ -140,10 +136,6 @@
     "Quality": "BASIC",
     "ItemType": "WEAPON",
     "Variables": [
-      {
-        "Variable": "Morale",
-        "Value": 1.0
-      }
     ],
     "UseableByAI": true,
     "ItemGenerationData": {
@@ -200,7 +192,7 @@
     "Variables": [
       {
         "Variable": "Morale",
-        "Value": 3.0
+        "Value": 2.0
       }
     ],
     "UseableByAI": true,
@@ -258,7 +250,7 @@
     "Variables": [
       {
         "Variable": "Morale",
-        "Value": 2.0
+        "Value": 1.0
       }
     ],
     "UseableByAI": true,
@@ -300,7 +292,7 @@
     "BayonetChargeDamage": 10.0,
     "StaminaModifier": 0.0,
     "AccuracyModifier": -1.0,
-    "ReloadModifier": -2.0,
+    "ReloadModifier": -1.0,
     "ModelID": "TEST_Weapon_01_BAYONET",
     "WeaponType": "BAYONET",
     "ID": "REINFORCED_LIGHT_SOCKET_BAYONET",
@@ -314,10 +306,6 @@
     "Quality": "GOOD",
     "ItemType": "WEAPON",
     "Variables": [
-      {
-        "Variable": "Morale",
-        "Value": 1.0
-      }
     ],
     "UseableByAI": true,
     "ItemGenerationData": {
@@ -374,7 +362,7 @@
     "Variables": [
       {
         "Variable": "Morale",
-        "Value": 3.0
+        "Value": 2.0
       }
     ],
     "UseableByAI": true,
@@ -432,7 +420,7 @@
     "Variables": [
       {
         "Variable": "Morale",
-        "Value": 2.0
+        "Value": 1.0
       }
     ],
     "UseableByAI": true,
@@ -474,7 +462,7 @@
     "BayonetChargeDamage": 12.0,
     "StaminaModifier": 0.0,
     "AccuracyModifier": -1.0,
-    "ReloadModifier": -2.0,
+    "ReloadModifier": -1.0,
     "ModelID": "TEST_Weapon_01_BAYONET",
     "WeaponType": "BAYONET",
     "ID": "SUPERIOR_LIGHT_SOCKET_BAYONET",
@@ -488,10 +476,6 @@
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
     "Variables": [
-      {
-        "Variable": "Morale",
-        "Value": 1.0
-      }
     ],
     "UseableByAI": true,
     "ItemGenerationData": {
@@ -548,7 +532,7 @@
     "Variables": [
       {
         "Variable": "Morale",
-        "Value": 3.0
+        "Value": 2.0
       }
     ],
     "UseableByAI": true,

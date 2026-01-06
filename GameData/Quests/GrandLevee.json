@@ -1,0 +1,168 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      41,
+      38,
+      40,
+      39,
+	  42,
+	  27
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 8,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Stratagem_Grand_Levee"
+      }
+    },
+    {
+      "ID": 19,
+      "Key": "DivisionDiscounted",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -50.0
+      }
+    },
+    {
+      "ID": 21,
+      "Key": "Resource Tax",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 10.0
+      }
+    },
+	{
+      "ID": 20,
+      "Key": "Combat Effectiveness",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 0.1
+      }
+    },
+    {
+      "ID": 12,
+      "Key": "FoodConsumption",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -25.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 29,
+        "Stat": "DivisionUnlockCostModifier"
+      },
+      "ID": 38
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 36,
+        "Stat": "ShopFoodPrice"
+      },
+      "ID": 39
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 36,
+        "Stat": "ShopManpowerPrice"
+      },
+      "ID": 40
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 36,
+        "Stat": "ShopAmmoPrice"
+      },
+      "ID": 41
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatPerUniqueUnitData, MocCampaign",
+        "Value": 33,
+        "Stat": "CombatEffectiveness"
+      },
+      "ID": 42
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.ModifyCampaignStatWhenInStanceData, MocCampaign",
+        "Stance": "FORAGE",
+        "Value": 25,
+        "Stat": "FoodConsumption"
+      },
+      "ID": 27
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 19,
+      "VariableOutputsPorts": [
+        38,
+        5
+      ],
+      "ID": 29
+    },
+    {
+      "Variable": 21,
+      "VariableOutputsPorts": [
+        5,
+        41,
+        40,
+        39
+      ],
+      "ID": 36
+    },
+	{
+      "Variable": 20,
+      "VariableOutputsPorts": [
+        42
+      ],
+      "ID": 33
+    },
+	{
+      "Variable": 12,
+      "VariableOutputsPorts": [
+        27
+      ],
+      "ID": 25
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Stratagem/GrandLeveeHeader",
+      "TextKey": "Stratagem/GrandLeveeBody",
+      "BodyVariables": [
+        29,
+        36
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 5
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "GrandLevee",
+  "StartNode": 2,
+  "FileName": "GrandLevee"
+}

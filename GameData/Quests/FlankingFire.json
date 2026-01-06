@@ -1,0 +1,133 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      26,
+      25,
+	  19
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 7,
+      "Key": "Flanking Fire Damage",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 15.0
+      }
+    },
+    {
+      "ID": 3,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Skill_Cunning"
+      }
+    },
+    {
+      "ID": 5,
+      "Key": "ABILITY_TYPE",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "PASSIVE"
+      }
+    },
+    {
+      "ID": 8,
+      "Key": "Melee Damage Received",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 10.0
+      }
+    },
+	{
+      "ID": 9,
+      "Key": "Fire Damage Received",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -5.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 22,
+        "Stat": "MeleeDamageReceived"
+      },
+      "ID": 25
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 21,
+        "Stat": "FireFlankingDamageDealt"
+      },
+      "ID": 26
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 17,
+        "Stat": "FireDamageReceived"
+      },
+      "ID": 19
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 7,
+      "VariableOutputsPorts": [
+        4,
+        26
+      ],
+      "ID": 21
+    },
+    {
+      "Variable": 8,
+      "VariableOutputsPorts": [
+        4,
+        25
+      ],
+      "ID": 22
+    },
+    {
+      "Variable": 9,
+      "VariableOutputsPorts": [
+        19,
+		4
+      ],
+      "ID": 17
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Skill/FlankingFireName",
+      "TextKey": "Skill/FlankingFireDesc",
+      "BodyVariables": [
+        21,
+        22,
+		17
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 4
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "FlankingFire",
+  "StartNode": 2,
+  "FileName": "FlankingFire"
+}

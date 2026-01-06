@@ -1,0 +1,113 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      8,
+	  19
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 1,
+      "Key": "Accuracy",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 10.0
+      }
+    },
+    {
+      "ID": 3,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Skill_Organized"
+      }
+    },
+    {
+      "ID": 5,
+      "Key": "ABILITY_TYPE",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "PASSIVE"
+      }
+    },
+    {
+      "ID": 7,
+      "Key": "Enable",
+      "Variable": {
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": 1
+      }
+    },
+	{
+      "ID": 10,
+      "Key": "Ammunition Consumption",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -5.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 9,
+        "Stat": "HasSupplyCaravan"
+      },
+      "ID": 8
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 17,
+        "Stat": "AmmoConsumption"
+      },
+      "ID": 19
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 7,
+      "VariableOutputsPorts": [
+        8
+      ],
+      "ID": 9
+    },
+    {
+      "Variable": 10,
+      "VariableOutputsPorts": [
+        19,
+		4
+      ],
+      "ID": 17
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Skill/SupplyTrainsName",
+      "TextKey": "Skill/SupplyTrainsDesc",
+      "BodyVariables": [
+	    17
+	  ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 4
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "SupplyTrains",
+  "StartNode": 2,
+  "FileName": "SupplyTrains"
+}

@@ -1,6 +1,6 @@
 {
   "ID": "qm_CombinedArms",
-  "Name": "Strategem/qm_CombinedArmsHeader",
+  "Name": "qm_CombinedArmsHeader",
   "QuestID": "qm_CombinedArms",
-  "FactionSpecific": "NONE"
+  "FactionSpecific": null
 }

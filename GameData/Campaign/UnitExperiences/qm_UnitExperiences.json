@@ -82,5 +82,9 @@
   {
     "Level": 20,
     "ExperienceThreshold": 88000
+  },
+  {
+    "Level": 0,
+    "ExperienceThreshold": 0
   }
 ]

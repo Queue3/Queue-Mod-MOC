@@ -292,7 +292,7 @@
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 3.6,
       "MeleeDamage": 14.0,
-      "ChargeAttackDamage": 18.0
+      "ChargeAttackDamage": 19.0
     },
     "ModelID": "Sword_01",
     "WeaponType": "SWORD",
@@ -301,7 +301,7 @@
     "Description": "Weapon/BASKET_HILT_BROADSWORDS/Desc",
     "InventoryIconID": "BASKET_HILT_BROADSWORDS",
     "BustIconID": "Card_SWORD_CURVED",
-    "Price": 280,
+    "Price": 300,
     "UnitTypeAllowed": "Cavalry",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
@@ -349,7 +349,7 @@
     "Description": "Weapon/PALLASCH_SWORDS/Desc",
     "InventoryIconID": "PALLASCH_SWORDS",
     "BustIconID": "Card_SWORD_CURVED",
-    "Price": 290,
+    "Price": 300,
     "UnitTypeAllowed": "Cavalry",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",

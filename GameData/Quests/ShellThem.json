@@ -1,0 +1,135 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      31,
+      30,
+	  19
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 13,
+      "Key": "Artillery Reload Speed",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 15.0
+      }
+    },
+    {
+      "ID": 3,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Skill_ShellThem"
+      }
+    },
+    {
+      "ID": 5,
+      "Key": "ABILITY_TYPE",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "PASSIVE"
+      }
+    },
+    {
+      "ID": 14,
+      "Key": "Accuracy",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -5.0
+      }
+    },
+	{
+      "ID": 9,
+      "Key": "Fire Damage Received",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -5.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
+        "Category": "ARTILLERY",
+        "Value": 16,
+        "Stat": "Reload"
+      },
+      "ID": 30
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
+        "Category": "ARTILLERY",
+        "Value": 15,
+        "Stat": "Accuracy"
+      },
+      "ID": 31
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 17,
+        "Stat": "FireDamageReceived"
+      },
+      "ID": 19
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 14,
+      "VariableOutputsPorts": [
+        4,
+        31
+      ],
+      "ID": 15
+    },
+    {
+      "Variable": 13,
+      "VariableOutputsPorts": [
+        4,
+        30
+      ],
+      "ID": 16
+    },
+    {
+      "Variable": 9,
+      "VariableOutputsPorts": [
+        19,
+		4
+      ],
+      "ID": 17
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Skill/ShellThemName",
+      "TextKey": "Skill/ShellThemDesc",
+      "BodyVariables": [
+        16,
+        15,
+		17
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 4
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "ShellThem",
+  "StartNode": 2,
+  "FileName": "ShellThem"
+}

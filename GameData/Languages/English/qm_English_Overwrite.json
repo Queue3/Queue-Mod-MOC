@@ -5,23 +5,108 @@
     "VariableCount": 3
   },
   {
-    "Key": "Weapon/WORN_BAYONET/Desc",
-    "Translation": "<i>Secondary Weapon, Bayonet</i>\n<color=#CB2225>Inferior</color> bayonet.\nMorale <color=#009300>+1</color>",
-    "VariableCount": 0
-  },
-  {
     "Key": "Weapon/SOCKET_BAYONET/Desc",
-    "Translation": "<i>Secondary Weapon, Bayonet</i>\nNo proficiencies.\nMorale <color=#009300>+2</color>",
-    "VariableCount": 0
-  },
-  {
-    "Key": "Weapon/LIGHT_SOCKET_BAYONET/Desc",
-    "Translation": "<i>Secondary Weapon, Bayonet</i>\nExcellent <color=#009300>charge</color>.\nMorale <color=#009300>+1</color>",
+    "Translation": "<i>Secondary Weapon, Bayonet</i>\nNo proficiencies.\nMorale <color=#009300>+1</color>",
     "VariableCount": 0
   },
   {
     "Key": "Weapon/HEAVY_SOCKET_BAYONET/Desc",
-    "Translation": "<i>Secondary Weapon, Bayonet</i>\nExcellent <color=#009300>melee</color>.\nMorale <color=#009300>+3</color>",
+    "Translation": "<i>Secondary Weapon, Bayonet</i>\nExcellent <color=#009300>melee</color>.\nMorale <color=#009300>+2</color>",
     "VariableCount": 0
-  }
+  },
+  {
+    "Key": "Strategem/ExtendedSupplyLinesBody",
+    "Translation": "Settlements are pillaged <color=#009300>twice</color> as efficiently in raiding stance\nLoot from winning battles <color=#009300>+1</color>\nProvision consumption <color=#CB2225>+{0}%</color>",
+    "VariableCount": 1
+  },
+  {
+    "Key": "Stratagem/GrandLeveeBody",
+    "Translation": "New brigade cost <color=#009300>{0}%</color>\nForaging effectiveness <color=#009300>+25%</color>\nResource cost <color=#CB2225>+{1}%</color>",
+    "VariableCount": 2
+  },
+  {
+    "Key": "Strategem/MultinationalArmyBody",
+    "Translation": "Regiment and officer recruitment options <color=#009300>+{0}</color>\nUnits and officers cost <color=#009300>-25%</color>\nRecruit veterancy gain <color=#CB2225>{1}%</color>",
+    "VariableCount": 2
+  },
+  {
+    "Key": "Skill/ArtilleryMasteryDesc",
+    "Translation": "Artillery range <color=#009300>+{0}%</color>\nRange <color=#009300>+{2}%</color>\nArtillery reload speed <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/ArtilleryMasteryDescLong",
+    "Translation": "Artillery range <color=#009300>+{0}%</color>\n\nRange <color=#009300>+{2}%</color>\nArtillery reload speed <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/CloseCombatDesc",
+    "Translation": "Cavalry accuracy <color=#009300>+{0}%</color>\nReload <color=#009300>+{2}%</color>\nCavalry reload <color=#009300>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/CloseCombatDescLong",
+    "Translation": "Cavalry accuracy <color=#009300>+{0}%</color>\n\nReload <color=#009300>+{2}%</color>\nCavalry reload <color=#009300>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/CavalryMasteryDesc",
+    "Translation": "Cavalry charge <color=#009300>+{0}%</color>\nCharge <color=#009300>+{2}%</color>\nOfficer death chance <color=#CB2225>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/CavalryMasteryDescLong",
+    "Translation": "Cavalry charge <color=#009300>+{0}%</color>\n\nCharge <color=#009300>+{2}%</color>\n\nOfficer death chance <color=#CB2225>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/InfantryMasteryDesc",
+    "Translation": "Infantry accuracy <color=#009300>+{0}%</color>\nInfantry reload speed <color=#CB2225>{1}%</color>\nMove speed <color=#009300>+{2}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/InfantryMasteryDescLong",
+    "Translation": "Infantry accuracy <color=#009300>+{0}%</color>\n\nInfantry reload speed <color=#CB2225>{1}%</color>\n\nMove speed <color=#009300>+{2}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/ShellThemDesc",
+    "Translation": "Artillery reload speed <color=#009300>+{0}%</color>\nFire damage received <color=#009300>{2}%</color>\nArtillery accuracy <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/ShellThemDescLong",
+    "Translation": "Artillery reload speed <color=#009300>+{0}%</color>\n\nFire damage received <color=#009300>{2}%</color>\n\nArtillery accuracy <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/FlankingFireDesc",
+    "Translation": "Flanking fire damage <color=#009300>+{0}%</color>\nFire damage received <color=#009300>{2}%</color>\nMelee damage received <color=#CB2225>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/FlankingFireDescLong",
+    "Translation": "Flanking fire damage <color=#009300>+{0}%</color>\n\nFire damage received <color=#009300>{2}%</color>\n\nMelee damage received <color=#CB2225>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/SupplyTrainsDesc",
+    "Translation": "Adds a <color=#009300>supply wagon</color>\nAmmunition consumption <color=#009300>{0}%</color>",
+    "VariableCount": 1
+  },
+  {
+    "Key": "Skill/SupplyTrainsDescLong",
+    "Translation": "Adds a <color=#009300>supply wagon</color>\n\nAmmunition consumption <color=#009300>{0}%</color>",
+    "VariableCount": 1
+  },
+  {
+    "Key": "Skill/DaringChargeDesc",
+    "Translation": "Charge <color=#009300>+{0}%</color>\nStamina <color=#009300>+{1}%</color>",
+    "VariableCount": 2
+  },
+  {
+    "Key": "Skill/DaringChargeDescLong",
+    "Translation": "Charge <color=#009300>+{0}%</color>\n\nStamina <color=#009300>+{1}%</color>",
+    "VariableCount": 2
+  },
 ]

@@ -1,0 +1,205 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      25,
+      29,
+      26,
+      31,
+      30,
+	  38,
+	  55,
+	  54
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 6,
+      "Key": "Experience Gain",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -15.0
+      }
+    },
+    {
+      "ID": 8,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Stratagem_Multinational-Army"
+      }
+    },
+    {
+      "ID": 10,
+      "Key": "RecruitmentOptions",
+      "Variable": {
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": 3
+      }
+    },
+	{
+      "ID": 20,
+      "Key": "Combat Effectiveness",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 0.1
+      }
+    },
+    {
+      "ID": 21,
+      "Key": "OfficerCost",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -25.0
+      }
+    },
+    {
+      "ID": 22,
+      "Key": "UnitCost",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -25.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 19,
+        "Stat": "ShopOfficerSpawnAmount"
+      },
+      "ID": 25
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 19,
+        "Stat": "ShopUnitSpawnAmount"
+      },
+      "ID": 26
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatForUnitTypeData, MocCampaign",
+        "UnitType": "RECRUIT_INFANTRY",
+        "Value": 13,
+        "Stat": "ExperienceModifier"
+      },
+      "ID": 29
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatForUnitTypeData, MocCampaign",
+        "UnitType": "RECRUIT_ARTILLERY",
+        "Value": 13,
+        "Stat": "ExperienceModifier"
+      },
+      "ID": 30
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatForUnitTypeData, MocCampaign",
+        "UnitType": "RECRUIT_LIGHT_CAVALRY",
+        "Value": 13,
+        "Stat": "ExperienceModifier"
+      },
+      "ID": 31
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatPerUniqueUnitData, MocCampaign",
+        "Value": 33,
+        "Stat": "CombatEffectiveness"
+      },
+      "ID": 38
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 53,
+        "Stat": "UnitRecruitmentCost"
+      },
+      "ID": 54
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 52,
+        "Stat": "OfficerRecruitmentCost"
+      },
+      "ID": 55
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 6,
+      "VariableOutputsPorts": [
+        29,
+        30,
+        31,
+        5
+      ],
+      "ID": 13
+    },
+    {
+      "Variable": 10,
+      "VariableOutputsPorts": [
+        25,
+        26,
+        5
+      ],
+      "ID": 19
+    },
+	{
+      "Variable": 20,
+      "VariableOutputsPorts": [
+        38
+      ],
+      "ID": 33
+    },
+    {
+      "Variable": 21,
+      "VariableOutputsPorts": [
+        55,
+        5
+      ],
+      "ID": 52
+    },
+    {
+      "Variable": 22,
+      "VariableOutputsPorts": [
+        54
+      ],
+      "ID": 53
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Strategem/MultinationalArmyHeader",
+      "TextKey": "Strategem/MultinationalArmyBody",
+      "BodyVariables": [
+        19,
+        13
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 5
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "MultinationalArmy",
+  "StartNode": 2,
+  "FileName": "MultinationalArmy"
+}

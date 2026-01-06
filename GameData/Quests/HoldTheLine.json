@@ -1,0 +1,107 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      14,
+      15
+    ],
+    "DialogueID": 0,
+    "ID": 2
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [
+    {
+      "ID": 3,
+      "Key": "ICON",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "Skill_HoldTheLine"
+      }
+    },
+    {
+      "ID": 5,
+      "Key": "ABILITY_TYPE",
+      "Variable": {
+        "$type": "Campaign.Variables.StringVariable, Campaign",
+        "Value": "PASSIVE"
+      }
+    },
+    {
+      "ID": 7,
+      "Key": "Morale Damage Received",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -15.0
+      }
+    },
+    {
+      "ID": 8,
+      "Key": "Range",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 5.0
+      }
+    }
+  ],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 12,
+        "Stat": "Range"
+      },
+      "ID": 14
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 11,
+        "Stat": "MoraleDamageReceived"
+      },
+      "ID": 15
+    }
+  ],
+  "VariableNodes": [
+    {
+      "Variable": 7,
+      "VariableOutputsPorts": [
+        15,
+        4
+      ],
+      "ID": 11
+    },
+    {
+      "Variable": 8,
+      "VariableOutputsPorts": [
+        14,
+        4
+      ],
+      "ID": 12
+    }
+  ],
+  "TooltipNodes": [
+    {
+      "HeaderKey": "Skill/HoldTheLineName",
+      "TextKey": "Skill/HoldTheLineDesc",
+      "BodyVariables": [
+        11,
+        12
+      ],
+      "HeaderVariables": [],
+      "Inputs": null,
+      "Outputs": null,
+      "ID": 4
+    }
+  ],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "HoldTheLine",
+  "StartNode": 2,
+  "FileName": "HoldTheLine"
+}
