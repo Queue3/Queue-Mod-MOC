@@ -39,8 +39,6 @@ Version: 1.1.0 - 2026-01-06
 **Regimental Unlock Regiments Enabled**
 - The Regiments should be rare but normal Regiments, does not impact Challenge status
 
-**Regiment Low Strength Disband Removed**
-
 **Attrition Added to Raiding**
 - 0.01% per Day
 
