@@ -7,17 +7,13 @@ In general I've found the game more challenging than before, but I look forward 
 Have fun and feel free to provide feedback!
 
 # **Changelog**
-Version: 1.1.0 - 2026-01-06
+Version: 1.2.0 - 2026-01-19
 
 # Battle
 
 **Very Fast Speed Increased**
 - Original: x3
 - Change: x4
-
-**Regiment Low Strength Lowered**
-- Original: ≤10%
-- Change: ≤5%
 
 **Elevation Accuracy Increased**
 - Original: +10%
@@ -34,7 +30,11 @@ Version: 1.1.0 - 2026-01-06
 # Campaign
 
 **New Mechanic**
-- Combat effectiveness +0.1% per unique regiment in army
+- Combat Effectiveness +0.1% per Unique Regiment in Army
+
+**Regiment Destruction Requirement Lowered**
+- Original: ≤10%
+- Change: ≤1%
 
 **Regimental Unlock Regiments Enabled**
 - The Regiments should be rare but normal Regiments, does not impact Challenge status
@@ -77,9 +77,23 @@ Version: 1.1.0 - 2026-01-06
 - Original: 4-6
 - Change: 3-5
 
-**Available Shop Reservists Reduced**
+**Available Shop Reservists Range Increased**
 - Original: 3000-4000
-- Change: 2500-3500
+- Change: 2000-6000
+
+**Available Shop Provision Range Increased**
+- Original: 400-1000
+- Change: 200-2000
+
+**Available Shop Ammunition Range Increased**
+- Original: 750-1250
+- Change: 375-2500
+
+**Available Shop Officer Range Decreased**
+- Original: 5-6
+- Change: 3-6
+
+**Officer Shop Lower Level Range Expanded**
 
 **Shop Reservist Cost Increased**
 - Original: 60
@@ -96,10 +110,13 @@ Version: 1.1.0 - 2026-01-06
 
 **Settlement Condition: Local Auxiliary x2 Chance**
 
+**Settlement Conditions that Add Maximum Available Supplies, Officers, or Units, Addition Increased by x2**
+
+**Settlement Conditions that Reduce Maximum Available Supplies Reduction Increased by x2**
+
 # Doctrines
 
 **Combined Arms Doctrine Added**
-- The original default version was merged invisibly into the base Nation Doctrines
 
 **The Hungry Bear: +1 Loot from Battles**
 
@@ -114,6 +131,7 @@ Version: 1.1.0 - 2026-01-06
 **Infantry Proficiency: Veterancy Gain Increased**
 - Original: 20%
 - Change: 30%
+
 # Officer Skills
 
 **Unyielding: Range Reduction Inverted**
@@ -149,6 +167,24 @@ Version: 1.1.0 - 2026-01-06
 **Cunning: -5% Fire Damage Received Added**
 
 **Supply Trains: -5% Ammo Consumption Added**
+
+**Stubborn: Elevation Effectiveness and Officer Death Reduction Added**
+
+**Strict: Movement Speed Added**
+
+**Loud: Morale in Officer Command Radius Increase Added**
+
+**Stalwart: Elevation Effectiveness Added**
+
+**Blood Thirsty: Elevation Effectiveness Added**
+
+**Savage: Morale Outside Officer Command Radius Increase Added**
+
+**Industrious: Elevation Effectiveness Added**
+
+**Burly: Artillery Reload Added**
+
+**Fire by Rank: Cavalry and Artillery Reload Added**
 
 # AI
 
@@ -194,11 +230,10 @@ Version: 1.1.0 - 2026-01-06
 
 **HQ Growth Rate Increased by +5%**
 
-**Elite Armies Max Reduced by -1**
-
 **Weaker Army Composition Strengths Increased**
 
 **Stalker Act 3+ Item Count Increased by +1**
+
 ## Battle
 
 **New AI Personalities**
@@ -214,9 +249,12 @@ Version: 1.1.0 - 2026-01-06
 
 **Item Bias Updated**
 - More Items Considered
+
 # Items
 
-**Small Grenade Bags Give Stamina**
+**Small Grenade Bags Increase Stamina**
+
+**Grenade Bags Increase Morale**
 
 **Glass Grenade Throw Range Increased**
 - Original: 100
@@ -241,7 +279,7 @@ Version: 1.1.0 - 2026-01-06
 **Gunpicks Stamina Increased**
 - Price Adjusted Accordingly
 
-**Half Gaiters Movement Speed Increased**
+**Half Gaiters Increase Charge**
 - Price Adjusted Accordingly
 
 **Sturdy Shoes Movement Speed Increased**
@@ -286,12 +324,14 @@ Version: 1.1.0 - 2026-01-06
 
 # Vanilla Fixes
 
-**Hard Foreign Field Armies Not Using Foreign Troops**
+**Light Infantry Tactics**
+- Thanks @gunnarzlikezz and @raspel
 
 # **Localisation**
 
 **English Only** (Sorry)
 - Any New Text
+
 # **Links**
 
 **Github:** https://github.com/Queue3/Queue-Mod-MOC

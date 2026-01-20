@@ -276,7 +276,7 @@
     "AIProfiles": [
       {
         "ProfileID": "DEFAULT",
-        "Weight": 200.0
+        "Weight": 100.0
       },
       {
         "ProfileID": "MELEE_AGGRESSION",
@@ -284,7 +284,7 @@
       },
 	  {
         "ProfileID": "QM_RANGED_AGGRESSION",
-        "Weight": 300.0
+        "Weight": 100.0
       },
 	  {
         "ProfileID": "QM_DEFENCE",
@@ -576,11 +576,11 @@
       },
       {
         "ProfileID": "MELEE_AGGRESSION",
-        "Weight": 100.0
+        "Weight": 200.0
       },
 	  {
         "ProfileID": "QM_RANGED_AGGRESSION",
-        "Weight": 200.0
+        "Weight": 100.0
       },
 	  {
         "ProfileID": "QM_DEFENCE",

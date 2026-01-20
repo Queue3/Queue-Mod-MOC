@@ -189,7 +189,8 @@
       "TextKey": "Strategem/MultinationalArmyBody",
       "BodyVariables": [
         19,
-        13
+        13,
+		53
       ],
       "HeaderVariables": [],
       "Inputs": null,

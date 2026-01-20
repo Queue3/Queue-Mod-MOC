@@ -1,8 +1,8 @@
 [
   {
     "Key": "Stance/Pillage/Desc",
-    "Translation": "Raiding steals resources, but must done near a settlement.\n• <color=#009300>Take +{0} thalers per regiment in army daily</color>\n• <color=#009300>Take +{1} provisions per regiment in army daily</color>\n• <color=#CB2225>Take -0.01% attrition daily</color>\n• <color=#CB2225>Settlement receives \"Pillaged\" condition</color>\n• <color=#CB2225>Army is immobile</color>\n\n<i>Hotkey to enable {2}</i>",
-    "VariableCount": 3
+    "Translation": "Raiding steals resources, but must done near a settlement.\n• <color=#009300>Take +{0} thalers per regiment in army daily</color>\n• <color=#009300>Take +{1} provisions per regiment in army daily</color>\n• <color=#CB2225>Take -{2}% attrition daily</color>\n• <color=#CB2225>Settlement receives \"Pillaged\" condition</color>\n• <color=#CB2225>Army is immobile</color>\n\n<i>Hotkey to enable {3}</i>",
+    "VariableCount": 4
   },
   {
     "Key": "Weapon/SOCKET_BAYONET/Desc",
@@ -16,18 +16,18 @@
   },
   {
     "Key": "Strategem/ExtendedSupplyLinesBody",
-    "Translation": "Settlements are pillaged <color=#009300>twice</color> as efficiently in raiding stance\nLoot from winning battles <color=#009300>+1</color>\nProvision consumption <color=#CB2225>+{0}%</color>",
-    "VariableCount": 1
+    "Translation": "Settlements are pillaged <color=#009300>twice</color> as efficiently in raiding stance\nLoot from winning battles <color=#009300>+{1}</color>\nProvision consumption <color=#CB2225>+{0}%</color>",
+    "VariableCount": 2
   },
   {
     "Key": "Stratagem/GrandLeveeBody",
     "Translation": "New brigade cost <color=#009300>{0}%</color>\nForaging effectiveness <color=#009300>+25%</color>\nResource cost <color=#CB2225>+{1}%</color>",
-    "VariableCount": 2
+    "VariableCount": 3
   },
   {
     "Key": "Strategem/MultinationalArmyBody",
-    "Translation": "Regiment and officer recruitment options <color=#009300>+{0}</color>\nUnits and officers cost <color=#009300>-25%</color>\nRecruit veterancy gain <color=#CB2225>{1}%</color>",
-    "VariableCount": 2
+    "Translation": "Regiment and officer recruitment options <color=#009300>+{0}</color>\nUnits and officers cost <color=#009300>{2}%</color>\nRecruit veterancy gain <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
   },
   {
     "Key": "Skill/ArtilleryMasteryDesc",
@@ -109,4 +109,159 @@
     "Translation": "Charge <color=#009300>+{0}%</color>\n\nStamina <color=#009300>+{1}%</color>",
     "VariableCount": 2
   },
+  {
+    "Key": "Region/RegionCondition_Logistics_Positive_Hint",
+    "Translation": "<color=#009300>Supplies available +50%</color>",
+    "VariableCount": 0
+  },
+  {
+   "Key": "Region/RegionCondition_Logistics_Negative_Hint",
+   "Translation": "<color=#CB2225>Supplies available -50%</color>",
+   "VariableCount": 0
+  },
+  {
+    "Key": "Region/RegionCondition_Ammunition_Positive_Hint",
+    "Translation": "<color=#009300>Ammunition available +30%, cost -25%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Region/RegionCondition_Ammunition_Negative_Hint",
+    "Translation": "<color=#CB2225>Ammunition available -30%, cost +25%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Region/RegionCondition_Food_Positive_Hint",
+    "Translation": "<color=#009300>Provisions available +30%, cost -25%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Region/RegionCondition_Food_Negative_Hint",
+    "Translation": "<color=#CB2225>Provisions available -30%, cost +25%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Region/RegionCondition_Manpower_Positive_Hint",
+    "Translation": "<color=#009300>Reservists available +30%, cost -25%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Region/RegionCondition_Manpower_Negative_Hint",
+    "Translation": "<color=#CB2225>Reservists available -30%, cost +25%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Strategem/SalaryReductionsBody",
+    "Translation": "Recruitment cost <color=#009300>{0}%</color>\nThalers daily <color=#009300>+{2}</color>\nMorale <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Region/RegionCondition_Cavalry_Positive_Hint",
+    "Translation": "<color=#009300>Cavalry recruitable +4, cost -15%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Region/RegionCondition_Artillery_Positive_Hint",
+    "Translation": "<color=#009300>Artillery recruitable +4, cost -15%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Region/RegionCondition_Infantry_Positive_hint",
+    "Translation": "<color=#009300>Infantry recruitable +4, cost -10%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Region/RegionCondition_Officers_Positive_Hint",
+    "Translation": "<color=#009300>Officers enlistable +4, cost -25%</color>",
+    "VariableCount": 0
+  },
+  {
+    "Key": "Skill/DeterminedDesc",
+    "Translation": "Charge <color=#009300>+{0}%</color>\nCombat bonuses from elevation <color=#009300>+{2}%</color>\nOfficer death chance <color=#009300>{3}%</color>\nCover effectiveness <color=#CB2225>{1}%</color>",
+    "VariableCount": 4
+  },
+  {
+    "Key": "Skill/DeterminedDescLong",
+    "Translation": "Charge <color=#009300>+{0}%</color>\n\nCombat bonuses from elevation <color=#009300>+{2}%</color>\n\nOfficer death chance <color=#009300>{3}%</color>\n\nCover effectiveness <color=#CB2225>{1}%</color>",
+    "VariableCount": 4
+  },
+  {
+    "Key": "Skill/DrillMasteryDesc",
+    "Translation": "Veterancy gain <color=#009300>+{0}%</color>\nMove speed <color=#009300>+{2}%</color>\nMorale <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/DrillMasteryDescLong",
+    "Translation": "Veterancy gain <color=#009300>+{0}%</color>\n\nMove speed <color=#009300>+{2}%</color>\n\nMorale <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/ExtendedInfluenceDesc",
+    "Translation": "Officer command radius <color=#009300>+{0}%</color>\nOfficer morale in command radius <color=#009300>+{2}%</color>\nFire damage received <color=#CB2225>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/ExtendedInfluenceDescLong",
+    "Translation": "Officer command radius <color=#009300>+{0}%</color>\n\nOfficer morale in command radius <color=#009300>+{2}%</color>\n\nFire damage received <color=#CB2225>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/RecklessChargeDesc",
+    "Translation": "Cover effectiveness <color=#009300>+{0}%</color>\nCombat bonuses from elevation <color=#009300>+{2}%</color>\nCharge <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/RecklessChargeDescLong",
+    "Translation": "Cover effectiveness <color=#009300>+{0}%</color>\n\nCombat bonuses from elevation <color=#009300>+{2}%</color>\n\nCharge <color=#CB2225>{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/ZealousDesc",
+    "Translation": "Melee <color=#009300>+{0}%</color>\nCombat bonuses from elevation <color=#009300>+{2}%</color>\nMelee damage received <color=#CB2225>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/ZealousDescLong",
+    "Translation": "Melee <color=#009300>+{0}%</color>\n\nCombat bonuses from elevation <color=#009300>+{2}%</color>\n\nMelee damage received <color=#CB2225>+{1}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/CrackShotDesc",
+    "Translation": "Charge <color=#009300>+{0}%</color>\nOfficer morale outside command radius <color=#009300>+{2}%</color>\nVeterancy gain <color=#CB2225>{1}%</color>",
+    "VariableCount": 2
+  },
+  {
+    "Key": "Skill/CrackShotDescLong",
+    "Translation": "Charge <color=#009300>+{0}%</color>\n\nOfficer morale outside command radius <color=#009300>+{2}%</color>\n\nVeterancy gain <color=#CB2225>{1}%</color>",
+    "VariableCount": 2
+  },
+  {
+    "Key": "Skill/FieldEngineeringDesc",
+    "Translation": "Cover effectiveness <color=#009300>+{0}%</color>\nDeployables placed <color=#009300>twice</color> as quick\nCombat bonuses from elevation <color=#009300>+{1}%</color>",
+    "VariableCount": 2
+  },
+  {
+    "Key": "Skill/FieldEngineeringDescLong",
+    "Translation": "Cover effectiveness <color=#009300>+{0}%</color>\n\nDeployables placed <color=#009300>twice</color> as quick\n\nCombat bonuses from elevation <color=#009300>+{1}%</color>",
+    "VariableCount": 2
+  },
+  {
+    "Key": "Skill/GrenadierSpiritDesc",
+    "Translation": "Grenade throw range <color=#009300>+{0}%</color>\nMelee damage <color=#009300>+{1}%</color>\nArtillery reload speed <color=#009300>+{2}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/GrenadierSpiritDescLong",
+    "Translation": "Grenade throw range <color=#009300>+{0}%</color>\n\nMelee damage <color=#009300>+{1}%</color>\n\nArtillery reload speed <color=#009300>+{2}%</color>",
+    "VariableCount": 3
+  },
+  {
+    "Key": "Skill/FireByRankDesc",
+    "Translation": "Volley fire replaced with <color=#009300>fire by rank</color>\nArtillery and Cavalry reload speed <color=#009300>+{0}%</color>",
+    "VariableCount": 2
+  },
+  {
+    "Key": "Skill/FireByRankDescLong",
+    "Translation": "Volley fire replaced with <color=#009300>fire by rank</color>\n\nArtillery and Cavalry reload speed <color=#009300>+{0}%</color>",
+    "VariableCount": 2
+  }
 ]

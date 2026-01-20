@@ -1,0 +1,79 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      2
+    ],
+    "DialogueID": 0,
+    "ID": 1
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionConditionControllerData, MocCampaign",
+        "PositiveTerm": "Region/RegionCondition_Food_Positive",
+        "PositiveHintTerm": "Region/RegionCondition_Food_Positive_Hint",
+        "Positives": [
+          10,
+          13,
+          10,
+          13
+        ],
+        "NegativeTerm": "Region/RegionCondition_Food_Negative",
+        "NegativeHintTerm": "Region/RegionCondition_Food_Negative_Hint",
+        "Negatives": [
+          11,
+          14,
+          11,
+          14
+        ]
+      },
+      "ID": 2
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionFoodCostData, MocCampaign",
+        "Value": -0.25
+      },
+      "ID": 10
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionFoodCostData, MocCampaign",
+        "Value": 0.25
+      },
+      "ID": 11
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionManaAvailabilityData, MocCampaign",
+        "ManaType": "FOOD",
+        "Value": 0.3
+      },
+      "ID": 13
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionManaAvailabilityData, MocCampaign",
+        "ManaType": "FOOD",
+        "Value": -0.3
+      },
+      "ID": 14
+    }
+  ],
+  "VariableNodes": [],
+  "TooltipNodes": [],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "RegionCondition_Food",
+  "StartNode": 1,
+  "FileName": "RegionCondition_Food"
+}

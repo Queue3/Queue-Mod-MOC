@@ -152,7 +152,8 @@
       "TextKey": "Stratagem/GrandLeveeBody",
       "BodyVariables": [
         29,
-        36
+        36,
+		25
       ],
       "HeaderVariables": [],
       "Inputs": null,

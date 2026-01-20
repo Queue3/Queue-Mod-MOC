@@ -1,0 +1,77 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      2
+    ],
+    "DialogueID": 0,
+    "ID": 1
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionConditionControllerData, MocCampaign",
+        "PositiveTerm": "Region/RegionCondition_Infantry_Positive",
+        "PositiveHintTerm": "Region/RegionCondition_Infantry_Positive_hint",
+        "Positives": [
+          21,
+          21,
+          24
+        ],
+        "NegativeTerm": "Region/RegionCondition_Infantry_Negative",
+        "NegativeHintTerm": "Region/RegionCondition_Infantry_Negative_Hint",
+        "Negatives": [
+          22,
+          22,
+          25
+        ]
+      },
+      "ID": 2
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionInfantryCostData, MocCampaign",
+        "Value": -0.1
+      },
+      "ID": 21
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionInfantryCostData, MocCampaign",
+        "Value": 0.1
+      },
+      "ID": 22
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionUnitCategoryQuantityData, MocCampaign",
+        "UnitCategory": "INFANTRY",
+        "Value": 4
+      },
+      "ID": 24
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionUnitCategoryQuantityData, MocCampaign",
+        "UnitCategory": "INFANTRY",
+        "Value": -2
+      },
+      "ID": 25
+    }
+  ],
+  "VariableNodes": [],
+  "TooltipNodes": [],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "RegionCondition_Infantry",
+  "StartNode": 1,
+  "FileName": "RegionCondition_Infantry"
+}

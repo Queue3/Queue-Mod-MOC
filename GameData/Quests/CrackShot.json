@@ -3,9 +3,9 @@
     "TargetNodes": [],
     "OnCreatedNodes": [],
     "OnStartNodes": [
-      30,
-      31,
-	  19
+      16,
+      18,
+	  23
     ],
     "DialogueID": 0,
     "ID": 2
@@ -17,11 +17,19 @@
   "QuestType": "NONE",
   "Variables": [
     {
+      "ID": 9,
+      "Key": "Charge Damage",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 15.0
+      }
+    },
+    {
       "ID": 3,
       "Key": "ICON",
       "Variable": {
         "$type": "Campaign.Variables.StringVariable, Campaign",
-        "Value": "Skill_Meticulous"
+        "Value": "Skill_Savages"
       }
     },
     {
@@ -33,24 +41,16 @@
       }
     },
     {
-      "ID": 7,
-      "Key": "Infantry Accuracy",
+      "ID": 10,
+      "Key": "Veterancy Gain",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": 10.0
+        "Value": -10.0
       }
     },
     {
-      "ID": 8,
-      "Key": "Infantry Reload Speed",
-      "Variable": {
-        "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": -5.0
-      }
-    },
-	{
-      "ID": 9,
-      "Key": "Move Speed",
+      "ID": 6,
+      "Key": "Mod",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
         "Value": 5.0
@@ -61,65 +61,62 @@
   "Activators": [
     {
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 18,
-        "Stat": "Accuracy"
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 11,
+        "Stat": "ExperienceModifier"
       },
-      "ID": 30
+      "ID": 16
     },
     {
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 11,
-        "Stat": "Reload"
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 12,
+        "Stat": "Charge"
       },
-      "ID": 31
+      "ID": 18
     },
 	{
       "Data": {
         "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
-        "Value": 17,
-        "Stat": "MovementSpeed"
+        "Value": 25,
+        "Stat": "MoraleModifierWhenOutOfCommandAura"
       },
-      "ID": 19
+      "ID": 23
     }
   ],
   "VariableNodes": [
     {
-      "Variable": 8,
+      "Variable": 10,
       "VariableOutputsPorts": [
-        31,
-        4
+        4,
+        16
       ],
       "ID": 11
     },
     {
-      "Variable": 7,
-      "VariableOutputsPorts": [
-        30,
-        4
-      ],
-      "ID": 18
-    },
-    {
       "Variable": 9,
       "VariableOutputsPorts": [
-        19,
-		4
+        4,
+        18
       ],
-      "ID": 17
+      "ID": 12
+    },
+	{
+      "Variable": 6,
+      "VariableOutputsPorts": [
+        23
+      ],
+      "ID": 25
     }
   ],
   "TooltipNodes": [
     {
-      "HeaderKey": "Skill/InfantryMasteryName",
-      "TextKey": "Skill/InfantryMasteryDesc",
+      "HeaderKey": "Skill/CrackShotName",
+      "TextKey": "Skill/CrackShotDesc",
       "BodyVariables": [
-        18,
+        12,
         11,
-		17
+		25
       ],
       "HeaderVariables": [],
       "Inputs": null,
@@ -129,7 +126,7 @@
   ],
   "BranchingConditionalNodes": [],
   "ConditionalBlockNodes": [],
-  "ID": "InfantryMastery",
+  "ID": "CrackShot",
   "StartNode": 2,
-  "FileName": "InfantryMastery"
+  "FileName": "CrackShot"
 }

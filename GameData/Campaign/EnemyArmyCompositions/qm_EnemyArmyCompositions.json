@@ -73,13 +73,36 @@
       "VeryHardWeight": 0.0
     },
 	{
+      "ID": "QM_EASY_PATROL",
+      "Divisions": [
+        "MEDIUM_CAVALRY",
+		"EASY_CAVALRY",
+		"EASY_INFANTRY"
+      ],
+      "EasyWeight": 100.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_EASY_PATROL2",
+      "Divisions": [
+        "MEDIUM_FOREIGN_CAVALRY",
+		"EASY_FOREIGN_CAVALRY",
+		"EASY_FOREIGN_INFANTRY"
+      ],
+      "EasyWeight": 100.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
       "ID": "QM_EASY_LARGE_PATROL",
       "Divisions": [
-        "EASY_INFANTRY",
-		"EASY_INFANTRY",
-		"EASY_FOREIGN_INFANTRY",
-        "EASY_CAVALRY",
-		"EASY_FOREIGN_CAVALRY"
+        "TUTORIAL",
+		"TUTORIAL",
+		"TUTORIAL",
+        "TUTORIAL"
       ],
       "EasyWeight": 100.0,
       "NormalWeight": 0.0,
@@ -198,6 +221,32 @@
         "MEDIUM_FOREIGN_INFANTRY",
 		"EASY_INFANTRY",
         "MEDIUM_FOREIGN_ARTILLERY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 100.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_MEDIUM_PATROL",
+      "Divisions": [
+        "MEDIUM_CAVALRY",
+        "MEDIUM_INFANTRY",
+		"EASY_CAVALRY",
+        "MEDIUM_CAVALRY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 100.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_MEDIUM_PATROL2",
+      "Divisions": [
+        "MEDIUM_FOREIGN_CAVALRY",
+        "MEDIUM_FOREIGN_INFANTRY",
+		"EASY_FOREIGN_CAVALRY",
+        "MEDIUM_FOREIGN_CAVALRY"
       ],
       "EasyWeight": 0.0,
       "NormalWeight": 100.0,
@@ -348,6 +397,34 @@
       "VeryHardWeight": 0.0
     },
 	{
+      "ID": "QM_HARD_PATROL",
+      "Divisions": [
+        "HARD_CAVALRY",
+        "HARD_CAVALRY",
+		"MEDIUM_INFANTRY",
+		"EASY_ARTILLERY",
+        "HARD_CAVALRY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 100.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_HARD_PATROL2",
+      "Divisions": [
+        "HARD_FOREIGN_CAVALRY",
+        "HARD_FOREIGN_CAVALRY",
+		"MEDIUM_FOREIGN_INFANTRY",
+		"EASY_FOREIGN_ARTILLERY",
+        "HARD_FOREIGN_CAVALRY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 100.0,
+      "VeryHardWeight": 0.0
+    },
+	{
       "ID": "QM_HARD_LARGE_PATROL",
       "Divisions": [
         "MEDIUM_INFANTRY",
@@ -473,6 +550,30 @@
       "VeryHardWeight": 0.0
     },
 	{
+      "ID": "QM_EASY_FIELD",
+      "Divisions": [
+        "EASY_CAVALRY",
+        "EASY_CAVALRY",
+        "TUTORIAL"
+      ],
+      "EasyWeight": 100.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_EASY_FIELD",
+      "Divisions": [
+        "EASY_FOREIGN_CAVALRY",
+        "EASY_FOREIGN_CAVALRY",
+        "TUTORIAL"
+      ],
+      "EasyWeight": 100.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
       "ID": "QM_EASY_LARGE_FIELD",
       "Divisions": [
         "EASY_FIELDARMY",
@@ -578,6 +679,34 @@
 		"EASY_FOREIGN_INFANTRY",
         "MEDIUM_FOREIGN_CAVALRY",
         "HARD_FOREIGN_ARTILLERY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 100.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+    {
+      "ID": "QM_MEDIUM_FIELD",
+      "Divisions": [
+        "MEDIUM_CAVALRY",
+        "MEDIUM_CAVALRY",
+		"EASY_INFANTRY",
+        "MEDIUM_ARTILLERY",
+        "HARD_CAVALRY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 100.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_MEDIUM_FIELD2",
+      "Divisions": [
+        "MEDIUM_FOREIGN_CAVALRY",
+        "MEDIUM_FOREIGN_CAVALRY",
+		"EASY_FOREIGN_INFANTRY",
+        "MEDIUM_FOREIGN_ARTILLERY",
+        "HARD_FOREIGN_CAVALRY"
       ],
       "EasyWeight": 0.0,
       "NormalWeight": 100.0,
@@ -699,6 +828,34 @@
 		"MEDIUM_FOREIGN_INFANTRY",
         "HARD_FOREIGN_CAVALRY",
         "HARD_FOREIGN_ARTILLERY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 100.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_HARD_FIELD",
+      "Divisions": [
+        "HARD_CAVALRY",
+        "MEDIUM_INFANTRY",
+		"MEDIUM_ARTILLERY",
+        "HARD_CAVALRY",
+        "HARD_CAVALRY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 100.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_HARD_FIELD2",
+      "Divisions": [
+        "HARD_FOREIGN_CAVALRY",
+        "MEDIUM_FOREIGN_INFANTRY",
+		"MEDIUM_FOREIGN_ARTILLERY",
+        "HARD_FOREIGN_CAVALRY",
+        "HARD_FOREIGN_CAVALRY"
       ],
       "EasyWeight": 0.0,
       "NormalWeight": 0.0,
@@ -834,6 +991,32 @@
       "VeryHardWeight": 0.0
     },
 	{
+      "ID": "QM_EASY_BOSS",
+      "Divisions": [
+        "EASY_SPECIAL",
+        "EASY_CAVALRY",
+        "MEDIUM_CAVALRY",
+        "MEDIUM_CAVALRY"
+      ],
+      "EasyWeight": 100.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_EASY_BOSS2",
+      "Divisions": [
+        "EASY_SPECIAL",
+        "EASY_FOREIGN_CAVALRY",
+        "MEDIUM_FOREIGN_CAVALRY",
+        "MEDIUM_FOREIGN_CAVALRY"
+      ],
+      "EasyWeight": 100.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
       "ID": "QM_EASY_LARGE_BOSS",
       "Divisions": [
 		"EASY_SPECIAL",
@@ -952,6 +1135,34 @@
         "MEDIUM_FOREIGN_INFANTRY",
         "HARD_FOREIGN_CAVALRY",
         "HARD_FOREIGN_ARTILLERY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 100.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_MEDIUM_BOSS",
+      "Divisions": [
+        "MEDIUM_SPECIAL",
+        "HARD_CAVALRY",
+        "MEDIUM_ARTILLERY",
+        "HARD_CAVALRY",
+        "HARD_CAVALRY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 100.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_MEDIUM_BOSS2",
+      "Divisions": [
+        "MEDIUM_SPECIAL",
+        "HARD_FOREIGN_CAVALRY",
+        "MEDIUM_FOREIGN_ARTILLERY",
+        "HARD_FOREIGN_CAVALRY",
+        "HARD_FOREIGN_CAVALRY"
       ],
       "EasyWeight": 0.0,
       "NormalWeight": 100.0,
@@ -1094,6 +1305,36 @@
         "HARD_SPECIAL",
         "HARD_FOREIGN_INFANTRY",
         "HARD_FOREIGN_INFANTRY",
+        "HARD_FOREIGN_CAVALRY",
+        "HARD_FOREIGN_ARTILLERY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 100.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_HARD_BOSS",
+      "Divisions": [
+        "HARD_SPECIAL",
+        "HARD_SPECIAL",
+        "HARD_CAVALRY",
+        "HARD_CAVALRY",
+        "HARD_CAVALRY",
+        "HARD_ARTILLERY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 100.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_HARD_BOSS2",
+      "Divisions": [
+        "HARD_SPECIAL",
+        "HARD_SPECIAL",
+        "HARD_FOREIGN_CAVALRY",
+        "HARD_FOREIGN_CAVALRY",
         "HARD_FOREIGN_CAVALRY",
         "HARD_FOREIGN_ARTILLERY"
       ],
@@ -1253,6 +1494,32 @@
       "VeryHardWeight": 0.0
     },
 	{
+      "ID": "QM_EASY_ENCAMPED",
+      "Divisions": [
+        "EASY_SPECIAL",
+        "EASY_ARTILLERY",
+        "EASY_CAVALRY",
+        "MEDIUM_CAVALRY"
+      ],
+      "EasyWeight": 100.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_EASY_ENCAMPED2",
+      "Divisions": [
+        "EASY_SPECIAL",
+        "EASY_FOREIGN_ARTILLERY",
+        "EASY_FOREIGN_CAVALRY",
+        "MEDIUM_FOREIGN_CAVALRY"
+      ],
+      "EasyWeight": 100.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
       "ID": "QM_EASY_LARGE_ENCAMPED",
       "Divisions": [
 		"EASY_SPECIAL",
@@ -1371,6 +1638,34 @@
         "EASY_FOREIGN_FIELDARMY",
         "MEDIUM_FOREIGN_CAVALRY",
         "MEDIUM_FOREIGN_ARTILLERY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 100.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_MEDIUM_ENCAMPED",
+      "Divisions": [
+        "MEDIUM_SPECIAL",
+        "MEDIUM_CAVALRY",
+        "EASY_ARTILLERY",
+        "MEDIUM_CAVALRY",
+        "MEDIUM_CAVALRY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 100.0,
+      "HardWeight": 0.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_MEDIUM_ENCAMPED2",
+      "Divisions": [
+        "MEDIUM_SPECIAL",
+        "MEDIUM_FOREIGN_CAVALRY",
+        "EASY_FOREIGN_ARTILLERY",
+        "MEDIUM_FOREIGN_CAVALRY",
+        "MEDIUM_FOREIGN_CAVALRY"
       ],
       "EasyWeight": 0.0,
       "NormalWeight": 100.0,
@@ -1505,6 +1800,34 @@
         "MEDIUM_FOREIGN_INFANTRY",
         "HARD_FOREIGN_CAVALRY",
         "HARD_FOREIGN_ARTILLERY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 100.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_HARD_ENCAMPED",
+      "Divisions": [
+        "HARD_SPECIAL",
+        "MEDIUM_ARTILLERY",
+        "MEDIUM_CAVALRY",
+        "HARD_CAVALRY",
+        "HARD_CAVALRY"
+      ],
+      "EasyWeight": 0.0,
+      "NormalWeight": 0.0,
+      "HardWeight": 100.0,
+      "VeryHardWeight": 0.0
+    },
+	{
+      "ID": "QM_HARD_ENCAMPED2",
+      "Divisions": [
+        "HARD_SPECIAL",
+        "MEDIUM_FOREIGN_ARTILLERY",
+        "MEDIUM_FOREIGN_CAVALRY",
+        "HARD_FOREIGN_CAVALRY",
+        "HARD_FOREIGN_CAVALRY"
       ],
       "EasyWeight": 0.0,
       "NormalWeight": 0.0,

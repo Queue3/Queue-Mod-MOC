@@ -3,8 +3,8 @@
     "TargetNodes": [],
     "OnCreatedNodes": [],
     "OnStartNodes": [
-      30,
-      31,
+      14,
+      13,
 	  19
     ],
     "DialogueID": 0,
@@ -17,11 +17,19 @@
   "QuestType": "NONE",
   "Variables": [
     {
+      "ID": 10,
+      "Key": "Morale",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": -5.0
+      }
+    },
+    {
       "ID": 3,
       "Key": "ICON",
       "Variable": {
         "$type": "Campaign.Variables.StringVariable, Campaign",
-        "Value": "Skill_Meticulous"
+        "Value": "Skill_Strict"
       }
     },
     {
@@ -33,23 +41,15 @@
       }
     },
     {
-      "ID": 7,
-      "Key": "Infantry Accuracy",
+      "ID": 9,
+      "Key": "Veterancy Gain",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": 10.0
-      }
-    },
-    {
-      "ID": 8,
-      "Key": "Infantry Reload Speed",
-      "Variable": {
-        "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": -5.0
+        "Value": 15.0
       }
     },
 	{
-      "ID": 9,
+      "ID": 20,
       "Key": "Move Speed",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
@@ -61,21 +61,19 @@
   "Activators": [
     {
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 18,
-        "Stat": "Accuracy"
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 9,
+        "Stat": "Morale"
       },
-      "ID": 30
+      "ID": 13
     },
     {
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 11,
-        "Stat": "Reload"
+        "$type": "MocCampaign.Dynamics.ModifyCampaignStatData, MocCampaign",
+        "Value": 10,
+        "Stat": "ExperienceModifier"
       },
-      "ID": 31
+      "ID": 14
     },
 	{
       "Data": {
@@ -88,23 +86,23 @@
   ],
   "VariableNodes": [
     {
-      "Variable": 8,
+      "Variable": 10,
       "VariableOutputsPorts": [
-        31,
-        4
+        4,
+        13
       ],
-      "ID": 11
-    },
-    {
-      "Variable": 7,
-      "VariableOutputsPorts": [
-        30,
-        4
-      ],
-      "ID": 18
+      "ID": 9
     },
     {
       "Variable": 9,
+      "VariableOutputsPorts": [
+        14,
+        4
+      ],
+      "ID": 10
+    },
+    {
+      "Variable": 20,
       "VariableOutputsPorts": [
         19,
 		4
@@ -114,11 +112,11 @@
   ],
   "TooltipNodes": [
     {
-      "HeaderKey": "Skill/InfantryMasteryName",
-      "TextKey": "Skill/InfantryMasteryDesc",
+      "HeaderKey": "Skill/DrillMasteryName",
+      "TextKey": "Skill/DrillMasteryDesc",
       "BodyVariables": [
-        18,
-        11,
+        10,
+        9,
 		17
       ],
       "HeaderVariables": [],
@@ -129,7 +127,7 @@
   ],
   "BranchingConditionalNodes": [],
   "ConditionalBlockNodes": [],
-  "ID": "InfantryMastery",
+  "ID": "Drillmastery",
   "StartNode": 2,
-  "FileName": "InfantryMastery"
+  "FileName": "Drillmastery"
 }

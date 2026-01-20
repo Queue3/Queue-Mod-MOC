@@ -1,0 +1,75 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      2
+    ],
+    "DialogueID": 0,
+    "ID": 1
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionConditionControllerData, MocCampaign",
+        "PositiveTerm": "Region/RegionCondition_Officers_Positive",
+        "PositiveHintTerm": "Region/RegionCondition_Officers_Positive_Hint",
+        "Positives": [
+          23,
+          23,
+          26
+        ],
+        "NegativeTerm": "Region/RegionCondition_Officers_Negative",
+        "NegativeHintTerm": "Region/RegionCondition_Officers_Negative_Hint",
+        "Negatives": [
+          24,
+          24,
+          27
+        ]
+      },
+      "ID": 2
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionOfficerCostData, MocCampaign",
+        "Value": -0.25
+      },
+      "ID": 23
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionOfficerCostData, MocCampaign",
+        "Value": 0.25
+      },
+      "ID": 24
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionOfficerQuantityData, MocCampaign",
+        "Value": 4
+      },
+      "ID": 26
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionOfficerQuantityData, MocCampaign",
+        "Value": -2
+      },
+      "ID": 27
+    }
+  ],
+  "VariableNodes": [],
+  "TooltipNodes": [],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "RegionCondition_Officers",
+  "StartNode": 1,
+  "FileName": "RegionCondition_Officers"
+}

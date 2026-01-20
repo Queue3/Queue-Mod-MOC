@@ -3,9 +3,9 @@
     "TargetNodes": [],
     "OnCreatedNodes": [],
     "OnStartNodes": [
-      30,
-      31,
-	  19
+      13,
+      14,
+	  34
     ],
     "DialogueID": 0,
     "ID": 2
@@ -17,11 +17,19 @@
   "QuestType": "NONE",
   "Variables": [
     {
+      "ID": 7,
+      "Key": "Cover Effectiveness",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 10.0
+      }
+    },
+    {
       "ID": 3,
       "Key": "ICON",
       "Variable": {
         "$type": "Campaign.Variables.StringVariable, Campaign",
-        "Value": "Skill_Meticulous"
+        "Value": "Skill_FieldEngineering"
       }
     },
     {
@@ -33,24 +41,16 @@
       }
     },
     {
-      "ID": 7,
-      "Key": "Infantry Accuracy",
-      "Variable": {
-        "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": 10.0
-      }
-    },
-    {
       "ID": 8,
-      "Key": "Infantry Reload Speed",
+      "Key": "Deployable Speed",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": -5.0
+        "Value": 100.0
       }
     },
 	{
-      "ID": 9,
-      "Key": "Move Speed",
+      "ID": 21,
+      "Key": "Modifier",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
         "Value": 5.0
@@ -61,65 +61,61 @@
   "Activators": [
     {
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 18,
-        "Stat": "Accuracy"
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 11,
+        "Stat": "CoverBonusModifier"
       },
-      "ID": 30
+      "ID": 13
     },
     {
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 11,
-        "Stat": "Reload"
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 9,
+        "Stat": "DeployableConstructionSpeed"
       },
-      "ID": 31
+      "ID": 14
     },
 	{
       "Data": {
         "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
-        "Value": 17,
-        "Stat": "MovementSpeed"
+        "Value": 35,
+        "Stat": "ElevationBonuses"
       },
-      "ID": 19
+      "ID": 34
     }
   ],
   "VariableNodes": [
     {
       "Variable": 8,
       "VariableOutputsPorts": [
-        31,
-        4
+        14
       ],
-      "ID": 11
+      "ID": 9
     },
     {
       "Variable": 7,
       "VariableOutputsPorts": [
-        30,
-        4
+        4,
+        13
       ],
-      "ID": 18
+      "ID": 11
     },
-    {
-      "Variable": 9,
+	{
+      "Variable": 21,
       "VariableOutputsPorts": [
-        19,
-		4
+	    4,
+        34
       ],
-      "ID": 17
+      "ID": 35
     }
   ],
   "TooltipNodes": [
     {
-      "HeaderKey": "Skill/InfantryMasteryName",
-      "TextKey": "Skill/InfantryMasteryDesc",
+      "HeaderKey": "Skill/FieldEngineeringName",
+      "TextKey": "Skill/FieldEngineeringDesc",
       "BodyVariables": [
-        18,
         11,
-		17
+		35
       ],
       "HeaderVariables": [],
       "Inputs": null,
@@ -129,7 +125,7 @@
   ],
   "BranchingConditionalNodes": [],
   "ConditionalBlockNodes": [],
-  "ID": "InfantryMastery",
+  "ID": "FieldEngineering",
   "StartNode": 2,
-  "FileName": "InfantryMastery"
+  "FileName": "FieldEngineering"
 }

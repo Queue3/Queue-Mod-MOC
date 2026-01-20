@@ -5,9 +5,16 @@
     1.0,
     2.0,
     4.0
-   ],
+  ],
+   "BattlePhysicSpeeds": [
+    0.0,
+    0.02,
+    0.02,
+    0.03,
+    0.05
+  ],
    "SecondEnemyHQDelay": 30,
-   "MinPercentHPToTriggerUnitDeath": 0.05,
+   "MinPercentHPToTriggerUnitDeath": 0.01,
    "DivisionOfficerBaseMoralePerLevel": [
     2.0,
     4.0,
@@ -47,7 +54,13 @@
 	0.1,
 	0.11
   ],
-  "EliteArmiesCount": 3,
+  "BaseCommandAuraRadius": [
+    163.0,
+    153.0,
+    139.0,
+    125.0,
+    111.0
+  ],
   "PatrolArmiesRange": [
     {
       "x": 5,
@@ -83,6 +96,10 @@
     }
   ],
   "ShopManpowerInstanceCost": 66.0,
+  "PrisonersCapturedRange": {
+    "x": 0.65,
+    "y": 0.95
+  },
   "AIPrimaryWeaponGenerationChanceEliteBoss": {
     "x": 20.0,
     "y": 40.0,
@@ -272,8 +289,14 @@
   "PillageAttrition": 0.001,
   "MinShopUnits": 3,
   "MaxShopUnits": 5,
-  "ShopMinManpower": 2500,
-  "ShopMaxManpower": 3500,
+  "ShopMinManpower": 2000,
+  "ShopMaxManpower": 6000,
+  "ShopMinFood": 200,
+  "ShopMaxFood": 2000,
+  "ShopMinSupply": 375,
+  "ShopMaxSupply": 2500,
+  "ShopOfficersMin": 3,
+  "ShopOfficersMax": 6,
   "DrillUnitsExperienceGain": 150,
   "DrillOfficersExperienceGain": 150,
   "DrillAmmoConsumption": 12,
@@ -331,15 +354,15 @@
       "y": 3
     },
     {
-      "x": 3,
+      "x": 0,
       "y": 5
     },
     {
-      "x": 6,
+      "x": 0,
       "y": 11
     },
     {
-      "x": 7,
+      "x": 0,
       "y": 11
     }
   ],

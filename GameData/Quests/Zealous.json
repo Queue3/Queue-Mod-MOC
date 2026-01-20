@@ -3,9 +3,9 @@
     "TargetNodes": [],
     "OnCreatedNodes": [],
     "OnStartNodes": [
-      30,
-      31,
-	  19
+      14,
+      15,
+	  34
     ],
     "DialogueID": 0,
     "ID": 2
@@ -17,11 +17,19 @@
   "QuestType": "NONE",
   "Variables": [
     {
+      "ID": 9,
+      "Key": "Melee Skill",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 15.0
+      }
+    },
+    {
       "ID": 3,
       "Key": "ICON",
       "Variable": {
         "$type": "Campaign.Variables.StringVariable, Campaign",
-        "Value": "Skill_Meticulous"
+        "Value": "Skill_Zealous"
       }
     },
     {
@@ -33,27 +41,19 @@
       }
     },
     {
-      "ID": 7,
-      "Key": "Infantry Accuracy",
-      "Variable": {
-        "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": 10.0
-      }
-    },
-    {
-      "ID": 8,
-      "Key": "Infantry Reload Speed",
-      "Variable": {
-        "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": -5.0
-      }
-    },
-	{
-      "ID": 9,
-      "Key": "Move Speed",
+      "ID": 10,
+      "Key": "Melee Damage Received",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
         "Value": 5.0
+      }
+    },
+	{
+      "ID": 21,
+      "Key": "Modifier",
+      "Variable": {
+        "$type": "Campaign.Variables.FloatVariable, Campaign",
+        "Value": 10.0
       }
     }
   ],
@@ -61,65 +61,63 @@
   "Activators": [
     {
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 18,
-        "Stat": "Accuracy"
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 11,
+        "Stat": "Melee"
       },
-      "ID": 30
+      "ID": 14
     },
     {
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 11,
-        "Stat": "Reload"
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 12,
+        "Stat": "MeleeDamageReceived"
       },
-      "ID": 31
+      "ID": 15
     },
 	{
       "Data": {
         "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
-        "Value": 17,
-        "Stat": "MovementSpeed"
+        "Value": 35,
+        "Stat": "ElevationBonuses"
       },
-      "ID": 19
+      "ID": 34
     }
   ],
   "VariableNodes": [
     {
-      "Variable": 8,
+      "Variable": 9,
       "VariableOutputsPorts": [
-        31,
+        14,
         4
       ],
       "ID": 11
     },
     {
-      "Variable": 7,
+      "Variable": 10,
       "VariableOutputsPorts": [
-        30,
+        15,
         4
       ],
-      "ID": 18
+      "ID": 12
     },
-    {
-      "Variable": 9,
+	{
+      "Variable": 21,
       "VariableOutputsPorts": [
-        19,
-		4
+	    4,
+        34
       ],
-      "ID": 17
+      "ID": 35
     }
   ],
   "TooltipNodes": [
     {
-      "HeaderKey": "Skill/InfantryMasteryName",
-      "TextKey": "Skill/InfantryMasteryDesc",
+      "HeaderKey": "Skill/ZealousName",
+      "TextKey": "Skill/ZealousDesc",
       "BodyVariables": [
-        18,
         11,
-		17
+        12,
+		35
       ],
       "HeaderVariables": [],
       "Inputs": null,
@@ -129,7 +127,7 @@
   ],
   "BranchingConditionalNodes": [],
   "ConditionalBlockNodes": [],
-  "ID": "InfantryMastery",
+  "ID": "Zealous",
   "StartNode": 2,
-  "FileName": "InfantryMastery"
+  "FileName": "Zealous"
 }

@@ -3,9 +3,9 @@
     "TargetNodes": [],
     "OnCreatedNodes": [],
     "OnStartNodes": [
-      30,
-      31,
-	  19
+      7,
+	  17,
+	  23
     ],
     "DialogueID": 0,
     "ID": 2
@@ -21,7 +21,7 @@
       "Key": "ICON",
       "Variable": {
         "$type": "Campaign.Variables.StringVariable, Campaign",
-        "Value": "Skill_Meticulous"
+        "Value": "Skill_Disciplined"
       }
     },
     {
@@ -34,23 +34,23 @@
     },
     {
       "ID": 7,
-      "Key": "Infantry Accuracy",
+      "Key": "RankFire",
       "Variable": {
-        "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": 10.0
+        "$type": "Campaign.Variables.IntVariable, Campaign",
+        "Value": 1
       }
     },
     {
-      "ID": 8,
-      "Key": "Infantry Reload Speed",
+      "ID": 20,
+      "Key": "Artillery Reload",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": -5.0
+        "Value": 5.0
       }
     },
-	{
-      "ID": 9,
-      "Key": "Move Speed",
+    {
+      "ID": 30,
+      "Key": "Cavalry Reload",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
         "Value": 5.0
@@ -61,65 +61,63 @@
   "Activators": [
     {
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 18,
-        "Stat": "Accuracy"
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
+        "Value": 8,
+        "Stat": "HasFireByRank"
       },
-      "ID": 30
-    },
-    {
-      "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
-        "Category": "INFANTRY",
-        "Value": 11,
-        "Stat": "Reload"
-      },
-      "ID": 31
+      "ID": 7
     },
 	{
       "Data": {
-        "$type": "MocCampaign.Dynamics.ModifyBattleStatData, MocCampaign",
-        "Value": 17,
-        "Stat": "MovementSpeed"
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
+        "Category": "ARTILLERY",
+        "Value": 11,
+        "Stat": "Reload"
       },
-      "ID": 19
+      "ID": 17
+    },
+	{
+      "Data": {
+        "$type": "MocCampaign.Dynamics.ModifyBattleStatForUnitCategoryData, MocCampaign",
+        "Category": "CAVALRY",
+        "Value": 21,
+        "Stat": "Reload"
+      },
+      "ID": 23
     }
   ],
   "VariableNodes": [
     {
-      "Variable": 8,
+      "Variable": 7,
       "VariableOutputsPorts": [
-        31,
+        7
+      ],
+      "ID": 8
+    },
+    {
+      "Variable": 20,
+      "VariableOutputsPorts": [
+        17,
         4
       ],
       "ID": 11
     },
     {
-      "Variable": 7,
+      "Variable": 30,
       "VariableOutputsPorts": [
-        30,
+        23,
         4
       ],
-      "ID": 18
-    },
-    {
-      "Variable": 9,
-      "VariableOutputsPorts": [
-        19,
-		4
-      ],
-      "ID": 17
+      "ID": 21
     }
   ],
   "TooltipNodes": [
     {
-      "HeaderKey": "Skill/InfantryMasteryName",
-      "TextKey": "Skill/InfantryMasteryDesc",
+      "HeaderKey": "Skill/FireByRankName",
+      "TextKey": "Skill/FireByRankDesc",
       "BodyVariables": [
-        18,
         11,
-		17
+		21
       ],
       "HeaderVariables": [],
       "Inputs": null,
@@ -129,7 +127,7 @@
   ],
   "BranchingConditionalNodes": [],
   "ConditionalBlockNodes": [],
-  "ID": "InfantryMastery",
+  "ID": "FireByRank",
   "StartNode": 2,
-  "FileName": "InfantryMastery"
+  "FileName": "FireByRank"
 }

@@ -1,0 +1,95 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      2
+    ],
+    "DialogueID": 0,
+    "ID": 1
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionConditionControllerData, MocCampaign",
+        "PositiveTerm": "Region/RegionCondition_Cavalry_Positive",
+        "PositiveHintTerm": "Region/RegionCondition_Cavalry_Positive_Hint",
+        "Positives": [
+          17,
+          17,
+          20,
+          23
+        ],
+        "NegativeTerm": "Region/RegionCondition_Cavalry_Negative",
+        "NegativeHintTerm": "Region/RegionCondition_Cavalry_Negative_Hint",
+        "Negatives": [
+          18,
+          18,
+          21,
+          22
+        ]
+      },
+      "ID": 2
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionCavalryCostData, MocCampaign",
+        "Value": -0.15
+      },
+      "ID": 17
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionCavalryCostData, MocCampaign",
+        "Value": 0.15
+      },
+      "ID": 18
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionUnitCategoryQuantityData, MocCampaign",
+        "UnitCategory": "CAVALRY",
+        "Value": 4
+      },
+      "ID": 20
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionUnitCategoryQuantityData, MocCampaign",
+        "UnitCategory": "CAVALRY",
+        "Value": -2
+      },
+      "ID": 21
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionShopQuantityData, MocCampaign",
+        "BuildingType": "HORSE_STABLE",
+        "Value": -2
+      },
+      "ID": 22
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionShopQuantityData, MocCampaign",
+        "BuildingType": "HORSE_STABLE",
+        "Value": 2
+      },
+      "ID": 23
+    }
+  ],
+  "VariableNodes": [],
+  "TooltipNodes": [],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "RegionCondition_Cavalry",
+  "StartNode": 1,
+  "FileName": "RegionCondition_Cavalry"
+}

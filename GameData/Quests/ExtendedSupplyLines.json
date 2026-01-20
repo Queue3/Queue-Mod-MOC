@@ -180,7 +180,8 @@
       "HeaderKey": "Strategem/ExtendedSupplyLinesHeader",
       "TextKey": "Strategem/ExtendedSupplyLinesBody",
       "BodyVariables": [
-        49
+        49,
+		60
       ],
       "HeaderVariables": [],
       "Inputs": null,

@@ -19,7 +19,11 @@
     "Variables": [
 	  {
         "Variable": "Stamina",
-        "Value": 1
+        "Value": 1.0
+      },
+      {
+        "Variable": "Morale",
+        "Value": 1.0
       }
 	],
     "UseableByAI": false,
@@ -67,7 +71,11 @@
     "Variables": [
 	  {
         "Variable": "Stamina",
-        "Value": 1
+        "Value": 1.0
+      },
+      {
+        "Variable": "Morale",
+        "Value": 1.0
       }
 	],
     "UseableByAI": false,
@@ -115,7 +123,11 @@
     "Variables": [
 	  {
         "Variable": "Stamina",
-        "Value": 1
+        "Value": 1.0
+      },
+      {
+        "Variable": "Morale",
+        "Value": 1.0
       }
 	],
     "UseableByAI": false,
@@ -160,7 +172,12 @@
     "Rarity": "COMMON",
     "Quality": "BASIC",
     "ItemType": "GRENADE",
-    "Variables": [],
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 2.0
+      }
+	],
     "UseableByAI": false,
     "ItemGenerationData": {
       "ID": "LARGE_BAG_GLASS_GRENADES",
@@ -203,7 +220,12 @@
     "Rarity": "UNCOMMON",
     "Quality": "GOOD",
     "ItemType": "GRENADE",
-    "Variables": [],
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 2.0
+      }
+	],
     "UseableByAI": false,
     "ItemGenerationData": {
       "ID": "LARGE_BAG_GLASS_GRENADES_2",
@@ -246,7 +268,12 @@
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "GRENADE",
-    "Variables": [],
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 2.0
+      }
+	],
     "UseableByAI": false,
     "ItemGenerationData": {
       "ID": "LARGE_BAG_GLASS_GRENADES_3",
@@ -292,7 +319,11 @@
     "Variables": [
 	  {
         "Variable": "Stamina",
-        "Value": 1
+        "Value": 1.0
+      },
+      {
+        "Variable": "Morale",
+        "Value": 1.0
       }
 	],
     "UseableByAI": false,
@@ -340,7 +371,11 @@
     "Variables": [
 	  {
         "Variable": "Stamina",
-        "Value": 1
+        "Value": 1.0
+      },
+      {
+        "Variable": "Morale",
+        "Value": 1.0
       }
 	],
     "UseableByAI": false,
@@ -388,7 +423,11 @@
     "Variables": [
 	  {
         "Variable": "Stamina",
-        "Value": 1
+        "Value": 1.0
+      },
+      {
+        "Variable": "Morale",
+        "Value": 1.0
       }
 	],
     "UseableByAI": false,
@@ -433,7 +472,12 @@
     "Rarity": "COMMON",
     "Quality": "BASIC",
     "ItemType": "GRENADE",
-    "Variables": [],
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 2.0
+      }
+	],
     "UseableByAI": false,
     "ItemGenerationData": {
       "ID": "LARGE_BAG_CAST_IRON_GRENADES",
@@ -476,7 +520,12 @@
     "Rarity": "UNCOMMON",
     "Quality": "GOOD",
     "ItemType": "GRENADE",
-    "Variables": [],
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 2.0
+      }
+	],
     "UseableByAI": false,
     "ItemGenerationData": {
       "ID": "LARGE_BAG_CAST_IRON_GRENADES_2",
@@ -519,7 +568,12 @@
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "GRENADE",
-    "Variables": [],
+    "Variables": [
+      {
+        "Variable": "Morale",
+        "Value": 2.0
+      }
+	],
     "UseableByAI": false,
     "ItemGenerationData": {
       "ID": "LARGE_BAG_CAST_IRON_GRENADES_3",

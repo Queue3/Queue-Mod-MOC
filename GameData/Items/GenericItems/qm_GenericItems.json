@@ -2109,11 +2109,15 @@
     "Variables": [
       {
         "Variable": "MoveSpeed",
-        "Value": 5.0
+        "Value": 4.0
       },
       {
         "Variable": "Stamina",
         "Value": 2.0
+      },
+      {
+        "Variable": "ChargeDamage",
+        "Value": 1.0
       }
     ],
     "UseableByAI": true,
@@ -2155,11 +2159,15 @@
     "Variables": [
       {
         "Variable": "MoveSpeed",
-        "Value": 7.0
+        "Value": 6.0
       },
       {
         "Variable": "Stamina",
         "Value": 4.0
+      },
+      {
+        "Variable": "ChargeDamage",
+        "Value": 1.0
       }
     ],
     "UseableByAI": true,
@@ -2201,11 +2209,15 @@
     "Variables": [
       {
         "Variable": "MoveSpeed",
-        "Value": 9.0
+        "Value": 8.0
       },
       {
         "Variable": "Stamina",
         "Value": 6.0
+      },
+      {
+        "Variable": "ChargeDamage",
+        "Value": 1.0
       }
     ],
     "UseableByAI": true,

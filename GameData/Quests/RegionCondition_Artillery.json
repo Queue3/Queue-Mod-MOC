@@ -1,0 +1,95 @@
+{
+  "StartNodeSave": {
+    "TargetNodes": [],
+    "OnCreatedNodes": [],
+    "OnStartNodes": [
+      2
+    ],
+    "DialogueID": 0,
+    "ID": 1
+  },
+  "StateNodes": [],
+  "CanGenerateNodeSave": null,
+  "ChildGenerators": [],
+  "GeneratorNode": null,
+  "QuestType": "NONE",
+  "Variables": [],
+  "Conditionals": [],
+  "Activators": [
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionConditionControllerData, MocCampaign",
+        "PositiveTerm": "Region/RegionCondition_Artillery_Positive",
+        "PositiveHintTerm": "Region/RegionCondition_Artillery_Positive_Hint",
+        "Positives": [
+          19,
+          19,
+          22,
+          24
+        ],
+        "NegativeTerm": "Region/RegionCondition_Artillery_Negative",
+        "NegativeHintTerm": "Region/RegionCondition_Artillery_Negative_Hint",
+        "Negatives": [
+          20,
+          20,
+          23,
+          25
+        ]
+      },
+      "ID": 2
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionArtilleryCostData, MocCampaign",
+        "Value": -0.15
+      },
+      "ID": 19
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionArtilleryCostData, MocCampaign",
+        "Value": 0.15
+      },
+      "ID": 20
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionUnitCategoryQuantityData, MocCampaign",
+        "UnitCategory": "ARTILLERY",
+        "Value": 4
+      },
+      "ID": 22
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionShopQuantityData, MocCampaign",
+        "BuildingType": "FOUNDRY",
+        "Value": -2
+      },
+      "ID": 23
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionShopQuantityData, MocCampaign",
+        "BuildingType": "FOUNDRY",
+        "Value": 2
+      },
+      "ID": 24
+    },
+    {
+      "Data": {
+        "$type": "MocCampaign.Dynamics.Regions.RegionUnitCategoryQuantityData, MocCampaign",
+        "UnitCategory": "ARTILLERY",
+        "Value": -2
+      },
+      "ID": 25
+    }
+  ],
+  "VariableNodes": [],
+  "TooltipNodes": [],
+  "BranchingConditionalNodes": [],
+  "ConditionalBlockNodes": [],
+  "ID": "RegionCondition_Artillery",
+  "StartNode": 1,
+  "FileName": "RegionCondition_Artillery"
+}

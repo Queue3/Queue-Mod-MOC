@@ -1,0 +1,11 @@
+{
+  "CavalryAttackDistanceToBreakProtection": 80.0,
+  "CavalryDistanceToTriggerMoveToProtectArtillery": 90.0,
+  "CavalryDistanceToTriggerMoveToProtectInfantry": 90.0,
+  "DefensiveStanceIsolationCheckDistance": 90.0,
+  "CavIsolationHighAggresionLineInfantryWeightConsumption": {
+    "x": 2,
+    "y": 2
+  },
+  "InfantryChanceToSwitchTargetWhoIsChargingThem": 80.0
+}
