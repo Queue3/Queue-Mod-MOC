@@ -1,5 +1,5 @@
-[
-  {
+﻿[
+{
     "DeploymentSprite": "TEST_DEPLOYABLE",
     "AbilityID": "WOODEN_STAKES",
     "DeployableModelID": "WOODEN_STAKES",
@@ -12,6 +12,7 @@
     "BustIconID": null,
     "Price": 90,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "COMMON",
     "Quality": "BASIC",
     "ItemType": "FIELD_WORKS",
@@ -59,6 +60,7 @@
     "BustIconID": null,
     "Price": 140,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "UNCOMMON",
     "Quality": "GOOD",
     "ItemType": "FIELD_WORKS",
@@ -106,6 +108,7 @@
     "BustIconID": null,
     "Price": 190,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "FIELD_WORKS",
@@ -151,8 +154,9 @@
     "Description": "Items/CHEVAUX_DE_FRISE/Description",
     "InventoryIconID": "ITEM_ChevauxDeFrise",
     "BustIconID": null,
-    "Price": 230,
+    "Price": 200,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "FIELD_WORKS",
@@ -195,6 +199,7 @@
     "BustIconID": null,
     "Price": 250,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "FIELD_WORKS",

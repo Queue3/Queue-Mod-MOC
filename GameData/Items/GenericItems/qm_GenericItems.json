@@ -1,12 +1,13 @@
-[
+﻿[
   {
     "ID": "IMRPOVED_GUNNERS_IMPLEMENTS_3",
     "Name": "Items/IMRPOVED_GUNNERS_IMPLEMENTS/Excellent/Name",
     "Description": "Items/IMRPOVED_GUNNERS_IMPLEMENTS/Description",
     "InventoryIconID": "ITEM_ImprovedGunnersImplements",
     "BustIconID": null,
-    "Price": 140,
+    "Price": 150,
     "UnitTypeAllowed": "Artillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TOOL_IMPROVEMENTS",
@@ -42,105 +43,14 @@
     }
   },
   {
-    "ID": "IRON_RAMRODS",
-    "Name": "Items/IRON_RAMRODS/Basic/Name",
-    "Description": "Items/IRON_RAMRODS/Description",
-    "InventoryIconID": "ITEM_RamrodIron",
-    "BustIconID": null,
-    "Price": 80,
-    "UnitTypeAllowed": "InfantryAndCavalry",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "TOOL_IMPROVEMENTS",
-    "Variables": [
-      {
-        "Variable": "ReloadSkill",
-        "Value": 6.0
-      },
-	  {
-        "Variable": "Stamina",
-        "Value": 1.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "IRON_RAMRODS",
-      "ItemType": "TOOL_IMPROVEMENTS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "IRON_RAMRODS_2",
-    "Name": "Items/IRON_RAMRODS/Good/Name",
-    "Description": "Items/IRON_RAMRODS/Description",
-    "InventoryIconID": "ITEM_RamrodIron",
-    "BustIconID": null,
-    "Price": 140,
-    "UnitTypeAllowed": "InfantryAndCavalry",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "TOOL_IMPROVEMENTS",
-    "Variables": [
-      {
-        "Variable": "ReloadSkill",
-        "Value": 8.0
-      },
-	  {
-        "Variable": "Stamina",
-        "Value": 2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "IRON_RAMRODS_2",
-      "ItemType": "TOOL_IMPROVEMENTS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "IRON_RAMRODS_3",
     "Name": "Items/IRON_RAMRODS/Excellent/Name",
     "Description": "Items/IRON_RAMRODS/Description",
     "InventoryIconID": "ITEM_RamrodIron",
     "BustIconID": null,
-    "Price": 200,
+    "Price": 175,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TOOL_IMPROVEMENTS",
@@ -148,10 +58,6 @@
       {
         "Variable": "ReloadSkill",
         "Value": 10.0
-      },
-	  {
-        "Variable": "Stamina",
-        "Value": 3.0
       }
     ],
     "UseableByAI": true,
@@ -185,8 +91,9 @@
     "Description": "Items/CYLINDRICAL_RAMROD/Description",
     "InventoryIconID": "ITEM_RamrodCylindrical",
     "BustIconID": null,
-    "Price": 260,
+    "Price": 250,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TOOL_IMPROVEMENTS",
@@ -206,106 +113,22 @@
       "ItemType": "TOOL_IMPROVEMENTS",
       "Qunatity": 0,
       "ShopWeights": [
-        15.0,
-        150.0,
-        900.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -100050.0,
-        -50.0,
-        450.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -1050.0,
+        20.0,
         200.0,
-        700.0,
-        200.0
-      ]
-    }
-  },
-  {
-    "ID": "ENTRENCHING_TOOLS",
-    "Name": "Items/ENTRENCHING_TOOLS/Basic/Name",
-    "Description": "Items/ENTRENCHING_TOOLS/Description",
-    "InventoryIconID": "ITEM_EntrenchingTools",
-    "BustIconID": null,
-    "Price": 50,
-    "UnitTypeAllowed": "InfantryAndArtillery",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "ADDITIONAL_TOOLS",
-    "Variables": [
-      {
-        "Variable": "CoverBonus",
-        "Value": 0.2
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "ENTRENCHING_TOOLS",
-      "ItemType": "ADDITIONAL_TOOLS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
+        950.0,
+        250.0
+      ],
+      "MinorBattleDropWeights": [
+        -100000.0,
         0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
+        500.0,
+        250.0
       ],
       "MajorBattleDropWeights": [
+        -1000.0,
         250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "ENTRENCHING_TOOLS_2",
-    "Name": "Items/ENTRENCHING_TOOLS/Good/Name",
-    "Description": "Items/ENTRENCHING_TOOLS/Description",
-    "InventoryIconID": "ITEM_EntrenchingTools",
-    "BustIconID": null,
-    "Price": 100,
-    "UnitTypeAllowed": "InfantryAndArtillery",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "ADDITIONAL_TOOLS",
-    "Variables": [
-      {
-        "Variable": "CoverBonus",
-        "Value": 0.3
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "ENTRENCHING_TOOLS_2",
-      "ItemType": "ADDITIONAL_TOOLS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
+        750.0,
+        250.0
       ]
     }
   },
@@ -317,6 +140,7 @@
     "BustIconID": null,
     "Price": 150,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "ADDITIONAL_TOOLS",
@@ -324,6 +148,10 @@
       {
         "Variable": "CoverBonus",
         "Value": 0.4
+      },
+      {
+        "Variable": "Stamina",
+        "Value": -2.0
       }
     ],
     "UseableByAI": true,
@@ -359,6 +187,7 @@
     "BustIconID": null,
     "Price": 180,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "ADDITIONAL_TOOLS",
@@ -405,6 +234,7 @@
     "BustIconID": null,
     "Price": 160,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "ADDITIONAL_TOOLS",
@@ -451,6 +281,7 @@
     "BustIconID": null,
     "Price": 125,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "ADDITIONAL_TOOLS",
@@ -490,112 +321,21 @@
     }
   },
   {
-    "ID": "ELEVATION_SCREWS",
-    "Name": "Items/ELEVATION_SCREWS/Basic/Name",
-    "Description": "Items/ELEVATION_SCREWS/Description",
-    "InventoryIconID": "ITEM_ElevationScrews",
-    "BustIconID": null,
-    "Price": 65,
-    "UnitTypeAllowed": "Artillery",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "WEAPON_TOOLS",
-    "Variables": [
-      {
-        "Variable": "MaxRange",
-        "Value": 0.1
-      },
-      {
-        "Variable": "ReloadSkill",
-        "Value": -2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "ELEVATION_SCREWS",
-      "ItemType": "WEAPON_TOOLS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "ELEVATION_SCREWS_2",
-    "Name": "Items/ELEVATION_SCREWS/Good/Name",
-    "Description": "Items/ELEVATION_SCREWS/Description",
-    "InventoryIconID": "ITEM_ElevationScrews",
-    "BustIconID": null,
-    "Price": 115,
-    "UnitTypeAllowed": "Artillery",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "WEAPON_TOOLS",
-    "Variables": [
-      {
-        "Variable": "MaxRange",
-        "Value": 0.15
-      },
-      {
-        "Variable": "ReloadSkill",
-        "Value": -2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "ELEVATION_SCREWS_2",
-      "ItemType": "WEAPON_TOOLS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "ELEVATION_SCREWS_3",
     "Name": "Items/ELEVATION_SCREWS/Excellent/Name",
     "Description": "Items/ELEVATION_SCREWS/Description",
     "InventoryIconID": "ITEM_ElevationScrews",
     "BustIconID": null,
-    "Price": 165,
+    "Price": 145,
     "UnitTypeAllowed": "Artillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON_TOOLS",
     "Variables": [
       {
         "Variable": "MaxRange",
-        "Value": 0.2
+        "Value": 0.15
       },
       {
         "Variable": "ReloadSkill",
@@ -628,61 +368,16 @@
     }
   },
   {
-    "ID": "WATER_BUCKETS",
-    "Name": "Items/WATER_BUCKETS/Basic/Name",
+    "ID": "WATER_BUCKETS3",
+    "Name": "Items/WATER_BUCKETS/Excellent/Name",
     "Description": "Items/WATER_BUCKETS/Description",
     "InventoryIconID": "ITEM_WaterBuckets",
     "BustIconID": null,
-    "Price": 35,
+    "Price": 135,
     "UnitTypeAllowed": "Artillery",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "WEAPON_TOOLS",
-    "Variables": [
-      {
-        "Variable": "ReloadSkill",
-        "Value": 6.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": -4.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "WATER_BUCKETS",
-      "ItemType": "WEAPON_TOOLS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "WATER_BUCKETS2",
-    "Name": "Items/WATER_BUCKETS/Good/Name",
-    "Description": "Items/WATER_BUCKETS/Description",
-    "InventoryIconID": "ITEM_WaterBuckets",
-    "BustIconID": null,
-    "Price": 85,
-    "UnitTypeAllowed": "Artillery",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
+    "UnitTypeFlag": "ANY",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
     "ItemType": "WEAPON_TOOLS",
     "Variables": [
       {
@@ -691,53 +386,7 @@
       },
       {
         "Variable": "Stamina",
-        "Value": -4.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "WATER_BUCKETS2",
-      "ItemType": "WEAPON_TOOLS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
-    "ID": "WATER_BUCKETS3",
-    "Name": "Items/WATER_BUCKETS/Excellent/Name",
-    "Description": "Items/WATER_BUCKETS/Description",
-    "InventoryIconID": "ITEM_WaterBuckets",
-    "BustIconID": null,
-    "Price": 135,
-    "UnitTypeAllowed": "Artillery",
-    "Rarity": "RARE",
-    "Quality": "EXCELLENT",
-    "ItemType": "WEAPON_TOOLS",
-    "Variables": [
-      {
-        "Variable": "ReloadSkill",
-        "Value": 10.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": -4.0
+        "Value": -2.0
       }
     ],
     "UseableByAI": true,
@@ -771,8 +420,9 @@
     "Description": "Items/IMPROVED_TOMPIONS/Description",
     "InventoryIconID": "ITEM_Tompions",
     "BustIconID": null,
-    "Price": 135,
+    "Price": 145,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON_TOOLS",
@@ -808,98 +458,6 @@
     }
   },
   {
-    "ID": "IMPROVED_GUNPICKS",
-    "Name": "Items/IMPROVED_GUNPICKS/Basic/Name",
-    "Description": "Items/IMPROVED_GUNPICKS/Description",
-    "InventoryIconID": "ITEM_WhiskAndPicks",
-    "BustIconID": null,
-    "Price": 50,
-    "UnitTypeAllowed": "InfantryAndCavalry",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "WEAPON_TOOLS",
-    "Variables": [
-      {
-        "Variable": "ReloadSkill",
-        "Value": 2.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": 3.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "IMPROVED_GUNPICKS",
-      "ItemType": "WEAPON_TOOLS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "IMPROVED_GUNPICKS_2",
-    "Name": "Items/IMPROVED_GUNPICKS/Good/Name",
-    "Description": "Items/IMPROVED_GUNPICKS/Description",
-    "InventoryIconID": "ITEM_WhiskAndPicks",
-    "BustIconID": null,
-    "Price": 90,
-    "UnitTypeAllowed": "InfantryAndCavalry",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "WEAPON_TOOLS",
-    "Variables": [
-      {
-        "Variable": "ReloadSkill",
-        "Value": 4.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": 3.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "IMPROVED_GUNPICKS_2",
-      "ItemType": "WEAPON_TOOLS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "IMPROVED_GUNPICKS_3",
     "Name": "Items/IMPROVED_GUNPICKS/Excellent/Name",
     "Description": "Items/IMPROVED_GUNPICKS/Description",
@@ -907,6 +465,7 @@
     "BustIconID": null,
     "Price": 140,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON_TOOLS",
@@ -917,7 +476,7 @@
       },
       {
         "Variable": "Stamina",
-        "Value": 3.0
+        "Value": 4.0
       }
     ],
     "UseableByAI": true,
@@ -951,8 +510,9 @@
     "Description": "Items/TOW_WORMS/Description",
     "InventoryIconID": "ITEM_TowWorm",
     "BustIconID": null,
-    "Price": 135,
+    "Price": 140,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON_TOOLS",
@@ -997,8 +557,9 @@
     "Description": "Items/REG_STAFF_FARRIER/Description",
     "InventoryIconID": "ITEM_CavalryFarrier",
     "BustIconID": null,
-    "Price": 165,
+    "Price": 170,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "STAFF",
@@ -1045,6 +606,7 @@
     "BustIconID": null,
     "Price": 160,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "STAFF",
@@ -1089,8 +651,9 @@
     "Description": "Items/REG_STAFF_COMMISSAR/Description",
     "InventoryIconID": "ITEM_Commissars",
     "BustIconID": null,
-    "Price": 165,
+    "Price": 160,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "STAFF",
@@ -1130,113 +693,14 @@
     }
   },
   {
-    "ID": "REG_STAFF_QUARTERMASTER",
-    "Name": "Items/REG_STAFF_QUARTERMASTER/Basic/Name",
-    "Description": "Items/REG_STAFF_QUARTERMASTER/Description",
-    "InventoryIconID": "ITEM_StaffQuartermaster",
-    "BustIconID": null,
-    "Price": 80,
-    "UnitTypeAllowed": "All",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "STAFF",
-    "Variables": [
-      {
-        "Variable": "ExperienceGain",
-        "Value": 0.2
-      },
-      {
-        "Variable": "Morale",
-        "Value": -4.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": 1.0
-      }
-    ],
-    "UseableByAI": false,
-    "ItemGenerationData": {
-      "ID": "REG_STAFF_QUARTERMASTER",
-      "ItemType": "STAFF",
-      "Qunatity": 0,
-      "ShopWeights": [
-        750.0,
-        500.0,
-        250.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        -9800.0,
-        -9750.0,
-        -9750.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        -9800.0,
-        -9750.0,
-        -9750.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "REG_STAFF_QUARTERMASTER_2",
-    "Name": "Items/REG_STAFF_QUARTERMASTER/Good/Name",
-    "Description": "Items/REG_STAFF_QUARTERMASTER/Description",
-    "InventoryIconID": "ITEM_StaffQuartermaster",
-    "BustIconID": null,
-    "Price": 130,
-    "UnitTypeAllowed": "All",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "STAFF",
-    "Variables": [
-      {
-        "Variable": "ExperienceGain",
-        "Value": 0.25
-      },
-      {
-        "Variable": "Morale",
-        "Value": -4.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": 2.0
-      }
-    ],
-    "UseableByAI": false,
-    "ItemGenerationData": {
-      "ID": "REG_STAFF_QUARTERMASTER_2",
-      "ItemType": "STAFF",
-      "Qunatity": 0,
-      "ShopWeights": [
-        550.0,
-        750.0,
-        750.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -10600.0,
-        -9750.0,
-        -9750.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -10600.0,
-        -9750.0,
-        -9750.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "REG_STAFF_QUARTERMASTER_3",
     "Name": "Items/REG_STAFF_QUARTERMASTER/Excellent/Name",
     "Description": "Items/REG_STAFF_QUARTERMASTER/Description",
     "InventoryIconID": "ITEM_StaffQuartermaster",
     "BustIconID": null,
-    "Price": 180,
+    "Price": 170,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "STAFF",
@@ -1247,11 +711,7 @@
       },
       {
         "Variable": "Morale",
-        "Value": -4.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": 3.0
+        "Value": -2.0
       }
     ],
     "UseableByAI": false,
@@ -1287,6 +747,7 @@
     "BustIconID": null,
     "Price": 220,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "STAFF",
@@ -1331,8 +792,9 @@
     "Description": "Items/REG_STAFF_SURGEON/Description",
     "InventoryIconID": "ITEM_StaffSurgeon",
     "BustIconID": null,
-    "Price": 240,
+    "Price": 220,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "STAFF",
@@ -1377,8 +839,9 @@
     "Description": "Items/REG_STAFF_CHAPLAIN/Description",
     "InventoryIconID": "ITEM_StaffChaplain",
     "BustIconID": null,
-    "Price": 205,
+    "Price": 210,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "STAFF",
@@ -1389,7 +852,7 @@
       },
       {
         "Variable": "Morale",
-        "Value": 12.0
+        "Value": 10.0
       }
     ],
     "UseableByAI": true,
@@ -1425,6 +888,7 @@
     "BustIconID": null,
     "Price": 175,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "INSTRUMENTS",
@@ -1469,8 +933,9 @@
     "Description": "Items/FOREIGN_MUSICIANS/Description",
     "InventoryIconID": "ITEM_ForeignMusicians",
     "BustIconID": null,
-    "Price": 210,
+    "Price": 220,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "INSTRUMENTS",
@@ -1517,6 +982,7 @@
     "BustIconID": null,
     "Price": 190,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "INSTRUMENTS",
@@ -1563,6 +1029,7 @@
     "BustIconID": null,
     "Price": 120,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "AMMO_POUCHES",
@@ -1605,6 +1072,7 @@
     "BustIconID": null,
     "Price": 150,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "AMMO_POUCHES",
@@ -1615,7 +1083,7 @@
       },
       {
         "Variable": "Stamina",
-        "Value": -2.0
+        "Value": -4.0
       }
     ],
     "UseableByAI": true,
@@ -1649,8 +1117,9 @@
     "Description": "Items/IMPROVED_LIMBER_CHEST/Description",
     "InventoryIconID": "ITEM_LimberChestImproved",
     "BustIconID": null,
-    "Price": 130,
+    "Price": 140,
     "UnitTypeAllowed": "Artillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "AMMO_POUCHES",
@@ -1693,6 +1162,7 @@
     "BustIconID": null,
     "Price": 160,
     "UnitTypeAllowed": "Artillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "AMMO_POUCHES",
@@ -1703,7 +1173,7 @@
       },
       {
         "Variable": "Stamina",
-        "Value": -6.0
+        "Value": -4.0
       }
     ],
     "UseableByAI": true,
@@ -1739,6 +1209,7 @@
     "BustIconID": null,
     "Price": 140,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "HAVERSACKS",
@@ -1749,7 +1220,7 @@
       },
       {
         "Variable": "Stamina",
-        "Value": 8.0
+        "Value": 6.0
       }
     ],
     "UseableByAI": true,
@@ -1778,98 +1249,6 @@
     }
   },
   {
-    "ID": "LARGE_HAVERSACKS",
-    "Name": "Items/LARGE_HAVERSACKS/Basic/Name",
-    "Description": "Items/LARGE_HAVERSACKS/Description",
-    "InventoryIconID": "ITEM_HaversacksLarge",
-    "BustIconID": null,
-    "Price": 50,
-    "UnitTypeAllowed": "All",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "HAVERSACKS",
-    "Variables": [
-      {
-        "Variable": "Morale",
-        "Value": 10.0
-      },
-      {
-        "Variable": "MoveSpeed",
-        "Value": -2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "LARGE_HAVERSACKS",
-      "ItemType": "HAVERSACKS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "LARGE_HAVERSACKS_2",
-    "Name": "Items/LARGE_HAVERSACKS/Good/Name",
-    "Description": "Items/LARGE_HAVERSACKS/Description",
-    "InventoryIconID": "ITEM_HaversacksLarge",
-    "BustIconID": null,
-    "Price": 100,
-    "UnitTypeAllowed": "All",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "HAVERSACKS",
-    "Variables": [
-      {
-        "Variable": "Morale",
-        "Value": 12.0
-      },
-      {
-        "Variable": "MoveSpeed",
-        "Value": -2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "LARGE_HAVERSACKS_2",
-      "ItemType": "HAVERSACKS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "LARGE_HAVERSACKS_3",
     "Name": "Items/LARGE_HAVERSACKS/Excellent/Name",
     "Description": "Items/LARGE_HAVERSACKS/Description",
@@ -1877,13 +1256,14 @@
     "BustIconID": null,
     "Price": 150,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "HAVERSACKS",
     "Variables": [
       {
         "Variable": "Morale",
-        "Value": 14.0
+        "Value": 10.0
       },
       {
         "Variable": "MoveSpeed",
@@ -1923,6 +1303,7 @@
     "BustIconID": null,
     "Price": 140,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "CANTEENS",
@@ -1930,6 +1311,10 @@
       {
         "Variable": "Stamina",
         "Value": 10.0
+      },
+      {
+        "Variable": "MoveSpeed",
+        "Value": 2.0
       }
     ],
     "UseableByAI": true,
@@ -1965,6 +1350,7 @@
     "BustIconID": null,
     "Price": 150,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "CANTEENS",
@@ -2009,8 +1395,9 @@
     "Description": "Items/IMPROVED_LIGHT_SADDLES/Description",
     "InventoryIconID": "ITEM_ImprovedLightSaddles",
     "BustIconID": null,
-    "Price": 170,
+    "Price": 180,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "SADDLES",
@@ -2021,7 +1408,7 @@
       },
       {
         "Variable": "MoveSpeed",
-        "Value": 8.0
+        "Value": 10.0
       }
     ],
     "UseableByAI": true,
@@ -2055,8 +1442,9 @@
     "Description": "Items/IMPROVED_HEAVY_SADDLES/Description",
     "InventoryIconID": "ITEM_ImprovedHeavySaddles",
     "BustIconID": null,
-    "Price": 180,
+    "Price": 190,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "SADDLES",
@@ -2067,7 +1455,7 @@
       },
       {
         "Variable": "MoveSpeed",
-        "Value": 6.0
+        "Value": 8.0
       }
     ],
     "UseableByAI": true,
@@ -2096,113 +1484,14 @@
     }
   },
   {
-    "ID": "HALF_GAITERS",
-    "Name": "Items/HALF_GAITERS/Basic/Name",
-    "Description": "Items/HALF_GAITERS/Description",
-    "InventoryIconID": "ITEM_Half-Gaiters",
-    "BustIconID": null,
-    "Price": 40,
-    "UnitTypeAllowed": "InfantryAndArtillery",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "FOOTWEAR",
-    "Variables": [
-      {
-        "Variable": "MoveSpeed",
-        "Value": 4.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": 2.0
-      },
-      {
-        "Variable": "ChargeDamage",
-        "Value": 1.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "HALF_GAITERS",
-      "ItemType": "FOOTWEAR",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "HALF_GAITERS_2",
-    "Name": "Items/HALF_GAITERS/Good/Name",
-    "Description": "Items/HALF_GAITERS/Description",
-    "InventoryIconID": "ITEM_Half-Gaiters",
-    "BustIconID": null,
-    "Price": 90,
-    "UnitTypeAllowed": "InfantryAndArtillery",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "FOOTWEAR",
-    "Variables": [
-      {
-        "Variable": "MoveSpeed",
-        "Value": 6.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": 4.0
-      },
-      {
-        "Variable": "ChargeDamage",
-        "Value": 1.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "HALF_GAITERS_2",
-      "ItemType": "FOOTWEAR",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "HALF_GAITERS_3",
     "Name": "Items/HALF_GAITERS/Excellent/Name",
     "Description": "Items/HALF_GAITERS/Description",
     "InventoryIconID": "ITEM_Half-Gaiters",
     "BustIconID": null,
-    "Price": 140,
+    "Price": 130,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "FOOTWEAR",
@@ -2214,10 +1503,6 @@
       {
         "Variable": "Stamina",
         "Value": 6.0
-      },
-      {
-        "Variable": "ChargeDamage",
-        "Value": 1.0
       }
     ],
     "UseableByAI": true,
@@ -2253,6 +1538,7 @@
     "BustIconID": null,
     "Price": 140,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "FOOTWEAR",
@@ -2292,104 +1578,21 @@
     }
   },
   {
-    "ID": "STURDY_SHOES",
-    "Name": "Items/STURDY_SHOES/Basic/Name",
-    "Description": "Items/STURDY_SHOES/Description",
-    "InventoryIconID": "ITEM_SturdyShoes",
-    "BustIconID": null,
-    "Price": 40,
-    "UnitTypeAllowed": "InfantryAndArtillery",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "FOOTWEAR",
-    "Variables": [
-      {
-        "Variable": "MoveSpeed",
-        "Value": 6.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "STURDY_SHOES",
-      "ItemType": "FOOTWEAR",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "STURDY_SHOES_2",
-    "Name": "Items/STURDY_SHOES/Good/Name",
-    "Description": "Items/STURDY_SHOES/Description",
-    "InventoryIconID": "ITEM_SturdyShoes",
-    "BustIconID": null,
-    "Price": 90,
-    "UnitTypeAllowed": "InfantryAndArtillery",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "FOOTWEAR",
-    "Variables": [
-      {
-        "Variable": "MoveSpeed",
-        "Value": 8.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "STURDY_SHOES_2",
-      "ItemType": "FOOTWEAR",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "STURDY_SHOES_3",
     "Name": "Items/STURDY_SHOES/Excellent/Name",
     "Description": "Items/STURDY_SHOES/Description",
     "InventoryIconID": "ITEM_SturdyShoes",
     "BustIconID": null,
-    "Price": 140,
+    "Price": 120,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "FOOTWEAR",
     "Variables": [
       {
         "Variable": "MoveSpeed",
-        "Value": 10.0
+        "Value": 8.0
       }
     ],
     "UseableByAI": true,
@@ -2418,105 +1621,14 @@
     }
   },
   {
-    "ID": "STURDY_BOOTS",
-    "Name": "Items/STURDY_BOOTS/Basic/Name",
-    "Description": "Items/STURDY_BOOTS/Description",
-    "InventoryIconID": "ITEM_SturdyBoots",
-    "BustIconID": null,
-    "Price": 55,
-    "UnitTypeAllowed": "Cavalry",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "FOOTWEAR",
-    "Variables": [
-      {
-        "Variable": "MoveSpeed",
-        "Value": 4.0
-      },
-      {
-        "Variable": "ChargeDamage",
-        "Value": 1
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "STURDY_BOOTS",
-      "ItemType": "FOOTWEAR",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "STURDY_BOOTS_2",
-    "Name": "Items/STURDY_BOOTS/Good/Name",
-    "Description": "Items/STURDY_BOOTS/Description",
-    "InventoryIconID": "ITEM_SturdyBoots",
-    "BustIconID": null,
-    "Price": 105,
-    "UnitTypeAllowed": "Cavalry",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "FOOTWEAR",
-    "Variables": [
-      {
-        "Variable": "MoveSpeed",
-        "Value": 6.0
-      },
-      {
-        "Variable": "ChargeDamage",
-        "Value": 1.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "STURDY_BOOTS_2",
-      "ItemType": "FOOTWEAR",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "STURDY_BOOTS_3",
     "Name": "Items/STURDY_BOOTS/Excellent/Name",
     "Description": "Items/STURDY_BOOTS/Description",
     "InventoryIconID": "ITEM_SturdyBoots",
     "BustIconID": null,
-    "Price": 155,
+    "Price": 140,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "FOOTWEAR",
@@ -2524,10 +1636,6 @@
       {
         "Variable": "MoveSpeed",
         "Value": 8.0
-      },
-      {
-        "Variable": "ChargeDamage",
-        "Value": 1.0
       }
     ],
     "UseableByAI": true,
@@ -2563,6 +1671,7 @@
     "BustIconID": null,
     "Price": 120,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "BLANKETS",
@@ -2609,6 +1718,7 @@
     "BustIconID": null,
     "Price": 135,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "CLOTHING",
@@ -2655,6 +1765,7 @@
     "BustIconID": null,
     "Price": 200,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "CLOTHING",
@@ -2694,105 +1805,14 @@
     }
   },
   {
-    "ID": "PROOFED_BREASTPLATES",
-    "Name": "Items/PROOFED_BREASTPLATES/Basic/Name",
-    "Description": "Items/PROOFED_BREASTPLATES/Description",
-    "InventoryIconID": "ITEM_ProofedBreastplates",
-    "BustIconID": null,
-    "Price": 160,
-    "UnitTypeAllowed": "Cavalry",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "CLOTHING",
-    "Variables": [
-      {
-        "Variable": "MeleeDamageRecieved",
-        "Value": -0.25
-      },
-      {
-        "Variable": "MoveSpeed",
-        "Value": -8.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "PROOFED_BREASTPLATES",
-      "ItemType": "CLOTHING",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "PROOFED_BREASTPLATES_2",
-    "Name": "Items/PROOFED_BREASTPLATES/Good/Name",
-    "Description": "Items/PROOFED_BREASTPLATES/Description",
-    "InventoryIconID": "ITEM_ProofedBreastplates",
-    "BustIconID": null,
-    "Price": 210,
-    "UnitTypeAllowed": "Cavalry",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "CLOTHING",
-    "Variables": [
-      {
-        "Variable": "MeleeDamageRecieved",
-        "Value": -0.3
-      },
-      {
-        "Variable": "MoveSpeed",
-        "Value": -8.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "PROOFED_BREASTPLATES_2",
-      "ItemType": "CLOTHING",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "PROOFED_BREASTPLATES_3",
     "Name": "Items/PROOFED_BREASTPLATES/Excellent/Name",
     "Description": "Items/PROOFED_BREASTPLATES/Description",
     "InventoryIconID": "ITEM_ProofedBreastplates",
     "BustIconID": null,
-    "Price": 260,
+    "Price": 280,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "CLOTHING",
@@ -2803,7 +1823,7 @@
       },
       {
         "Variable": "MoveSpeed",
-        "Value": -8.0
+        "Value": -6.0
       }
     ],
     "UseableByAI": true,
@@ -2839,6 +1859,7 @@
     "BustIconID": null,
     "Price": 125,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "HEADGEAR",
@@ -2885,6 +1906,7 @@
     "BustIconID": null,
     "Price": 180,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "RELIGIOUS",
@@ -2929,8 +1951,9 @@
     "Description": "Items/CROSS_PENDANTS/Description",
     "InventoryIconID": "ITEM_CrossPendants",
     "BustIconID": null,
-    "Price": 130,
+    "Price": 140,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "RELIGIOUS",
@@ -2941,7 +1964,7 @@
       },
       {
         "Variable": "ChargeDamage",
-        "Value": 2.0
+        "Value": 4.0
       }
     ],
     "UseableByAI": true,
@@ -2975,8 +1998,9 @@
     "Description": "Items/MEDICINAL_HERBS/Description",
     "InventoryIconID": "ITEM_MedicinalHerbs",
     "BustIconID": null,
-    "Price": 160,
+    "Price": 150,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "RATIONS",
@@ -3016,61 +2040,16 @@
     }
   },
   {
-    "ID": "TOBACCO_RATIONS",
-    "Name": "Items/TOBACCO_RATIONS/Basic/Name",
+    "ID": "TOBACCO_RATIONS_3",
+    "Name": "Items/TOBACCO_RATIONS/Excellent/Name",
     "Description": "Items/TOBACCO_RATIONS/Description",
     "InventoryIconID": "ITEM_RationsTobacco",
     "BustIconID": null,
-    "Price": 80,
+    "Price": 150,
     "UnitTypeAllowed": "All",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "RATIONS",
-    "Variables": [
-      {
-        "Variable": "Accuracy",
-        "Value": 7.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": -2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "TOBACCO_RATIONS",
-      "ItemType": "RATIONS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "TOBACCO_RATIONS_2",
-    "Name": "Items/TOBACCO_RATIONS/Good/Name",
-    "Description": "Items/TOBACCO_RATIONS/Description",
-    "InventoryIconID": "ITEM_RationsTobacco",
-    "BustIconID": null,
-    "Price": 130,
-    "UnitTypeAllowed": "All",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
+    "UnitTypeFlag": "ANY",
+    "Rarity": "RARE",
+    "Quality": "EXCELLENT",
     "ItemType": "RATIONS",
     "Variables": [
       {
@@ -3079,53 +2058,7 @@
       },
       {
         "Variable": "Stamina",
-        "Value": -3.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "TOBACCO_RATIONS_2",
-      "ItemType": "RATIONS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
-    "ID": "TOBACCO_RATIONS_3",
-    "Name": "Items/TOBACCO_RATIONS/Excellent/Name",
-    "Description": "Items/TOBACCO_RATIONS/Description",
-    "InventoryIconID": "ITEM_RationsTobacco",
-    "BustIconID": null,
-    "Price": 180,
-    "UnitTypeAllowed": "All",
-    "Rarity": "RARE",
-    "Quality": "EXCELLENT",
-    "ItemType": "RATIONS",
-    "Variables": [
-      {
-        "Variable": "Accuracy",
-        "Value": 12.0
-      },
-      {
-        "Variable": "Stamina",
-        "Value": -4.0
+        "Value": -2.0
       }
     ],
     "UseableByAI": true,
@@ -3161,6 +2094,7 @@
     "BustIconID": null,
     "Price": 140,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "RATIONS",
@@ -3200,113 +2134,14 @@
     }
   },
   {
-    "ID": "SPIRIT_RATIONS",
-    "Name": "Items/SPIRIT_RATIONS/Basic/Name",
-    "Description": "Items/SPIRIT_RATIONS/Description",
-    "InventoryIconID": "ITEM_SpiritRations",
-    "BustIconID": null,
-    "Price": 80,
-    "UnitTypeAllowed": "All",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "RATIONS",
-    "Variables": [
-      {
-        "Variable": "ChargeDamage",
-        "Value": 6.0
-      },
-      {
-        "Variable": "Accuracy",
-        "Value": -4.0
-      },
-	  {
-        "Variable": "MoveSpeed",
-        "Value": 1.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "SPIRIT_RATIONS",
-      "ItemType": "RATIONS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        250.0,
-        300.0,
-        300.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "SPIRIT_RATIONS_2",
-    "Name": "Items/SPIRIT_RATIONS/Good/Name",
-    "Description": "Items/SPIRIT_RATIONS/Description",
-    "InventoryIconID": "ITEM_SpiritRations",
-    "BustIconID": null,
-    "Price": 130,
-    "UnitTypeAllowed": "All",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "RATIONS",
-    "Variables": [
-      {
-        "Variable": "ChargeDamage",
-        "Value": 8.0
-      },
-      {
-        "Variable": "Accuracy",
-        "Value": -4.0
-      },
-	  {
-        "Variable": "MoveSpeed",
-        "Value": 2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "SPIRIT_RATIONS_2",
-      "ItemType": "RATIONS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -550.0,
-        300.0,
-        300.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "SPIRIT_RATIONS_3",
     "Name": "Items/SPIRIT_RATIONS/Excellent/Name",
     "Description": "Items/SPIRIT_RATIONS/Description",
     "InventoryIconID": "ITEM_SpiritRations",
     "BustIconID": null,
-    "Price": 180,
+    "Price": 160,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "RATIONS",
@@ -3318,10 +2153,6 @@
       {
         "Variable": "Accuracy",
         "Value": -4.0
-      },
-      {
-        "Variable": "MoveSpeed",
-        "Value": 3.0
       }
     ],
     "UseableByAI": true,
@@ -3357,6 +2188,7 @@
     "BustIconID": null,
     "Price": 180,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "RATIONS",
@@ -3403,16 +2235,17 @@
     "BustIconID": null,
     "Price": 140,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "RATIONS",
     "Variables": [
       {
-        "Variable": "Morale",
+        "Variable": "Stamina",
         "Value": 8.0
       },
       {
-        "Variable": "Stamina",
+        "Variable": "Morale",
         "Value": 4.0
       }
     ],
@@ -3447,8 +2280,9 @@
     "Description": "Items/COFFEE_RATIONS/Description",
     "InventoryIconID": "ITEM_RationsCoffee",
     "BustIconID": null,
-    "Price": 170,
+    "Price": 160,
     "UnitTypeAllowed": "All",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "RATIONS",
@@ -3495,6 +2329,7 @@
     "BustIconID": "Card_HOLSTEINER_HORSES_3",
     "Price": 180,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "HORSES_BUFF",
@@ -3541,6 +2376,7 @@
     "BustIconID": "Card_POLISH_HORSES_3",
     "Price": 215,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "HORSES_BUFF",
@@ -3585,8 +2421,9 @@
     "Description": "Items/UKRANIAN_HORSES/Description",
     "InventoryIconID": "ITEM_HorsesUkrainian",
     "BustIconID": "Card_UKRANIAN_HORSES_3",
-    "Price": 210,
+    "Price": 200,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "HORSES_BUFF",
@@ -3633,6 +2470,7 @@
     "BustIconID": "Card_HANOVERIAN_HORSES_3",
     "Price": 170,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "HORSES_BUFF",
@@ -3677,8 +2515,9 @@
     "Description": "Items/FIRESIAN_HORSES/Description",
     "InventoryIconID": "ITEM_HorsesFriesian",
     "BustIconID": "Card_FIRESIAN_HORSES_3",
-    "Price": 205,
+    "Price": 215,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "HORSES_BUFF",
@@ -3725,6 +2564,7 @@
     "BustIconID": "Card_FIRESIAN_HORSES_3",
     "Price": 145,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "CAVALRY_SIDEARM",
@@ -3734,7 +2574,7 @@
         "Value": 6.0
       },
       {
-        "Variable": "ReloadSkill",
+        "Variable": "ChargeDamage",
         "Value": 2.0
       }
     ],
@@ -3764,105 +2604,14 @@
     }
   },
   {
-    "ID": "CAVALRY_LANCES",
-    "Name": "Items/CAVALRY_LANCES/Basic/Name",
-    "Description": "Items/CAVALRY_LANCES/Description",
-    "InventoryIconID": "ITEM_CavalryLances",
-    "BustIconID": "Card_FIRESIAN_HORSES_3",
-    "Price": 105,
-    "UnitTypeAllowed": "Cavalry",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "CAVALRY_SIDEARM",
-    "Variables": [
-      {
-        "Variable": "ChargeDamage",
-        "Value": 6.0
-      },
-      {
-        "Variable": "MeleeDamage",
-        "Value": -2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "CAVALRY_LANCES",
-      "ItemType": "CAVALRY_SIDEARM",
-      "Qunatity": 0,
-      "ShopWeights": [
-        250.0,
-        125.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        150.0,
-        200.0,
-        250.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        150.0,
-        200.0,
-        250.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "CAVALRY_LANCES_2",
-    "Name": "Items/CAVALRY_LANCES/Good/Name",
-    "Description": "Items/CAVALRY_LANCES/Description",
-    "InventoryIconID": "ITEM_CavalryLances",
-    "BustIconID": "Card_FIRESIAN_HORSES_3",
-    "Price": 155,
-    "UnitTypeAllowed": "Cavalry",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "CAVALRY_SIDEARM",
-    "Variables": [
-      {
-        "Variable": "ChargeDamage",
-        "Value": 8.0
-      },
-      {
-        "Variable": "MeleeDamage",
-        "Value": -2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "CAVALRY_LANCES_2",
-      "ItemType": "CAVALRY_SIDEARM",
-      "Qunatity": 0,
-      "ShopWeights": [
-        50.0,
-        375.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -650.0,
-        200.0,
-        250.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -650.0,
-        200.0,
-        250.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "CAVALRY_LANCES_3",
     "Name": "Items/CAVALRY_LANCES/Excellent/Name",
     "Description": "Items/CAVALRY_LANCES/Description",
     "InventoryIconID": "ITEM_CavalryLances",
     "BustIconID": "Card_FIRESIAN_HORSES_3",
-    "Price": 205,
+    "Price": 185,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "CAVALRY_SIDEARM",
@@ -3872,8 +2621,8 @@
         "Value": 10.0
       },
       {
-        "Variable": "MeleeDamage",
-        "Value": -2.0
+        "Variable": "Accuracy",
+        "Value": -6.0
       }
     ],
     "UseableByAI": true,
@@ -3907,8 +2656,9 @@
     "Description": "Items/INFANTRY_HANGER/Description",
     "InventoryIconID": "ITEM_InfantryHanger",
     "BustIconID": "Card_FIRESIAN_HORSES_3",
-    "Price": 175,
+    "Price": 165,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TERTIARY_WEAPONS",
@@ -3948,112 +2698,21 @@
     }
   },
   {
-    "ID": "BASKET_HILT_HANGER",
-    "Name": "Items/BASKET_HILT_HANGER/Basic/Name",
-    "Description": "Items/BASKET_HILT_HANGER/Description",
-    "InventoryIconID": "ITEM_Basket-HillHanger",
-    "BustIconID": "Card_FIRESIAN_HORSES_3",
-    "Price": 100,
-    "UnitTypeAllowed": "Infantry",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "TERTIARY_WEAPONS",
-    "Variables": [
-      {
-        "Variable": "ChargeDamage",
-        "Value": 8.0
-      },
-      {
-        "Variable": "Accuracy",
-        "Value": -2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "BASKET_HILT_HANGER",
-      "ItemType": "TERTIARY_WEAPONS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        450.0,
-        225.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        150.0,
-        200.0,
-        250.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        150.0,
-        200.0,
-        250.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "BASKET_HILT_HANGER_2",
-    "Name": "Items/BASKET_HILT_HANGER/Good/Name",
-    "Description": "Items/BASKET_HILT_HANGER/Description",
-    "InventoryIconID": "ITEM_Basket-HillHanger",
-    "BustIconID": "Card_FIRESIAN_HORSES_3",
-    "Price": 150,
-    "UnitTypeAllowed": "Infantry",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "TERTIARY_WEAPONS",
-    "Variables": [
-      {
-        "Variable": "ChargeDamage",
-        "Value": 10.0
-      },
-      {
-        "Variable": "Accuracy",
-        "Value": -2.0
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "BASKET_HILT_HANGER_2",
-      "ItemType": "TERTIARY_WEAPONS",
-      "Qunatity": 0,
-      "ShopWeights": [
-        250.0,
-        475.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -650.0,
-        200.0,
-        250.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -650.0,
-        200.0,
-        250.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "BASKET_HILT_HANGER_3",
     "Name": "Items/BASKET_HILT_HANGER/Excellent/Name",
     "Description": "Items/BASKET_HILT_HANGER/Description",
     "InventoryIconID": "ITEM_Basket-HillHanger",
     "BustIconID": "Card_FIRESIAN_HORSES_3",
-    "Price": 200,
+    "Price": 180,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TERTIARY_WEAPONS",
     "Variables": [
       {
         "Variable": "ChargeDamage",
-        "Value": 12.0
+        "Value": 10.0
       },
       {
         "Variable": "Accuracy",
@@ -4093,6 +2752,7 @@
     "BustIconID": null,
     "Price": 230,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
@@ -4139,6 +2799,7 @@
     "BustIconID": null,
     "Price": 180,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
@@ -4178,105 +2839,14 @@
     }
   },
   {
-    "ID": "MT_HOC",
-    "Name": "Items/MT_HOC/Basic/Name",
-    "Description": "Items/MT_HOC/Description",
-    "InventoryIconID": "ITEM_HistoryOfCharlesXII",
-    "BustIconID": null,
-    "Price": 55,
-    "UnitTypeAllowed": "Infantry",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "TREATISE",
-    "Variables": [
-      {
-        "Variable": "ChargeDamage",
-        "Value": 8.0
-      },
-      {
-        "Variable": "MaxRange",
-        "Value": -0.05
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "MT_HOC",
-      "ItemType": "TREATISE",
-      "Qunatity": 0,
-      "ShopWeights": [
-        500.0,
-        250.0,
-        0.0,
-        100.0
-      ],
-      "MinorBattleDropWeights": [
-        100.0,
-        150.0,
-        150.0,
-        100.0
-      ],
-      "MajorBattleDropWeights": [
-        100.0,
-        150.0,
-        150.0,
-        100.0
-      ]
-    }
-  },
-  {
-    "ID": "MT_HOC_2",
-    "Name": "Items/MT_HOC/Good/Name",
-    "Description": "Items/MT_HOC/Description",
-    "InventoryIconID": "ITEM_HistoryOfCharlesXII",
-    "BustIconID": null,
-    "Price": 105,
-    "UnitTypeAllowed": "Infantry",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "TREATISE",
-    "Variables": [
-      {
-        "Variable": "ChargeDamage",
-        "Value": 10.0
-      },
-      {
-        "Variable": "MaxRange",
-        "Value": -0.05
-      }
-    ],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "ID": "MT_HOC_2",
-      "ItemType": "TREATISE",
-      "Qunatity": 0,
-      "ShopWeights": [
-        300.0,
-        500.0,
-        500.0,
-        200.0
-      ],
-      "MinorBattleDropWeights": [
-        -700.0,
-        150.0,
-        150.0,
-        200.0
-      ],
-      "MajorBattleDropWeights": [
-        -700.0,
-        150.0,
-        150.0,
-        200.0
-      ]
-    }
-  },
-  {
     "ID": "MT_HOC_3",
     "Name": "Items/MT_HOC/Excellent/Name",
     "Description": "Items/MT_HOC/Description",
     "InventoryIconID": "ITEM_HistoryOfCharlesXII",
     "BustIconID": null,
-    "Price": 155,
+    "Price": 145,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
@@ -4286,8 +2856,8 @@
         "Value": 12.0
       },
       {
-        "Variable": "MaxRange",
-        "Value": -0.05
+        "Variable": "Accuracy",
+        "Value": -6.0
       }
     ],
     "UseableByAI": true,
@@ -4323,6 +2893,7 @@
     "BustIconID": null,
     "Price": 190,
     "UnitTypeAllowed": "Artillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
@@ -4369,6 +2940,7 @@
     "BustIconID": null,
     "Price": 200,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
@@ -4415,12 +2987,13 @@
     "BustIconID": null,
     "Price": 165,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "LIGHT_INFANTRY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
     "Variables": [
       {
-        "Variable": "OpenOrderAccuracy",
+        "Variable": "Accuracy",
         "Value": 12.0
       },
       {
@@ -4428,7 +3001,7 @@
         "Value": 6.0
       }
     ],
-    "UseableByAI": true,
+    "UseableByAI": false,
     "ItemGenerationData": {
       "ID": "MT_STANTA_CRUZ_3",
       "ItemType": "TREATISE",
@@ -4461,6 +3034,7 @@
     "BustIconID": null,
     "Price": 205,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
@@ -4507,6 +3081,7 @@
     "BustIconID": null,
     "Price": 180,
     "UnitTypeAllowed": "InfantryAndArtillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
@@ -4553,6 +3128,7 @@
     "BustIconID": null,
     "Price": 220,
     "UnitTypeAllowed": "Artillery",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
@@ -4599,6 +3175,7 @@
     "BustIconID": null,
     "Price": 200,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",
@@ -4645,6 +3222,7 @@
     "BustIconID": null,
     "Price": 180,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "TREATISE",

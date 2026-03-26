@@ -22,7 +22,7 @@
   {
     "Key": "Stratagem/GrandLeveeBody",
     "Translation": "New brigade cost <color=#009300>{0}%</color>\nForaging effectiveness <color=#009300>+25%</color>\nResource cost <color=#CB2225>+{1}%</color>",
-    "VariableCount": 3
+    "VariableCount": 2
   },
   {
     "Key": "Strategem/MultinationalArmyBody",
@@ -60,16 +60,6 @@
     "VariableCount": 3
   },
   {
-    "Key": "Skill/InfantryMasteryDesc",
-    "Translation": "Infantry accuracy <color=#009300>+{0}%</color>\nInfantry reload speed <color=#CB2225>{1}%</color>\nMove speed <color=#009300>+{2}%</color>",
-    "VariableCount": 3
-  },
-  {
-    "Key": "Skill/InfantryMasteryDescLong",
-    "Translation": "Infantry accuracy <color=#009300>+{0}%</color>\n\nInfantry reload speed <color=#CB2225>{1}%</color>\n\nMove speed <color=#009300>+{2}%</color>",
-    "VariableCount": 3
-  },
-  {
     "Key": "Skill/ShellThemDesc",
     "Translation": "Artillery reload speed <color=#009300>+{0}%</color>\nFire damage received <color=#009300>{2}%</color>\nArtillery accuracy <color=#CB2225>{1}%</color>",
     "VariableCount": 3
@@ -77,16 +67,6 @@
   {
     "Key": "Skill/ShellThemDescLong",
     "Translation": "Artillery reload speed <color=#009300>+{0}%</color>\n\nFire damage received <color=#009300>{2}%</color>\n\nArtillery accuracy <color=#CB2225>{1}%</color>",
-    "VariableCount": 3
-  },
-  {
-    "Key": "Skill/FlankingFireDesc",
-    "Translation": "Flanking fire damage <color=#009300>+{0}%</color>\nFire damage received <color=#009300>{2}%</color>\nMelee damage received <color=#CB2225>+{1}%</color>",
-    "VariableCount": 3
-  },
-  {
-    "Key": "Skill/FlankingFireDescLong",
-    "Translation": "Flanking fire damage <color=#009300>+{0}%</color>\n\nFire damage received <color=#009300>{2}%</color>\n\nMelee damage received <color=#CB2225>+{1}%</color>",
     "VariableCount": 3
   },
   {
@@ -175,16 +155,6 @@
     "VariableCount": 0
   },
   {
-    "Key": "Skill/DeterminedDesc",
-    "Translation": "Charge <color=#009300>+{0}%</color>\nCombat bonuses from elevation <color=#009300>+{2}%</color>\nOfficer death chance <color=#009300>{3}%</color>\nCover effectiveness <color=#CB2225>{1}%</color>",
-    "VariableCount": 4
-  },
-  {
-    "Key": "Skill/DeterminedDescLong",
-    "Translation": "Charge <color=#009300>+{0}%</color>\n\nCombat bonuses from elevation <color=#009300>+{2}%</color>\n\nOfficer death chance <color=#009300>{3}%</color>\n\nCover effectiveness <color=#CB2225>{1}%</color>",
-    "VariableCount": 4
-  },
-  {
     "Key": "Skill/DrillMasteryDesc",
     "Translation": "Veterancy gain <color=#009300>+{0}%</color>\nMove speed <color=#009300>+{2}%</color>\nMorale <color=#CB2225>{1}%</color>",
     "VariableCount": 3
@@ -202,16 +172,6 @@
   {
     "Key": "Skill/ExtendedInfluenceDescLong",
     "Translation": "Officer command radius <color=#009300>+{0}%</color>\n\nOfficer morale in command radius <color=#009300>+{2}%</color>\n\nFire damage received <color=#CB2225>+{1}%</color>",
-    "VariableCount": 3
-  },
-  {
-    "Key": "Skill/RecklessChargeDesc",
-    "Translation": "Cover effectiveness <color=#009300>+{0}%</color>\nCombat bonuses from elevation <color=#009300>+{2}%</color>\nCharge <color=#CB2225>{1}%</color>",
-    "VariableCount": 3
-  },
-  {
-    "Key": "Skill/RecklessChargeDescLong",
-    "Translation": "Cover effectiveness <color=#009300>+{0}%</color>\n\nCombat bonuses from elevation <color=#009300>+{2}%</color>\n\nCharge <color=#CB2225>{1}%</color>",
     "VariableCount": 3
   },
   {
@@ -262,6 +222,11 @@
   {
     "Key": "Skill/FireByRankDescLong",
     "Translation": "Volley fire replaced with <color=#009300>fire by rank</color>\n\nArtillery and Cavalry reload speed <color=#009300>+{0}%</color>",
+    "VariableCount": 2
+  },
+  {
+    "Key": "Skill/HoldTheLineDesc",
+    "Translation": "Morale damage received <color=#009300>{0}%</color>\nRange <color=#009300>+{1}%</color>",
     "VariableCount": 2
   }
 ]

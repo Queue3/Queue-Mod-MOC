@@ -81,6 +81,41 @@
   ],
   "GlobalMoraleDamageModifier": 0.5,
   "GlobalMoraleDamageModifierArtillery": 0.05,
+  "PrisonerCasultiesRestored": [
+    1.15,
+    1.15,
+    1.15
+  ],
+  "PrisonerCashGain": [
+    0.08,
+    0.08,
+    0.08
+  ],
+  "PrisonerFoodGain": [
+    0.07,
+    0.07,
+    0.07
+  ],
+  "PrisonerArmyExperienceGain": [
+    0.7,
+    0.7,
+    0.7
+  ],
+  "PrisonerManpowerGain": [
+    0.56,
+    0.56,
+    0.56
+  ],
+  "PrisonerAmmoGain": [
+    0.14,
+    0.14,
+    0.14
+  ],
+  "PrisonerPlunderCashGain": [
+    0.06,
+    0.06,
+    0.06
+  ],
   "WinterTriggerDay": [
     {
       "x": 170,

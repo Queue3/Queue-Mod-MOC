@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "Accuracy": 35.0,
     "Range": -0.35,
@@ -11,6 +11,7 @@
     "BustIconID": null,
     "Price": 250,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "MAIN_AMMO",
@@ -52,6 +53,7 @@
     "BustIconID": null,
     "Price": 225,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "MAIN_AMMO",
@@ -93,6 +95,7 @@
     "BustIconID": null,
     "Price": 210,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "MAIN_AMMO",

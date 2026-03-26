@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "Nationality": "PRU",
     "BayonetSlot": true,
@@ -15,7 +15,7 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 16.0,
+      "MeleeDamage": 12.0,
       "ChargeAttackDamage": 8.0
     },
     "ReloadSupplyCost": 1.0,
@@ -28,6 +28,7 @@
     "BustIconID": "Card_POTZDAM_MUSKET",
     "Price": 280,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -76,7 +77,7 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 4.0,
-      "MeleeDamage": 10.0,
+      "MeleeDamage": 8.0,
       "ChargeAttackDamage": 6.0
     },
     "ReloadSupplyCost": 1.0,
@@ -89,6 +90,7 @@
     "BustIconID": "Card_POTZDAM_CARBINE",
     "Price": 260,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -137,8 +139,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 14.0,
-      "ChargeAttackDamage": 15.0
+      "MeleeDamage": 10.0,
+      "ChargeAttackDamage": 14.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -150,6 +152,7 @@
     "BustIconID": "Card_NEUSTADT_MUSKET",
     "Price": 275,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -198,8 +201,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 4.0,
-      "MeleeDamage": 8.0,
-      "ChargeAttackDamage": 13.0
+      "MeleeDamage": 6.0,
+      "ChargeAttackDamage": 10.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -211,6 +214,7 @@
     "BustIconID": "Card_NEUSTADT_CARBINE",
     "Price": 255,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -259,8 +263,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 21.0,
-      "ChargeAttackDamage": 15.0
+      "MeleeDamage": 16.0,
+      "ChargeAttackDamage": 14.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -272,6 +276,7 @@
     "BustIconID": "Card_TULA_MUSKET",
     "Price": 265,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -320,8 +325,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 4.0,
-      "MeleeDamage": 15.0,
-      "ChargeAttackDamage": 13.0
+      "MeleeDamage": 12.0,
+      "ChargeAttackDamage": 10.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -333,6 +338,7 @@
     "BustIconID": "Card_TULA_CARBINE",
     "Price": 245,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -381,7 +387,7 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 12.0,
+      "MeleeDamage": 8.0,
       "ChargeAttackDamage": 12.0
     },
     "ReloadSupplyCost": 1.0,
@@ -394,6 +400,7 @@
     "BustIconID": "Card_CHARLEVILLE_MUSKET",
     "Price": 300,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -443,7 +450,7 @@
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 4.0,
       "MeleeDamage": 6.0,
-      "ChargeAttackDamage": 10.0
+      "ChargeAttackDamage": 8.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -455,6 +462,7 @@
     "BustIconID": "Card_CHARLEVILLE_CARBINE",
     "Price": 280,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -503,7 +511,7 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 19.0,
+      "MeleeDamage": 14.0,
       "ChargeAttackDamage": 12.0
     },
     "ReloadSupplyCost": 1.0,
@@ -516,6 +524,7 @@
     "BustIconID": "Card_BROWNBESS_MUSKET",
     "Price": 290,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -564,8 +573,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 4.0,
-      "MeleeDamage": 13.0,
-      "ChargeAttackDamage": 10.0
+      "MeleeDamage": 10.0,
+      "ChargeAttackDamage": 8.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -577,6 +586,7 @@
     "BustIconID": "Card_BROWNBESS_CARBINE",
     "Price": 270,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -625,7 +635,7 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 12.0,
+      "MeleeDamage": 8.0,
       "ChargeAttackDamage": 8.0
     },
     "ReloadSupplyCost": 1.0,
@@ -638,6 +648,7 @@
     "BustIconID": "Card_JAGER_RIFLE",
     "Price": 450,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -651,8 +662,8 @@
       "ItemType": "WEAPON",
       "Qunatity": 0,
       "ShopWeights": [
-        7.5,
         75.0,
+        -50.0,
         750.0,
         50.0
       ],
@@ -686,8 +697,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 16.0,
-      "ChargeAttackDamage": 15.0
+      "MeleeDamage": 12.0,
+      "ChargeAttackDamage": 14.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -699,6 +710,7 @@
     "BustIconID": "Card_SUHL_MUSKET",
     "Price": 275,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -747,8 +759,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 10.0,
-      "ChargeAttackDamage": 13.0
+      "MeleeDamage": 8.0,
+      "ChargeAttackDamage": 10.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -760,6 +772,7 @@
     "BustIconID": "Card_SUHL_CARBINE",
     "Price": 255,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -808,8 +821,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 21.0,
-      "ChargeAttackDamage": 17.0
+      "MeleeDamage": 16.0,
+      "ChargeAttackDamage": 16.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -821,6 +834,7 @@
     "BustIconID": "Card_JONKOPING_MUSKET",
     "Price": 260,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -869,8 +883,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 4.0,
-      "MeleeDamage": 15.0,
-      "ChargeAttackDamage": 15.0
+      "MeleeDamage": 12.0,
+      "ChargeAttackDamage": 12.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -882,6 +896,7 @@
     "BustIconID": "Card_JONKOPING_CARBINE",
     "Price": 240,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -930,7 +945,7 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 10.0,
-      "MeleeDamage": 14.0,
+      "MeleeDamage": 10.0,
       "ChargeAttackDamage": 12.0
     },
     "ReloadSupplyCost": 1.0,
@@ -943,6 +958,7 @@
     "BustIconID": "Card_DELFT_MUSKET",
     "Price": 265,
     "UnitTypeAllowed": "Infantry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -991,8 +1007,8 @@
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 4.0,
-      "MeleeDamage": 13.0,
-      "ChargeAttackDamage": 10.0
+      "MeleeDamage": 10.0,
+      "ChargeAttackDamage": 8.0
     },
     "ReloadSupplyCost": 1.0,
     "ModelID": "TEST_Weapon_01",
@@ -1004,6 +1020,7 @@
     "BustIconID": "Card_DELFT_CARBINE",
     "Price": 245,
     "UnitTypeAllowed": "InfantryAndCavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",

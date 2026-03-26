@@ -92,7 +92,7 @@
     "LEVEL_1": {
       "ElevationType": "LEVEL_1",
       "Elevation": 1.0,
-      "Accuracy": 0.2,
+      "Accuracy": 0.1,
       "FireDamageRecieved": 0.1
     },
     "LEVEL_2": {

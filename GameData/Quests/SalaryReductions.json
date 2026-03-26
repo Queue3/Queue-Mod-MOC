@@ -21,7 +21,7 @@
       "Key": "RecruitmentCostModifier",
       "Variable": {
         "$type": "Campaign.Variables.FloatVariable, Campaign",
-        "Value": -35.0
+        "Value": -30.0
       }
     },
     {

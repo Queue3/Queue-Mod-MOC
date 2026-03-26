@@ -128,19 +128,23 @@
     "AIProfiles": [
       {
         "ProfileID": "DEFAULT",
-        "Weight": 100.0
+        "Weight": 0.0
       },
       {
-        "ProfileID": "MELEE_AGGRESSION",
-        "Weight": 100.0
+        "ProfileID": "Aggressive",
+        "Weight": 30.0
       },
-	  {
-        "ProfileID": "QM_RANGED_AGGRESSION",
-        "Weight": 100.0
+      {
+        "ProfileID": "Balanced",
+        "Weight": 50.0
       },
-	  {
-        "ProfileID": "QM_DEFENCE",
-        "Weight": 100.0
+      {
+        "ProfileID": "Defensive",
+        "Weight": 20.0
+      },
+      {
+        "ProfileID": "Defensive_Backup",
+        "Weight": 0.0
       }
     ]
   },
@@ -276,19 +280,23 @@
     "AIProfiles": [
       {
         "ProfileID": "DEFAULT",
-        "Weight": 100.0
+        "Weight": 0.0
       },
       {
-        "ProfileID": "MELEE_AGGRESSION",
-        "Weight": 300.0
+        "ProfileID": "Aggressive",
+        "Weight": 30.0
       },
-	  {
-        "ProfileID": "QM_RANGED_AGGRESSION",
-        "Weight": 100.0
+      {
+        "ProfileID": "Balanced",
+        "Weight": 50.0
       },
-	  {
-        "ProfileID": "QM_DEFENCE",
-        "Weight": 100.0
+      {
+        "ProfileID": "Defensive",
+        "Weight": 20.0
+      },
+      {
+        "ProfileID": "Defensive_Backup",
+        "Weight": 0.0
       }
     ]
   },
@@ -420,19 +428,23 @@
     "AIProfiles": [
       {
         "ProfileID": "DEFAULT",
-        "Weight": 100.0
+        "Weight": 0.0
       },
       {
-        "ProfileID": "MELEE_AGGRESSION",
-        "Weight": 200.0
+        "ProfileID": "Aggressive",
+        "Weight": 30.0
       },
-	  {
-        "ProfileID": "QM_RANGED_AGGRESSION",
-        "Weight": 200.0
+      {
+        "ProfileID": "Balanced",
+        "Weight": 50.0
       },
-	  {
-        "ProfileID": "QM_DEFENCE",
-        "Weight": 100.0
+      {
+        "ProfileID": "Defensive",
+        "Weight": 20.0
+      },
+      {
+        "ProfileID": "Defensive_Backup",
+        "Weight": 0.0
       }
     ]
   },
@@ -572,19 +584,23 @@
     "AIProfiles": [
       {
         "ProfileID": "DEFAULT",
-        "Weight": 100.0
+        "Weight": 0.0
       },
       {
-        "ProfileID": "MELEE_AGGRESSION",
-        "Weight": 200.0
+        "ProfileID": "Aggressive",
+        "Weight": 30.0
       },
-	  {
-        "ProfileID": "QM_RANGED_AGGRESSION",
-        "Weight": 100.0
+      {
+        "ProfileID": "Balanced",
+        "Weight": 50.0
       },
-	  {
-        "ProfileID": "QM_DEFENCE",
-        "Weight": 200.0
+      {
+        "ProfileID": "Defensive",
+        "Weight": 20.0
+      },
+      {
+        "ProfileID": "Defensive_Backup",
+        "Weight": 0.0
       }
     ]
   },
@@ -725,19 +741,23 @@
     "AIProfiles": [
       {
         "ProfileID": "DEFAULT",
-        "Weight": 200.0
+        "Weight": 0.0
       },
       {
-        "ProfileID": "MELEE_AGGRESSION",
-        "Weight": 200.0
+        "ProfileID": "Aggressive",
+        "Weight": 30.0
       },
-	  {
-        "ProfileID": "QM_RANGED_AGGRESSION",
-        "Weight": 300.0
+      {
+        "ProfileID": "Balanced",
+        "Weight": 50.0
       },
-	  {
-        "ProfileID": "QM_DEFENCE",
-        "Weight": 100.0
+      {
+        "ProfileID": "Defensive",
+        "Weight": 20.0
+      },
+      {
+        "ProfileID": "Defensive_Backup",
+        "Weight": 0.0
       }
     ]
   },
@@ -873,19 +893,23 @@
     "AIProfiles": [
       {
         "ProfileID": "DEFAULT",
-        "Weight": 200.0
+        "Weight": 0.0
       },
       {
-        "ProfileID": "MELEE_AGGRESSION",
-        "Weight": 100.0
+        "ProfileID": "Aggressive",
+        "Weight": 30.0
       },
-	  {
-        "ProfileID": "QM_RANGED_AGGRESSION",
-        "Weight": 100.0
+      {
+        "ProfileID": "Balanced",
+        "Weight": 50.0
       },
-	  {
-        "ProfileID": "QM_DEFENCE",
-        "Weight": 200.0
+      {
+        "ProfileID": "Defensive",
+        "Weight": 20.0
+      },
+      {
+        "ProfileID": "Defensive_Backup",
+        "Weight": 0.0
       }
     ]
   }

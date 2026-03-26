@@ -1,10 +1,10 @@
-[
+﻿[
   {
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 3.6,
-      "MeleeDamage": 10.0,
-      "ChargeAttackDamage": 14.0
+      "MeleeDamage": 8.0,
+      "ChargeAttackDamage": 16.0
     },
     "ModelID": "Sword_01",
     "WeaponType": "SWORD",
@@ -13,8 +13,9 @@
     "Description": "Weapon/HUSSAR_SABRES/Desc",
     "InventoryIconID": "HUSSAR_SABRES",
     "BustIconID": "Card_SWORD_CURVED",
-    "Price": 200,
+    "Price": 220,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -63,6 +64,7 @@
     "BustIconID": "Card_SWORD_CURVED",
     "Price": 210,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -100,7 +102,7 @@
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 3.6,
       "MeleeDamage": 16.0,
-      "ChargeAttackDamage": 10.0
+      "ChargeAttackDamage": 8.0
     },
     "ModelID": "Sword_01",
     "WeaponType": "SWORD",
@@ -111,6 +113,7 @@
     "BustIconID": "Card_SWORD_STRAIGHT",
     "Price": 220,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -159,6 +162,7 @@
     "BustIconID": "Card_SWORD_CURVED",
     "Price": 290,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -194,105 +198,9 @@
   {
     "MeleeComponentData": {
       "MeleeAttackSpeed": 0.0,
-      "MeleeRange": 3.0,
-      "MeleeDamage": 10.0,
-      "ChargeAttackDamage": 14.0
-    },
-    "ModelID": "Sword_01",
-    "WeaponType": "SWORD",
-    "ID": "BASKET_HILT_BROADSWORDS",
-    "Name": "Weapon/BASKET_HILT_BROADSWORDS/Name",
-    "Description": "Weapon/BASKET_HILT_BROADSWORDS/Desc",
-    "InventoryIconID": "BASKET_HILT_BROADSWORDS",
-    "BustIconID": "Card_SWORD_STRAIGHT",
-    "Price": 180,
-    "UnitTypeAllowed": "Cavalry",
-    "Rarity": "COMMON",
-    "Quality": "BASIC",
-    "ItemType": "WEAPON",
-    "Variables": [],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
-      "Nationality": null,
-      "WeaponType": "SWORD",
-      "ID": "BASKET_HILT_BROADSWORDS",
-      "ItemType": "WEAPON",
-      "Qunatity": 1,
-      "ShopWeights": [
-        285.0,
-        50.0,
-        -175.0,
-        -75.0
-      ],
-      "MinorBattleDropWeights": [
-        -150.0,
-        -100.0,
-        -100.0,
-        -250.0
-      ],
-      "MajorBattleDropWeights": [
-        -150.0,
-        -100.0,
-        -100.0,
-        -250.0
-      ]
-    }
-  },
-  {
-    "MeleeComponentData": {
-      "MeleeAttackSpeed": 0.0,
-      "MeleeRange": 3.3,
-      "MeleeDamage": 12.0,
-      "ChargeAttackDamage": 16.0
-    },
-    "ModelID": "Sword_01",
-    "WeaponType": "SWORD",
-    "ID": "REINFORCED_BASKET_HILT_BROADSWORDS",
-    "Name": "Weapon/REINFORCED_BASKET_HILT_BROADSWORDS/Name",
-    "Description": "Weapon/BASKET_HILT_BROADSWORDS/Desc",
-    "InventoryIconID": "BASKET_HILT_BROADSWORDS",
-    "BustIconID": "Card_SWORD_STRAIGHT",
-    "Price": 230,
-    "UnitTypeAllowed": "Cavalry",
-    "Rarity": "UNCOMMON",
-    "Quality": "GOOD",
-    "ItemType": "WEAPON",
-    "Variables": [],
-    "UseableByAI": true,
-    "ItemGenerationData": {
-      "$type": "GameData.CampaignMoc.WeaponGenerationData, GameCore",
-      "Nationality": null,
-      "WeaponType": "SWORD",
-      "ID": "REINFORCED_BASKET_HILT_BROADSWORDS",
-      "ItemType": "WEAPON",
-      "Qunatity": 1,
-      "ShopWeights": [
-        85.0,
-        300.0,
-        325.0,
-        25.0
-      ],
-      "MinorBattleDropWeights": [
-        -950.0,
-        -100.0,
-        -100.0,
-        -150.0
-      ],
-      "MajorBattleDropWeights": [
-        -950.0,
-        -100.0,
-        -100.0,
-        -150.0
-      ]
-    }
-  },
-  {
-    "MeleeComponentData": {
-      "MeleeAttackSpeed": 0.0,
       "MeleeRange": 3.6,
-      "MeleeDamage": 14.0,
-      "ChargeAttackDamage": 19.0
+      "MeleeDamage": 12.0,
+      "ChargeAttackDamage": 20.0
     },
     "ModelID": "Sword_01",
     "WeaponType": "SWORD",
@@ -303,6 +211,7 @@
     "BustIconID": "Card_SWORD_CURVED",
     "Price": 300,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",
@@ -340,7 +249,7 @@
       "MeleeAttackSpeed": 0.0,
       "MeleeRange": 3.6,
       "MeleeDamage": 19.0,
-      "ChargeAttackDamage": 14.0
+      "ChargeAttackDamage": 12.0
     },
     "ModelID": "Sword_01",
     "WeaponType": "SWORD",
@@ -351,6 +260,7 @@
     "BustIconID": "Card_SWORD_CURVED",
     "Price": 300,
     "UnitTypeAllowed": "Cavalry",
+    "UnitTypeFlag": "ANY",
     "Rarity": "RARE",
     "Quality": "EXCELLENT",
     "ItemType": "WEAPON",

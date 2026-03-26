@@ -7,7 +7,7 @@ In general I've found the game more challenging than before, but I look forward 
 Have fun and feel free to provide feedback!
 
 # **Changelog**
-Version: 1.2.0 - 2026-01-19
+Version: 1.2.1 - 2026-03-25
 
 # Battle
 
@@ -16,7 +16,7 @@ Version: 1.2.0 - 2026-01-19
 - Change: x4
 
 **Elevation Accuracy Increased**
-- Original: +10%
+- Original: +15%
 - Change: +20%
 
 **Morale Damage Modifier Reduced**
@@ -35,6 +35,10 @@ Version: 1.2.0 - 2026-01-19
 **Regiment Destruction Requirement Lowered**
 - Original: ≤10%
 - Change: ≤1%
+
+**Prisoner Capture Range Increased**
+- Original: 70-80%
+- Change: 65-95%
 
 **Regimental Unlock Regiments Enabled**
 - The Regiments should be rare but normal Regiments, does not impact Challenge status
@@ -114,6 +118,8 @@ Version: 1.2.0 - 2026-01-19
 
 **Settlement Conditions that Reduce Maximum Available Supplies Reduction Increased by x2**
 
+**Reward Ranges Equalised to Act 2**
+
 # Doctrines
 
 **Combined Arms Doctrine Added**
@@ -160,21 +166,13 @@ Version: 1.2.0 - 2026-01-19
 	- +10% Cavalry Charge
 	- +5% Charge
 
-**Meticulous: +5% Move Speed Added**
-
 **Explosive: -5% Fire Damage Received Added**
 
-**Cunning: -5% Fire Damage Received Added**
-
 **Supply Trains: -5% Ammo Consumption Added**
-
-**Stubborn: Elevation Effectiveness and Officer Death Reduction Added**
 
 **Strict: Movement Speed Added**
 
 **Loud: Morale in Officer Command Radius Increase Added**
-
-**Stalwart: Elevation Effectiveness Added**
 
 **Blood Thirsty: Elevation Effectiveness Added**
 
@@ -236,14 +234,6 @@ Version: 1.2.0 - 2026-01-19
 
 ## Battle
 
-**New AI Personalities**
-- Different Nations have different chances of rolling a personality for a battle
-- Personalities:
-	- Default (Vanilla)
-	- Aggressive Melee
-	- Aggressive Ranged
-	- Defensive
-
 **Item Quality Variance Increased**
 - Overall Increase
 
@@ -259,6 +249,7 @@ Version: 1.2.0 - 2026-01-19
 **Glass Grenade Throw Range Increased**
 - Original: 100
 - Change: 125
+- Price Adjusted Accordingly
 
 **Bayonets Increase Morale**
 
@@ -274,9 +265,6 @@ Version: 1.2.0 - 2026-01-19
 - Price Adjusted Accordingly
 
 **Stakes Increase Movement Speed**
-- Price Adjusted Accordingly
-
-**Gunpicks Stamina Increased**
 - Price Adjusted Accordingly
 
 **Half Gaiters Increase Charge**
@@ -296,9 +284,6 @@ Version: 1.2.0 - 2026-01-19
 **Quartermaster Increases Stamina**
 
 **Basket Hilt Hanger Charge Increased**
-- Price Adjusted Accordingly
-
-**Lance Melee Damage Reduction Reduced**
 - Price Adjusted Accordingly
 
 **Military Treatise: Charles XII Accuracy Reduction Changed to Max Range Reduction**
@@ -321,11 +306,6 @@ Version: 1.2.0 - 2026-01-19
 **Smoke Visuals Increased**
 
 **New Loading Tips**
-
-# Vanilla Fixes
-
-**Light Infantry Tactics**
-- Thanks @gunnarzlikezz and @raspel
 
 # **Localisation**
 
